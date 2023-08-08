@@ -4,6 +4,8 @@
   - [EATRIS](#eatris)
   - [Multi-omics Toolbox (MOTBX)](#multi-omics-toolbox-motbx)
   - [This repository](#this-repository)
+- [Use tools](#use-tools)
+  - [Install Conda environment and Jupyter](#install-conda-environment-and-jupyter)
 - [Contribute](#contribute)
 
 ## About
@@ -23,10 +25,44 @@ This repository collects resources for MOTBX, a data model defing the structure 
 | Folder / File | Description |
 |--------------|-------------|
 | **`notebooks/`** | Jupyter notebooks
-| &emsp; `schema.ipynb` | Define JSON schema, validate resource.
+| &emsp; `schema.ipynb` | Define JSON schema
+| &emsp; `validate.ipynb` | Validate resource against JSON schema
+| **`resources/`** 
+| &emsp; `curated/*.yaml` | Curated MOTBX resources
+| &emsp; `external/*.yaml` | MOTBX resources from added from external databases
 | **`schema/`**
-| &emsp; `motbxschema.json` | JSON Schema defining MOTBX resource structure.
+| &emsp; `motbxschema.json` | JSON Schema defining MOTBX resource structure
+| **`test/`** | Files for testing
 
+## Use tools
+
+A set of Jupyter notebooks provide functionality to create/modify the schema and validate resources.
+
+### Install Conda environment and Jupyter
+
+1. Install Miniconda3 (Conda 23.5.2 Python 3.11.3 released July 13, 2023)
+
+2. Install *notebook* and Jupyter kernels (*nb_conda_kernels*) to Conda base environment
+    ```
+    conda install -c conda-forge notebook
+    conda install -c conda-forge nb_conda_kernels
+    ```
+
+3. Create new environment and register kernel for Jupyter
+    ```
+    conda create -n motbxtools python=3.11 
+    conda activate motbxtools
+    conda install ipykernel
+    python -m ipykernel install --user --name=motbxtools --display-name "Python 3.11 (motbxtools)"
+    conda install -c anaconda requests
+    conda install -c conda-forge pyyaml
+    conda install -c conda-forge jsonschema
+    ```
+
+4. Run Jupyter notebook from base environment
+    ```
+    jupyter notebook
+    ```
 
 ## Contribute
 
