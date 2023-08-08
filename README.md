@@ -27,6 +27,8 @@ This repository collects resources for MOTBX, a data model defing the structure 
 | **`notebooks/`** | Jupyter notebooks
 | &emsp; `schema.ipynb` | Define JSON schema
 | &emsp; `validate.ipynb` | Validate resource against JSON schema
+| &emsp; `ext_biotoolsAPI.ipynb` | Query bio.tools registry using API
+| &emsp; `ext_FAIRsharingAPI.ipynb` | Query FAIRsharing registry using API
 | **`resources/`** 
 | &emsp; `curated/*.yaml` | Curated MOTBX resources
 | &emsp; `external/*.yaml` | MOTBX resources from added from external databases
