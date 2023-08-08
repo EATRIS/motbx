@@ -1,0 +1,86 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "MOTBX resource",
+  "description": "Schema for resources of the EATRIS Multi-omics Toolbox (MOTBX)",
+  "type": "object",
+  "properties": {
+    "resourceID": {
+      "type": "string"
+    },
+    "resource": {
+      "type": "object",
+      "properties": {
+        "resourceCategory": {
+          "type": "string",
+          "enum": [
+            "Epigenomics",
+            "External Quality Assessment",
+            "Genomics",
+            "Internal Quality Control",
+            "Metabolomics",
+            "Omics data management and analysis",
+            "Proteomics",
+            "Transcriptomics"
+          ]
+        },
+        "resourceSubcategory": {
+          "type": "string",
+          "minLength": 15,
+          "maxLength": 160
+        },
+        "resourceTitle": {
+          "type": "string"
+        },
+        "resourceDescription": {
+          "type": "string",
+          "minLength": 50,
+          "maxLength": 2500
+        },
+        "resourceUrl": {
+          "type": "string",
+          "format": "uri",
+          "pattern": "^https?://"
+        },
+        "resourceTags": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "minItems": 1
+        }
+      },
+      "required": [
+        "resourceCategory",
+        "resourceSubcategory",
+        "resourceTitle",
+        "resourceUrl",
+        "resourceTags"
+      ]
+    },
+    "resourceMetadata": {
+      "type": "object",
+      "properties": {
+        "resourceStatus": {
+          "type": "string"
+        },
+        "resourceCurator": {
+          "type": "string"
+        },
+        "last_modified": {
+          "type": "string",
+          "format": "date"
+        },
+        "resourceLog": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  },
+  "required": [
+    "resourceID",
+    "resource"
+  ]
+}

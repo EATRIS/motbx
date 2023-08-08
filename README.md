@@ -20,6 +20,14 @@ The EATRIS [Multi-omics Toolbox (MOTBX)](<insert-link-to-motbx>) is a community-
 
 This repository collects resources for MOTBX, a data model defing the structure of resources, and tools to maintain them.
 
+| Folder / File | Description |
+|--------------|-------------|
+| **`notebooks/`** | Jupyter notebooks
+| &emsp; `schema.ipynb` | Define JSON schema, validate resource.
+| **`schema/`**
+| &emsp; `motbxschema.json` | JSON Schema defining MOTBX resource structure.
+
+
 ## Contribute
 
 <create-issue>
