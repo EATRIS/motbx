@@ -67,6 +67,11 @@ A set of Jupyter notebooks provide functionality to create/modify the schema and
     jupyter notebook
     ```
 
+Alternatively, install environment from YAML file.
+```
+conda env create -f conda/environment.yml
+```
+
 ## Contribute
 
 <create-issue>
