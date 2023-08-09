@@ -35,6 +35,7 @@ This repository collects resources for MOTBX, a data model defing the structure 
 | &emsp; `external/*.yaml` | MOTBX resources from added from external databases
 | **`schema/`**
 | &emsp; `motbxschema.json` | JSON Schema defining MOTBX resource structure
+| **`src/`** | Python modules
 | **`test/`** | Files for testing (YAML, CSV)
 
 ## Use tools
