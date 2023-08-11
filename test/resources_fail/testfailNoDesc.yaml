@@ -1,0 +1,16 @@
+resource:
+  resourceCategory: Internal Quality Control
+  resourceDescription: 
+  resourceSubcategory: Guidelines and best practices
+  resourceTags:
+  - ISO standard
+  - guidelines
+  - quality control material
+  - in-house
+  - genomics
+  resourceTitle: 'ISO Guide 80:2014: Guidance for in-house preparation of quality
+    control materials'
+  resourceUrl: https://www.iso.org/standard/44313.html
+resourceID: 'testfailNoDesc'
+resourceMetadata:
+  last_modified: '2023-08-04'
