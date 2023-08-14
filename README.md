@@ -62,6 +62,8 @@ A set of Jupyter notebooks provide functionality to create/modify the schema and
     conda install -c conda-forge pyyaml
     conda install -c conda-forge jsonschema
     conda install -c conda-forge validators
+    conda install -c conda-forge pygithub
+    conda install -c conda-forge keyring
     ```
 
 4. Run Jupyter notebook from base environment
