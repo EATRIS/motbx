@@ -4,10 +4,17 @@ import os
 import sys
 import jsonschema
 import requests
+import pathlib
 module_path = os.path.abspath(os.path.join("src"))
 if module_path not in sys.path:
     sys.path.append(module_path)
 from motbxtools import motbxschema
+
+DATA_DIR = pathlib.Path(__file__).parents[1]
+RESOURCES_PASS_DIR = DATA_DIR.joinpath("resources_pass")
+RESOURCES_FAIL_DIR = DATA_DIR.joinpath("resources_fail")
+SCHEMA_FILE = pathlib.Path(__file__).parents[2].joinpath(
+    "schema/motbxschema.json")
 
 
 class TestMotbxSchema(unittest.TestCase):
@@ -15,7 +22,7 @@ class TestMotbxSchema(unittest.TestCase):
     """
     def test_validate(self):
         try:
-            schema = motbxschema.MotbxSchema("schema/motbxschema.json")
+            schema = motbxschema.MotbxSchema(SCHEMA_FILE)
             schema.validate()
         except Exception:
             self.fail("MotbxSchema() could not be instantiated/validated.")
@@ -26,9 +33,9 @@ class TestMotbxResourceMethods(unittest.TestCase):
     fails under certain conditions.
     """
     def setUp(self):
-        self.schema = motbxschema.MotbxSchema("schema/motbxschema.json")
-        self.resources_pass = "test/resources_pass"
-        self.resources_fail = "test/resources_fail"
+        self.schema = motbxschema.MotbxSchema(SCHEMA_FILE)
+        self.resources_pass = RESOURCES_PASS_DIR
+        self.resources_fail = RESOURCES_FAIL_DIR
 
     def test_validate_pass(self):
         """Validation of these resources should succeed
@@ -45,7 +52,7 @@ class TestMotbxResourceMethods(unittest.TestCase):
                 except Exception:
                     self.fail("MotbxResource.validate() failed")
 
-    def test_validate_fail(self):
+    def test_validate_failDate(self):
         """These MOTBX resources do not meet the requirements. Test that their
         validation fails.
         """
@@ -54,21 +61,25 @@ class TestMotbxResourceMethods(unittest.TestCase):
                 os.path.join(self.resources_fail, "testfailDate.yaml"))
             resource.validate(self.schema)
 
+    def test_validate_failNoDesc(self):
         with self.assertRaises(jsonschema.exceptions.ValidationError):
             resource = motbxschema.MotbxResource(
                 os.path.join(self.resources_fail, "testfailNoDesc.yaml"))
             resource.validate(self.schema)
 
+    def test_validate_failUrl1(self):
         with self.assertRaises(requests.exceptions.ConnectionError):
             resource = motbxschema.MotbxResource(
                 os.path.join(self.resources_fail, "testfailUrl1.yaml"))
             resource.validate(self.schema)
 
+    def test_validate_failUrl2(self):
         with self.assertRaises(requests.exceptions.HTTPError):
             resource = motbxschema.MotbxResource(
                 os.path.join(self.resources_fail, "testfailUrl2.yaml"))
             resource.validate(self.schema)
 
+    def test_validate_failUrl3(self):
         with self.assertRaises(jsonschema.exceptions.ValidationError):
             resource = motbxschema.MotbxResource(
                 os.path.join(self.resources_fail, "testfailUrl3.yaml"))
