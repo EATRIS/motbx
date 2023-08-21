@@ -56,7 +56,7 @@ class MotbxResource():
             self.resource, motbx_schema.schema,
             format_checker=jsonschema.FormatChecker())
         # validate URL (pattern https://* already validated by jsonschema)
-        url = self.resource["resource"]["resourceUrl"]
+        url = self.resource["resourceUrl"]
         try:
             response = validators.url(url, public=True)
             if not response:

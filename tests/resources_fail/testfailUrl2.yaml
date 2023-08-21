@@ -1,27 +1,24 @@
-resource:
-  resourceCategory: Internal Quality Control
-  resourceDescription: ISO Guide 80:2014 guidance for the in-house preparation of
-    quality control materials (QCMs). ISO Guide 80 outlines the characteristics and
-    preparation processes of reference materials for quality control. It applies to
-    stable materials used locally and those transported without significant property
-    changes. Laboratory staff preparing in-house quality control materials should
-    follow ISO Guides 34 and 35 for transportation-based supply chains. The preparation
-    of quality control materials requires assessments for homogeneity, stability,
-    and limited characterization. It aims to demonstrate statistical control in a
-    measurement system but does not provide usage guidance. The guide offers general
-    information on preparation and includes case studies for different sectors. Users
-    should have material knowledge and be aware of matrix effects and contamination
-    risks.
-  resourceSubcategory: Guidelines and best practices
-  resourceTags:
-  - ISO standard
-  - guidelines
-  - quality control material
-  - in-house
-  - genomics
-  resourceTitle: 'ISO Guide 80:2014: Guidance for in-house preparation of quality
-    control materials'
-  resourceUrl: https://www.iso.org/standard/4431333.html
+resourceCategory: Internal Quality Control
+resourceDescription: ISO Guide 80:2014 guidance for the in-house preparation of
+  quality control materials (QCMs). ISO Guide 80 outlines the characteristics and
+  preparation processes of reference materials for quality control. It applies to
+  stable materials used locally and those transported without significant property
+  changes. Laboratory staff preparing in-house quality control materials should
+  follow ISO Guides 34 and 35 for transportation-based supply chains. The preparation
+  of quality control materials requires assessments for homogeneity, stability,
+  and limited characterization. It aims to demonstrate statistical control in a
+  measurement system but does not provide usage guidance. The guide offers general
+  information on preparation and includes case studies for different sectors. Users
+  should have material knowledge and be aware of matrix effects and contamination
+  risks.
+resourceSubcategory: Guidelines and best practices
+resourceTags:
+- ISO standard
+- guidelines
+- quality control material
+- in-house
+- genomics
+resourceTitle: 'ISO Guide 80:2014: Guidance for in-house preparation of quality
+  control materials'
+resourceUrl: https://www.iso.org/standard/4431333.html
 resourceID: 'testfailurl2'
-resourceMetadata:
-  last_modified: '2023-08-04'
