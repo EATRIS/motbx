@@ -22,11 +22,13 @@
     },
     "resourceSubcategory": {
       "type": "string",
-      "minLength": 15,
-      "maxLength": 160
+      "minLength": 4,
+      "maxLength": 30
     },
     "resourceTitle": {
-      "type": "string"
+      "type": "string",
+      "minLength": 15,
+      "maxLength": 160
     },
     "resourceDescription": {
       "type": "string",
@@ -51,6 +53,7 @@
     "resourceCategory",
     "resourceSubcategory",
     "resourceTitle",
+    "resourceDescription",
     "resourceUrl",
     "resourceTags"
   ]
