@@ -1,13 +1,9 @@
 #! /usr/bin/env python
 import unittest
 import os
-import sys
 import jsonschema
 import requests
 import pathlib
-module_path = os.path.abspath(os.path.join("src"))
-if module_path not in sys.path:
-    sys.path.append(module_path)
 from motbxtools import motbxschema
 
 DATA_DIR = pathlib.Path(__file__).parents[1]
