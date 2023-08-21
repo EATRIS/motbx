@@ -11,7 +11,8 @@ class MotbxSchema():
     """
     def __init__(self, json_path):
         self._json_path = json_path
-        self.schema = json.load(open(self._json_path, "r"))
+        with open(self._json_path, "r") as fp:
+            self.schema = json.load(fp)
         self.validate()
         return
 
