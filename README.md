@@ -30,7 +30,7 @@ This repository collects resources for MOTBX, a data model defing the structure 
 | &emsp; `summarise.ipynb` | Create CSV file from multiple YAML resources
 | &emsp; `ext_biotoolsAPI.ipynb` | Query bio.tools registry using API
 | &emsp; `ext_FAIRsharingAPI.ipynb` | Query FAIRsharing registry using API
-| **`resources/`** 
+| **`resources/`**
 | &emsp; `curated/*.yaml` | Curated MOTBX resources
 | &emsp; `external/*.yaml` | MOTBX resources from added from external databases
 | **`schema/`**
@@ -54,7 +54,7 @@ A set of Jupyter notebooks provide functionality to create/modify the schema and
 
 3. Create new environment and register kernel for Jupyter
     ```
-    conda create -n motbxtools python=3.11 
+    conda create -n motbxtools python=3.11
     conda activate motbxtools
     conda install ipykernel
     python -m ipykernel install --user --name=motbxtools --display-name "Python 3.11 (motbxtools)"
@@ -64,6 +64,8 @@ A set of Jupyter notebooks provide functionality to create/modify the schema and
     conda install -c conda-forge validators
     conda install -c conda-forge pygithub
     conda install -c conda-forge keyring
+    conda install -c anaconda pandas
+    conda install -c conda-forge openpyxl
     ```
 
 4. Run Jupyter notebook from base environment
@@ -73,10 +75,9 @@ A set of Jupyter notebooks provide functionality to create/modify the schema and
 
 Alternatively, install environment from YAML file.
 ```
-conda env create -f conda/environment.yml
+conda env create -f envs/motbxtools.yml
 ```
 
 ## Contribute
 
 <create-issue>
-
