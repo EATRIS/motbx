@@ -36,7 +36,7 @@ jobs:
         run: |
           conda activate motbxtools
           python -m ipykernel install --user --name motbxtools
-          python -m pip install .
+          python -m pip install -e .
 
       - name: Test with pytest
         run: |
