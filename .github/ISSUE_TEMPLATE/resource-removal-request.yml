@@ -2,6 +2,8 @@ name: Resource Removal Request
 description: Request removal of an existing MOTBX resource
 title: "[resource-removal-request]: "
 labels: ["resource-removal-request"]
+assignees:
+  - niehues
 body:
   - type: markdown
     attributes:
@@ -31,6 +33,10 @@ body:
       placeholder: Describe the reason for this request, e.g., "resource no longer exists"
     validations:
       required: true
+  - type: markdown
+    attributes:
+      value: |
+        ## EATRIS Privacy Policy
   - type: checkboxes
     id: privacy
     attributes:

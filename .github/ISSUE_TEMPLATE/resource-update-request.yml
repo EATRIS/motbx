@@ -2,6 +2,8 @@ name: Resource Update Request
 description: Request an update of an exisiting MOTBX resource
 title: "[resource-update-request]: "
 labels: ["resource-update-request"]
+assignees:
+  - niehues
 body:
   - type: markdown
     attributes:
@@ -33,7 +35,7 @@ body:
         - Resource title
         - Resource description
         - Resource URL
-        - Resource category or subcategory
+        - Resource category and/or subcategory
         - Resource tags
       default: 0
     validations:
@@ -54,6 +56,10 @@ body:
       placeholder: e.g., updated URL
     validations:
       required: true
+  - type: markdown
+    attributes:
+      value: |
+        ## EATRIS Privacy Policy
   - type: checkboxes
     id: privacy
     attributes:

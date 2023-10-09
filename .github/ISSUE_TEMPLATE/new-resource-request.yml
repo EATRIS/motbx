@@ -2,6 +2,8 @@ name: New Resource Request
 description: Request addition of a new MOTBX resource
 title: "[new-resource-request]: "
 labels: ["new-resource-request"]
+assignees:
+  - niehues
 body:
   - type: markdown
     attributes:
