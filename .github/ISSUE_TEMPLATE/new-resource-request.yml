@@ -1,0 +1,73 @@
+name: New Resource Request
+description: Request addition of a new MOTBX resource
+title: "[resource-update-request]: "
+labels: ["resource-update-request"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for contributing to EATRIS Multi-omics Toolbox resources!
+  - type: input
+    id: contact
+    attributes:
+      label: Contact Details
+      description: How can we get in touch with you if we need more info?
+      placeholder: ex. email@example.com
+    validations:
+      required: false
+  - type: textarea
+    id: motivation
+    attributes:
+      label: New Resource Request
+      description: Why should this resource be added?
+      placeholder: Describe the reason for this request
+    validations:
+      required: true
+  - type: input
+    id: title
+    attributes:
+      label: Resource Title
+      description: Which title do you suggest for this resource?
+      placeholder: Title
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: Resource URL
+      description: Please share a long-lasting link to the resource
+      placeholder: A URL, preferably a persistent identifier, e.g., a Digital Object Identifier (DOI)
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Resource Description
+      description: Please provide a few sentences describing the resource
+      placeholder: Description
+    validations:
+      required: true
+  - type: input
+    id: category
+    attributes:
+      label: Resource Category
+      description: Can you suggest a MOTBX category for this resource?
+      placeholder: Category
+    validations:
+      required: false
+  - type: input
+    id: tags
+    attributes:
+      label: Resource Tag
+      description: Can you suggest tags for this resource?
+      placeholder: Tags
+    validations:
+      required: false
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Privacy Policy
+      description: By submitting this issue, you agree to [EATRIS Privacy Policy](https://eatris.eu/wp-content/uploads/2020/03/EATRIS_Privacy-Policy-website_updated-20200511.pdf)
+      options:
+        - label: I agree to EATRIS Privacy Policy
+          required: true

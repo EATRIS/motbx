@@ -1,0 +1,41 @@
+name: Resource Removal Request
+description: Request removal of an existing MOTBX resource
+title: "[resource-removal-request]: "
+labels: ["resource-removal-request"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for contributing to EATRIS Multi-omics Toolbox resources!
+  - type: input
+    id: contact
+    attributes:
+      label: Contact Details
+      description: How can we get in touch with you if we need more info?
+      placeholder: ex. email@example.com
+    validations:
+      required: false
+  - type: input
+    id: resource
+    attributes:
+      label: Indicate Resource
+      description: Which resource should be removed?
+      placeholder: Please refer to file, resource name, or URL
+    validations:
+      required: true
+  - type: textarea
+    id: motivation
+    attributes:
+      label: Resource Removal
+      description: Why should the resource be removed?
+      placeholder: Describe the reason for this request, e.g., "resource no longer exists"
+    validations:
+      required: true
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Privacy Policy
+      description: By submitting this issue, you agree to [EATRIS Privacy Policy](https://eatris.eu/wp-content/uploads/2020/03/EATRIS_Privacy-Policy-website_updated-20200511.pdf)
+      options:
+        - label: I agree to EATRIS Privacy Policy
+          required: true
