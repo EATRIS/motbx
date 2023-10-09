@@ -1,0 +1,45 @@
+name: Resource Update Request
+description: Request addition, change, or removal of a MOTBX resource
+title: "[resource-update-request]: "
+labels: ["resource-update-request"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for contributing to EATRIS Multi-omics Toolbox resources!
+  - type: input
+    id: contact
+    attributes:
+      label: Contact Details
+      description: How can we get in touch with you if we need more info?
+      placeholder: ex. email@example.com
+    validations:
+      required: false
+  - type: dropdown
+    id: requesttype
+    attributes:
+      label: Request Type
+      description: What kind of update would you like to suggest?
+      options:
+        - Add new resource
+        - Update existing resource
+        - Remove existing resource
+      default: 0
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Update Request
+      description: Let us know about the requested change.
+      placeholder: Describe your request
+    validations:
+      required: true
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Privacy Policy
+      description: By submitting this issue, you agree to [EATRIS Privacy Policy](https://eatris.eu/wp-content/uploads/2020/03/EATRIS_Privacy-Policy-website_updated-20200511.pdf)
+      options:
+        - label: I agree to EATRIS Privacy Policy
+          required: true
