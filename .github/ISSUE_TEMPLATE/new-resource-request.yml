@@ -23,6 +23,10 @@ body:
       placeholder: Describe the reason for this request
     validations:
       required: true
+  - type: markdown
+    attributes:
+      value: |
+        ## Information about the new resource
   - type: input
     id: title
     attributes:
@@ -36,7 +40,7 @@ body:
     attributes:
       label: Resource URL
       description: Please share a long-lasting link to the resource
-      placeholder: A URL, preferably a persistent identifier, e.g., a Digital Object Identifier (DOI)
+      placeholder: A URL, preferably a persistent identifier, e.g., a DOI
     validations:
       required: true
   - type: textarea
@@ -63,6 +67,10 @@ body:
       placeholder: Tags
     validations:
       required: false
+  - type: markdown
+    attributes:
+      value: |
+        ## EATRIS Privacy Policy
   - type: checkboxes
     id: privacy
     attributes:
