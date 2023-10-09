@@ -4,6 +4,7 @@
   - [EATRIS](#eatris)
   - [Multi-omics Toolbox (MOTBX)](#multi-omics-toolbox-motbx)
   - [This repository](#this-repository)
+    - [Branching strategy](#branching-strategy)
 - [Use tools](#use-tools)
   - [Install Conda environment and Jupyter](#install-conda-environment-and-jupyter)
 - [Contribute](#contribute)
@@ -37,6 +38,10 @@ This repository collects resources for MOTBX, a data model defing the structure 
 | &emsp; `motbxschema.json` | JSON Schema defining MOTBX resource structure
 | **`src/`** | Python modules
 | **`test/`** | Files for testing (YAML, CSV)
+
+#### Branching strategy
+
+https://docs.github.com/en/get-started/quickstart/github-flow
 
 ## Use tools
 
