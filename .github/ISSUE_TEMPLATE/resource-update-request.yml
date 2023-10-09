@@ -43,7 +43,7 @@ body:
     attributes:
       label: Update Request
       description: Why should this resource be updated?
-      placeholder: Describe the reason for this request, e.g., "outdated URL"
+      placeholder: Describe the reason for this request, e.g., outdated URL
     validations:
       required: true
   - type: textarea
