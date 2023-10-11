@@ -3,6 +3,7 @@ name: motbxtools
 on:
   pull_request:
     branches: ['main']
+    paths: ['**.yaml', '**.py', '**.json']
 
 jobs:
   build:
