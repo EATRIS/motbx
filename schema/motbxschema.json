@@ -38,7 +38,7 @@
     "resourceUrl": {
       "type": "string",
       "format": "uri",
-      "pattern": "^https://"
+      "pattern": "^https://|^http://|^ftp://|.pdf$"
     },
     "resourceTags": {
       "type": "array",
