@@ -1,14 +1,14 @@
-name: Resource Removal Request
-description: Request removal of an existing MOTBX resource
-title: "[resource-removal-request]: "
-labels: ["resource-removal-request"]
+name: Other Issue
+description: Report a bug, request a feature, or provide feedback
+title: "[other-issue]: "
+labels: ["other-issue"]
 assignees:
   - niehues
 body:
   - type: markdown
     attributes:
       value: |
-        Thanks for contributing to EATRIS Multi-omics Toolbox resources!
+        Thanks for contributing to this repository!
   - type: input
     id: contact
     attributes:
@@ -17,22 +17,27 @@ body:
       placeholder: e.g., email@example.com
     validations:
       required: false
-  - type: input
-    id: resource
-    attributes:
-      label: Indicate Resource
-      description: Which resource should be removed?
-      placeholder: Please refer to file, resource name, or URL
-    validations:
-      required: true
   - type: textarea
-    id: motivation
+    id: issue
     attributes:
-      label: Resource Removal
-      description: Why should the resource be removed?
-      placeholder: Describe the reason for this request, e.g., "resource no longer exists"
+      label: Report issue
+      description: What would you like to report?
+      placeholder: Describe the issue
     validations:
       required: true
+  - type: dropdown
+    id: issuetype
+    attributes:
+      label: Type of issue
+      multiple: true
+      description: Can you select a category for this issue?
+      options:
+        - Report a bug
+        - Request change to MOTBX resource schema
+        - Request additional functionality
+      default: 0
+    validations:
+      required: false
   - type: markdown
     attributes:
       value: |
