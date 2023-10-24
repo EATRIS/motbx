@@ -11,4 +11,4 @@ resourceTags:
 - sequencing
 - somatic mutation
 resourceTitle: 'Reference dataset: DNASeq'
-resourceUrl: ftp://ftp-trace.ncbi.nlm.nih.gov/ReferenceSamples/seqc/Somatic_Mutation_WG
+resourceUrl: https://ftp-trace.ncbi.nlm.nih.gov/ReferenceSamples/seqc/Somatic_Mutation_WG/
