@@ -1,0 +1,13 @@
+resourceCategory: Omics data management and analysis
+resourceDescription: EATRIS-Plus project template for FAIRification of multi-omics
+  metadata. This GitHub repository contains a Jupyter notebook to create Investigation/Study/Assay
+  (ISA) metadata in ISA-Tab and ISA-JSON format following the metadata structure used
+  for the EATRIS-Plus multi-omics reference cohort.
+resourceID: ID0067
+resourceSubcategory: FAIR omics data
+resourceTags:
+- EATRIS-Plus project
+- metadata
+resourceTitle: 'EATRIS-Plus ISA: Creation of ISA metadata structure for multi-omics
+  study'
+resourceUrl: https://github.com/EATRIS-Plus/eatris-plus-isa

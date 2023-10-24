@@ -1,0 +1,13 @@
+resourceCategory: Omics data management and analysis
+resourceDescription: This website is home to Investigation/Study/Assay (ISA) tools,
+  the open-source ISA metadata framework, abstract model and software suite that supports
+  capturing metadata of multi-omics experiments and is supported by several EMBL-EBI
+  data archives.
+resourceID: ID0068
+resourceSubcategory: FAIR omics data
+resourceTags:
+- metadata
+- metadata standard
+- multi-omics
+resourceTitle: 'ISA framework: Open source ISA metadata framework'
+resourceUrl: https://isa-tools.org/

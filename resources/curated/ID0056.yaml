@@ -1,0 +1,19 @@
+resourceCategory: Proteomics
+resourceDescription: The MaxQuant software, with a suite of advanced algorithms and
+  statistical methods, allows for accurate protein identification, quantification,
+  and statistical analysis. The software incorporates state-of-the-art computational
+  tools for data preprocessing, normalisation, and downstream analysis, enabling researchers
+  to extract meaningful insights from their experiments. Additionally, MaxQuant supports
+  a wide range of data types and offers customisable workflows to suit specific research
+  needs. With its user-friendly interface and robust analytical capabilities, MaxQuant
+  is an essential tool for scientists conducting proteomics research and striving
+  to uncover the intricacies of complex biological systems. For detailed information
+  see https://www.nature.com/articles/nprot.2016.136
+resourceID: ID0056
+resourceSubcategory: Tool
+resourceTags:
+- data search
+- proteomics
+resourceTitle: 'MaxQuant: Software tool for quantitative analysis of mass spectrometry-based
+  proteomics data'
+resourceUrl: https://www.maxquant.org/

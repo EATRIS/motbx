@@ -1,0 +1,30 @@
+resourceCategory: Internal Quality Control
+resourceDescription: "Variation in RNA expression data can be attributed to a variety\
+  \ of factors including the quality of the starting material, the level of cellularity\
+  \ and RNA yield, the platform employed, and the person performing the experiment.\
+  \ To control for these sources of variability, a common set of external RNA controls\
+  \ has been developed by the External RNA Controls Consortium (ERCC), an ad-hoc group\
+  \ of academic, private, and public organizations hosted by the National Institute\
+  \ of Standards and Technology (NIST). The controls consist of a set of unlabeled,\
+  \ polyadenylated transcripts designed to be added to an RNA analysis experiment\
+  \ after sample isolation, in order to measure against defined performance criteria.\
+  \ Up until the design of such universally accepted controls, it has been difficult\
+  \ to execute a thorough investigation of fundamental analytical performance metrics.\
+  \ From the trusted brand of quality RNA reagents, Ambion\u2122 ERCC Spike-In Control\
+  \ Mixes are commercially available, pre-formulated blends of 92 transcripts, derived\
+  \ and traceable from NIST-certified DNA plasmids. The transcripts are designed to\
+  \ be 250 to 2,000 nt in length, which mimic natural eukaryotic mRNAs."
+resourceID: ID0003
+resourceSubcategory: Reference material
+resourceTags:
+- NGS
+- RNA-seq
+- genomics
+- internal quality control (IQC)
+- mRNA
+- multi-omics
+- reference material
+- sequencing
+- transcriptomics
+resourceTitle: 'ERCC RNA Spike-In Mix: ThermoFisher Scientific catalog number 4456740'
+resourceUrl: https://www.thermofisher.com/order/catalog/product/4456740

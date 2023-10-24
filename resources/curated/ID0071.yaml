@@ -1,0 +1,13 @@
+resourceCategory: Omics data management and analysis
+resourceDescription: This repository provides the source code of phenotype database
+  application. It was developed for storing biological study data and metadata and
+  provides an interactive and graphical user interface. Collections of previously
+  used contology terms can be cashed to promote reuse of term across data sets.
+resourceID: ID0071
+resourceSubcategory: FAIR omics data
+resourceTags:
+- metadata
+- study management
+resourceTitle: 'PhenotypeDatabase: Advancing phenotype data management and analysis
+  through Open Collaboration'
+resourceUrl: https://github.com/PhenotypeFoundation/PhenotypeDatabase

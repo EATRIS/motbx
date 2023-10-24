@@ -1,0 +1,21 @@
+resourceCategory: Epigenomics
+resourceDescription: The NEBNext Enzymatic Methyl-seq library preparation method is
+  a powerful tool for studying genome-wide DNA methylation patterns. EM-seq utilizes
+  an enzymatic approach to efficiently convert unmethylated cytosines to uracils,
+  allowing for interrogation of DNA methylation across the genome at single-base resolution.
+  NEBNext Enzymatic Methyl-seq has been shown to provide high sensitivity and accuracy
+  for profiling DNA methylation patterns across different genomic context. Furthermore,
+  the method offers a streamlined and automated, workflow enabling the generation
+  of high-quality libraries for next-generation sequencing.
+resourceID: ID0024
+resourceSubcategory: Protocols
+resourceTags:
+- EATRIS-Plus project
+- EM-seq
+- epigenomics
+- methyl-seq
+- methylation
+- methylation sequencing
+- protocol
+resourceTitle: 'Methylome sequencing: NEBNext enzymatic methyl-seq (EM-seq) protocol'
+resourceUrl: SampleAnalysisProtocol/UU_MethSeq/MOTBX_InternalProtocol_MethylSeq_20230706/pdf

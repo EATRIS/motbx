@@ -1,0 +1,16 @@
+resourceCategory: Metabolomics
+resourceDescription: 'Provides a user-friendly, flexible and easily extendable software
+  with a complete set of modules covering the entire MS data analysis workflow, with
+  the main focus on LC-MS data. It is based on the original MZmine toolbox described
+  in the 2006 Bioinformatics publication (MZmine: toolbox for processing and visualization
+  of mass spectrometry based molecular profile data, https://academic.oup.com/bioinformatics/article/22/5/634/206500?login=false),
+  but has been completely redesigned and rewritten since then.'
+resourceID: ID0063
+resourceSubcategory: Raw data processing
+resourceTags:
+- MZmine
+- data processing
+- metabolomics
+- software
+resourceTitle: MZmine 3-open source code repository
+resourceUrl: https://github.com/mzmine/mzmine3

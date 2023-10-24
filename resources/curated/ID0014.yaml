@@ -1,0 +1,15 @@
+resourceCategory: External Quality Assessment
+resourceDescription: Luxembourg Institute of Health (LIH) proficiency testing (PT)
+  programme which works as an external quality assessment tool that lets you verify
+  and benchmark the performance of your biospecimen processing or testing methods
+  through the a series of steps followed by the receipt of a personalised report,
+  and a certificate and label of participation.
+resourceID: ID0014
+resourceSubcategory: Proficiency Testing programme
+resourceTags:
+- external quality assessment (EQA)
+- genomics
+- proficiency testing programme
+- transcriptomics
+resourceTitle: 'Biospecimen PT Program: Benchmarking your processing and testing methods'
+resourceUrl: https://www.lih.lu/en/biospecimen-proficiency-testing/

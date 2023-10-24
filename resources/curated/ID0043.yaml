@@ -1,0 +1,33 @@
+resourceCategory: Transcriptomics
+resourceDescription: Despite promising findings, quantitative PCR (qPCR)-based tests
+  for RNA quantification have experienced serious limitations in their clinical application.
+  The noticeable lack of technical standardization remains a huge obstacle in the
+  translation of qPCR-based tests. The incorporation of qPCR-based tests into the
+  clinic will benefit from guidelines for clinical research assay validation. This
+  will ultimately impact the clinical management of the patient, including diagnosis,
+  prognosis, prediction, monitoring of the therapeutic response, and evaluation of
+  toxicity. However, clear assay validation protocols for biomarker investigation
+  in clinical trials using molecular assays are currently lacking. Here, we will focus
+  on the necessary steps, including sample acquisition, processing and storage, RNA
+  purification, target selection, assay design, and experimental design, that need
+  to be taken toward the appropriate validation of qRT-PCR assays in clinical research.
+  These recommendations can fill the gap between research use only (RUO) and in vitro
+  diagnostics (IVD). Our contribution provides a tool for basic and clinical research
+  for the development of validated assays in the intermediate steps of biomarker research.
+  These guidelines are based on the current understanding and consensus within the
+  EU-CardioRNA COST Action consortium (www.cardiorna.eu). Their applicability encompasses
+  all clinical areas.
+resourceID: ID0043
+resourceSubcategory: Clinical use cases
+resourceTags:
+- biomarkers
+- clinical validation
+- guidelines
+- miRNAs
+- publication
+- qPCR
+- qRT-PCR
+- transcriptomics
+resourceTitle: Consensus guidelines for the validation of qRT-PCR assays in clinical
+  research by the cardioRNA consortium
+resourceUrl: https://www.cell.com/molecular-therapy-family/methods/fulltext/S2329-0501(22)00001-8?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS2329050122000018%3Fshowall%3Dtrue

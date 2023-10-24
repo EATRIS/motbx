@@ -1,0 +1,27 @@
+resourceCategory: Transcriptomics
+resourceDescription: Biomarkers able to predict response and toxicity upon regorafenib
+  therapy for colorectal cancer (CRC) are critical for treatment choice, particularly
+  relevant in fragile patients. Here, we validated for the first time 18 distinct
+  microRNAs (miRNAs) detected in serum and primary tumor samples, three germline single-nucleotide
+  polymorphisms (SNPs) in vascular endothelial growth factor (VEGF) and vascular endothelial
+  growth factor receptor (VEGFR) genes, and low levels of Notch 1 expression in the
+  primary tumor as predictive biomarkers of different features. Specifically, these
+  markers were associated with a favorable response to treatment, disease stage, and
+  relapse, as well as the appearance of asthenia. Therefore, these markers can be
+  potentially useful biomarkers for patient stratification and for providing a more
+  personalized and effective therapeutic strategy in fragile patients, while limiting
+  the appearance of adverse effects.
+resourceID: ID0042
+resourceSubcategory: Preclinical use cases
+resourceTags:
+- biomarkers
+- miRNAs
+- microRNA array profiling
+- preclinical use case
+- publication
+- qPCR
+- qRT-PCR
+- transcriptomics
+resourceTitle: 'Biomarkers associated with regorafenib first-line treatment benefits
+  in metastatic colorectal cancer patients: REFRAME molecular study'
+resourceUrl: https://www.mdpi.com/2072-6694/13/7/1710

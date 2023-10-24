@@ -1,0 +1,25 @@
+resourceCategory: Proteomics
+resourceDescription: "Proteins in the circulatory system mirror an individual\u2019\
+  s physiology. In daily clinical practice, protein levels are generally determined\
+  \ using single-protein immunoassays. High-throughput, quantitative analysis using\
+  \ mass-spectrometry-based proteomics of blood, plasma, and serum would be advantageous\
+  \ but is challenging because of the high dynamic range of protein abundances. Here,\
+  \ we introduce a rapid and robust \u201Cplasma proteome profiling\u201D pipeline.\
+  \ This single-run shotgun proteomic workflow does not require protein depletion\
+  \ and enables quantitative analysis of hundreds of plasma proteomes from 1 \u03BC\
+  l single finger pricks with 20 min gradients. The apolipoprotein family, inflammatory\
+  \ markers such as C-reactive protein, gender-related proteins, and >40 FDA-approved\
+  \ biomarkers are reproducibly quantified (CV <20% with label-free quantification).\
+  \ Furthermore, we functionally interpret a 1,000-protein, quantitative plasma proteome\
+  \ obtained by simple peptide pre-fractionation. Plasma proteome profiling delivers\
+  \ an informative portrait of a person\u2019s health state, and we envision its large-scale\
+  \ use in biomedicine."
+resourceID: ID0051
+resourceSubcategory: Technical and quality checks
+resourceTags:
+- mass spectrometry
+- proteomics
+- protocol
+- publication
+resourceTitle: Plasma proteome profiling to assess human health and disease
+resourceUrl: https://www.sciencedirect.com/science/article/pii/S2405471216300722

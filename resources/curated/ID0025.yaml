@@ -1,0 +1,27 @@
+resourceCategory: Epigenomics
+resourceDescription: The powerful HiSeq X sequencers with their patterned flowcell
+  technology and fast turnaround times are instrumental for many large-scale genomic
+  and epigenomic studies. However, assessment of DNA methylation by sodium bisulfite
+  treatment results in sequencing libraries of low diversity, which may impact data
+  quality and yield. In this report we assess the quality of WGBS data generated on
+  the HiSeq X system in comparison with data generated on the HiSeq 2500 system and
+  the newly released NovaSeq system. We report a systematic issue with low basecall
+  quality scores assigned to guanines in the second read of WGBS when using certain
+  Real Time Analysis (RTA) software versions on the HiSeq X sequencer, reminiscent
+  of an issue that was previously reported with certain HiSeq 2500 software versions.
+  However, with the HD.3.4.0 /RTA 2.7.7 software upgrade for the HiSeq X system, we
+  observed an overall improved quality and yield of the WGBS data generated, which
+  in turn empowers cost-effective and high quality DNA methylation studies.
+resourceID: ID0025
+resourceSubcategory: Technical and quality checks
+resourceTags:
+- Hi-seq
+- data quality
+- epigenomics
+- methyl-seq
+- methylation sequencing
+- methylome
+- publication
+- sequencing
+resourceTitle: Data quality of whole genome bisulfite sequencing on Illumina platforms
+resourceUrl: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0195972

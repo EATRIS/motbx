@@ -1,0 +1,16 @@
+resourceCategory: Genomics
+resourceDescription: Data pre-processing is the obligatory first phase that must precede
+  all variant discovery. It involves pre-processing the raw sequence data (provided
+  in FASTQ or uBAM format) to produce analysis-ready BAM files. This involves alignment
+  to a reference genome as well as some data cleanup operations to correct for technical
+  biases and make the data suitable for analysis. This is avaialble as part of the
+  Genome Analysis ToolKit's (GATK) best practices and workflows.
+resourceID: ID0015
+resourceSubcategory: Guidelines and best practices
+resourceTags:
+- WGS
+- genomics
+- guidelines
+- workflow
+resourceTitle: Data pre-processing for variant discovery
+resourceUrl: https://gatk.broadinstitute.org/hc/en-us/articles/360035535912-Data-pre-processing-for-variant-discovery

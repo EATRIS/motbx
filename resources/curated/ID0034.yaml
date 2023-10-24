@@ -1,0 +1,28 @@
+resourceCategory: Transcriptomics
+resourceDescription: "MicroRNAs are important negative regulators of protein-coding\
+  \ gene expression and have been studied intensively over the past years. Several\
+  \ measurement platforms have been developed to determine relative miRNA abundance\
+  \ in biological samples using different technologies such as small RNA sequencing,\
+  \ reverse transcription\u2013quantitative PCR (RT-qPCR) and (microarray) hybridization.\
+  \ In this study, we systematically compared 12 commercially available platforms\
+  \ for analysis of microRNA expression. We measured an identical set of 20 standardized\
+  \ positive and negative control samples, including human universal reference RNA,\
+  \ human brain RNA and titrations thereof, human serum samples and synthetic spikes\
+  \ from microRNA family members with varying homology. We developed robust quality\
+  \ metrics to objectively assess platform performance in terms of reproducibility,\
+  \ sensitivity, accuracy, specificity and concordance of differential expression.\
+  \ The results indicate that each method has its strengths and weaknesses, which\
+  \ help to guide informed selection of a quantitative microRNA gene expression platform\
+  \ for particular study goals."
+resourceID: ID0034
+resourceSubcategory: Reference material
+resourceTags:
+- miRNAs
+- publication
+- qPCR
+- quality control
+- standards
+- transcriptomics
+resourceTitle: Evaluation of quantitative miRNA expression platforms in the microRNA
+  quality control (miRQC) study
+resourceUrl: https://www.nature.com/articles/nmeth.3014

@@ -1,0 +1,12 @@
+resourceCategory: Omics data management and analysis
+resourceDescription: A web-based platform for biomedical data analysis. Galaxy provides
+  a collection of data analysis tools and pipelines. Analyses can be run on public
+  Galaxy servers or servers can be deployed locally.
+resourceID: ID0076
+resourceSubcategory: Multi-omics analysis
+resourceTags:
+- analysis platform
+- workflow registry
+resourceTitle: 'The European Galaxy Server: Empowering bioinformatics research with
+  accessible tools and workflows'
+resourceUrl: https://usegalaxy.eu/

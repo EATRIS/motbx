@@ -1,0 +1,11 @@
+resourceCategory: Transcriptomics
+resourceDescription: Protocol for sequencing microRNA extracted from human serum
+resourceID: ID0036
+resourceSubcategory: Protocols
+resourceTags:
+- EATRIS-Plus project
+- miRNA
+- protocol
+- transcriptomics
+resourceTitle: miRNA sequencing
+resourceUrl: SampleAnalysisProtocols/FIMM_miRNAseq/MOTBX_InternalProtcol_miRNASeq_20230626.pdf

@@ -1,0 +1,18 @@
+resourceCategory: Proteomics
+resourceDescription: A freely-available and open source Windows client application
+  for building Selected Reaction Monitoring (SRM)/Multiple Reaction Monitoring (MRM),
+  Parallel Reaction Monitoring (PRM), Data Independent Acquisition (DIA/SWATH) and
+  DDA with MS1 quantitative methods and analysing the resulting mass spectrometer
+  data. It aims to employ cutting-edge technologies for creating and iteratively refining
+  targeted methods for large-scale quantitative mass spectrometry studies in life
+  sciences.
+resourceID: ID0055
+resourceSubcategory: Raw data processing
+resourceTags:
+- data processing
+- mass spectrometry
+- proteomics
+- software
+- toolbox
+resourceTitle: 'Skyline: open source tool for analysing mass spectrometer data'
+resourceUrl: https://skyline.ms/project/home/software/skyline/begin.view

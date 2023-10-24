@@ -1,0 +1,24 @@
+resourceCategory: Internal Quality Control
+resourceDescription: ISO Guide 31:2015 guideline assists reference material (RM) producers
+  in creating comprehensive documentation for their RMs. It outlines the essential
+  information to include in product information sheets and RM certificates, categorizing
+  them as mandatory, recommended, or optional. This information helps users and stakeholders
+  assess the appropriateness of an RM or Certified Reference Material (CRM). This
+  guideline also sets out the minimum criteria for labeling the RM container.
+resourceID: ID0002
+resourceSubcategory: Guidelines and best practices
+resourceTags:
+- ISO standard
+- documentation
+- epigenomics
+- genomics
+- guidelines
+- internal quality control (IQC)
+- metabolomics
+- multi-omics
+- proteomics
+- reference material
+- transcriptomics
+resourceTitle: 'ISO Guide 31:2015: Reference material - contents of certificates,
+  labels and accompanying documentation'
+resourceUrl: https://www.iso.org/standard/52468.html

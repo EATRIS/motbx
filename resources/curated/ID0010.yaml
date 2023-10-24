@@ -1,0 +1,20 @@
+resourceCategory: Internal Quality Control
+resourceDescription: Multi-omics reference materials and practical tools to enhance
+  the reproducibility and reliability of multi-omics results (Fudan Quartet samples)
+  provided as part of the Quartet project. These well-characterised resources serve
+  as quality control measures, ensuring accurate data integration in precision medicine
+  studies.
+resourceID: ID0010
+resourceSubcategory: Reference material
+resourceTags:
+- epigenomics
+- genomics
+- internal quality control (IQC)
+- metabolomics
+- multi-omics
+- proteomics
+- reference dataset
+- transcriptomics
+resourceTitle: 'Quality control and data integration of multi-omics profiling: Reference
+  dataset'
+resourceUrl: http://chinese-quartet.org/#/dashboard

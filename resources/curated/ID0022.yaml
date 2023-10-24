@@ -1,0 +1,15 @@
+resourceCategory: Epigenomics
+resourceDescription: The Enzymatic Methyl-seq kit (EM-seq) for Illumina contains all
+  the components needed tomake libraries that are enzymatically modified to detect
+  5-methylcytosines (5mC) and 5-hydroxymethylcytosines (5hmC).
+resourceID: ID0022
+resourceSubcategory: Protocols
+resourceTags:
+- EM-seq
+- epigenomics
+- methyl-seq
+- methylation sequencing
+- protocol
+- sequencing
+resourceTitle: New England BioLabs protocol for methylome sequencing
+resourceUrl: https://international.neb.com/-/media/nebus/files/manuals/manuale7120.pdf?rev=dddb05ae98eb43fab125d09e22cc29d5&hash=0936C626305255DECA90776D81A5662F

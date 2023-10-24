@@ -1,0 +1,20 @@
+resourceCategory: Transcriptomics
+resourceDescription: Gene expression analysis of microRNA molecules is becoming increasingly
+  important. In this study we assess the use of the mean expression value of all expressed
+  microRNAs in a given sample as a normalization factor for microRNA real-time quantitative
+  PCR data and compare its performance to the currently adopted approach. We demonstrate
+  that the mean expression value outperforms the current normalization strategy in
+  terms of better reduction of technical variation and more accurate appreciation
+  of biological changes.
+resourceID: ID0027
+resourceSubcategory: Guidelines and best practices
+resourceTags:
+- RT-qPCR
+- data processing
+- miRNAs
+- normalization
+- protocol
+- publication
+- transcriptomics
+resourceTitle: A novel and universal method for microRNA RT-qPCR data normalization
+resourceUrl: https://genomebiology.biomedcentral.com/articles/10.1186/gb-2009-10-6-r64

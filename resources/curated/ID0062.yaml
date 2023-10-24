@@ -1,0 +1,17 @@
+resourceCategory: Metabolomics
+resourceDescription: Protocol for sample preparation and LCMS analyses of human plasma
+  samples, performing semitargeted metabolomics approach (data are acquired in full-scan
+  range (QTOF) and specific focus on several metabolite groups associated with inborn
+  errors of metabolism (IEMs))
+resourceID: ID0062
+resourceSubcategory: Protocols
+resourceTags:
+- EATRIS-Plus project
+- metabolites
+- metabolomics
+- small molecules
+- untargeted lipidomics
+- untargeted metabolomics
+resourceTitle: Protocol for performing semitargeted metabolomics (Newborn screening
+  application)
+resourceUrl: SampleAnalysisProtocols/RUMC_metabolomics_targeted/MOTBX_InternalProtocol_NextGeneration_MetabolomicsScreening.pdf

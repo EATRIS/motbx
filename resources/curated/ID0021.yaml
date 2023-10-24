@@ -1,0 +1,29 @@
+resourceCategory: Epigenomics
+resourceDescription: "DNA methylation is the most studied epigenetic mark involved\
+  \ in regulation of gene expression. For low input samples, a limited number of methods\
+  \ for quantifying DNA methylation genome-wide has been evaluated. Here, we compared\
+  \ a series of input DNA amounts (1\u201310ng) from two methylome library preparation\
+  \ protocols, enzymatic methyl-seq (EM-seq) and post-bisulfite adaptor tagging (PBAT)\
+  \ adapted from single-cell PBAT. EM-seq takes advantage of enzymatic activity while\
+  \ PBAT relies on conventional bisulfite conversion for detection of DNA methylation.\
+  \ We found that both methods accurately quantified DNA methylation genome-wide.\
+  \ They produced expected distribution patterns around genomic features, high C-T\
+  \ transition efficiency at non-CpG sites and high correlation between input amounts.\
+  \ However, EM-seq performed better in regard to library and sequencing quality,\
+  \ i.e. EM-seq produced larger insert sizes, higher alignment rates and higher library\
+  \ complexity with lower duplication rate compared to PBAT. Moreover, EM-seq demonstrated\
+  \ higher CpG coverage, better CpG site overlap and higher consistency between input\
+  \ series. In summary, our data suggests that EM-seq overall performed better than\
+  \ PBAT in whole-genome methylation quantification of low input samples."
+resourceID: ID0021
+resourceSubcategory: Technical and quality checks
+resourceTags:
+- EM-seq
+- epigenomics
+- methyl-seq
+- methylation sequencing
+- publication
+- sequencing
+resourceTitle: Comparison of EM-seq and PBAT methylome library methods for low-input
+  DNA
+resourceUrl: https://www.tandfonline.com/doi/full/10.1080/15592294.2021.1997406

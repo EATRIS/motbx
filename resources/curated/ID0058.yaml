@@ -1,0 +1,35 @@
+resourceCategory: Metabolomics
+resourceDescription: "The metabolomics quality assurance and quality control consortium\
+  \ (mQACC) is enabling the identification, development, prioritization, and promotion\
+  \ of suitable reference materials (RMs) to be used in quality assurance (QA) and\
+  \ quality control (QC) for untargeted metabolomics research. This review aims to\
+  \ highlight current RMs, and methodologies used within untargeted metabolomics and\
+  \ lipidomics communities to ensure standardization of results obtained from data\
+  \ analysis, interpretation and cross-study, and cross laboratory comparisons. The\
+  \ essence of the aims is also applicable to other \u2018omics areas that generate\
+  \ high dimensional data. The potential for game-changing biochemical discoveries\
+  \ through mass spectrometry-based (MS) untargeted metabolomics and lipidomics are\
+  \ predicated on the evolution of more confident qualitative (and eventually quantitative)\
+  \ results from research laboratories. RMs are thus critical QC tools to be able\
+  \ to assure standardization, comparability, repeatability and reproducibility for\
+  \ untargeted data analysis, interpretation, to compare data within and across studies\
+  \ and across multiple laboratories. Standard operating procedures (SOPs) that promote,\
+  \ describe and exemplify the use of RMs will also improve QC for the metabolomics\
+  \ and lipidomics communities. The application of RMs described in this review may\
+  \ significantly improve data quality to support metabolomics and lipidomics research.\
+  \ The continued development and deployment of new RMs, together with interlaboratory\
+  \ studies and educational outreach and training, will further promote sound QA practices\
+  \ in the community."
+resourceID: ID0058
+resourceSubcategory: Guidelines and best practices
+resourceTags:
+- lipidomics
+- mass spectrometry
+- metabolomics
+- publication
+- quality assurance
+- quality control
+- reference materials
+resourceTitle: 'Reference materials for MS-based untargeted metabolomics and lipidomics:
+  a review by the metabolomics quality assurance and quality control consortium (mQACC)'
+resourceUrl: https://link.springer.com/article/10.1007/s11306-021-01848-6

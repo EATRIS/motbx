@@ -1,0 +1,12 @@
+resourceCategory: Omics data management and analysis
+resourceDescription: The RDMkit collects best practices and guidelines to help making
+  data FAIR (Findable, Accessible, Interoperable and Reusable). In addition to a comperehensive
+  introduction to research data lifecycle and FAIR management, curated collections
+  offer solutions and tool collection for various domains or data manegment tasks.
+resourceID: ID0074
+resourceSubcategory: FAIR omics data
+resourceTags:
+- services registry
+- tool registry
+resourceTitle: RDMkit- The research data management toolkit for life sciences
+resourceUrl: https://rdmkit.elixir-europe.org/

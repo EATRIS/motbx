@@ -1,0 +1,14 @@
+resourceCategory: Omics data management and analysis
+resourceDescription: EATRIS-Plus project template for FAIRification of phenotype data.
+  The GitHub repository contains a Jupyter notebook to capture phenotype information
+  with the GA4GH Phenopackets standard as used for the EATRIS-Plus multi-omics reference
+  cohort. A software container is provided to run the notebook.
+resourceID: ID0075
+resourceSubcategory: FAIR omics data
+resourceTags:
+- EATRIS-Plus project
+- phenopackets
+- phenotype
+- template
+resourceTitle: 'Phenopackets template: EATRIS-Plus FAIRification template and workflows'
+resourceUrl: https://github.com/EATRIS-Plus/phenopackets_template

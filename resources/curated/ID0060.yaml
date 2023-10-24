@@ -1,0 +1,37 @@
+resourceCategory: Metabolomics
+resourceDescription: "Demonstrating that the data produced in metabolic phenotyping\
+  \ investigations (metabolomics/metabonomics) is of good quality is increasingly\
+  \ seen as a key factor in gaining acceptance for the results of such studies. The\
+  \ use of established quality control (QC) protocols, including appropriate QC samples,\
+  \ is an important and evolving aspect of this process. However, inadequate or incorrect\
+  \ reporting of the QA/QC procedures followed in the study may lead to misinterpretation\
+  \ or overemphasis of the findings and prevent future metanalysis of the body of\
+  \ work. The aim of this guidance is to provide researchers with a framework that\
+  \ encourages them to describe quality assessment and quality control procedures\
+  \ and outcomes in mass spectrometry and nuclear magnetic resonance spectros copy-based\
+  \ methods in untargeted metabolomics, with a focus on reporting on QC samples in\
+  \ sufficient detail for them to be understood, trusted and replicated. There is\
+  \ no intent to be proscriptive with regard to analytical best practices; rather,\
+  \ guidance for reporting QA/QC procedures is suggested. A template that can be completed\
+  \ as studies progress to ensure that relevant data is collected, and further documents,\
+  \ are provided as on-line resources. Multiple topics should be considered when reporting\
+  \ QA/QC protoco ls and outcomes for metabolic phenotyping data. Coverage should\
+  \ include the role(s), sources, types, preparation and uses of the QC materials\
+  \ and samples generally employed in the generation of metabolomic data. Details\
+  \ such as sample matrices and sample preparation, the use of test mixtures and system\
+  \ suitability tests, blanks and technique-specific factors are considered and methods\
+  \ for reporting are discussed, including the importance of reporting the acceptance\
+  \ criteria for the QCs. To this end, the reporting of the QC samples and results\
+  \ are considered at two levels of detail: \u201Cminimal\u201D and \u201Cbest reporting\
+  \ practice\u201D levels."
+resourceID: ID0060
+resourceSubcategory: Guidelines and best practices
+resourceTags:
+- metabolomics
+- publication
+- quality assurance
+- quality control
+- reference materials
+resourceTitle: 'Quality assurance and quality control reporting in untargeted metabolic
+  phenotyping: mQACC recommendations for analytical quality management'
+resourceUrl: https://link.springer.com/article/10.1007/s11306-022-01926-3

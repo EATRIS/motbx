@@ -1,0 +1,31 @@
+resourceCategory: Proteomics
+resourceDescription: Reference materials are vital to benchmarking the reproducibility
+  of clinical tests and essential for monitoring laboratory performance for clinical
+  proteomics. The reference material utilized for mass spectrometric analysis of the
+  human proteome would ideally contain enough proteins to be suitably representative
+  of the human proteome, as well as exhibit a stable protein composition in different
+  batches of sample regeneration. Previously, The Clinical Proteomic Tumor Analysis
+  Consortium (CPTAC) utilized a PDX-derived comparative reference (CompRef) materials
+  for the longitudinal assessment of proteomic performance; however, inherent drawbacks
+  of PDX-derived material, including extended time needed to grow tumors and high
+  level of expertise needed, have resulted in efforts to identify a new source of
+  CompRef material. In this study, we examined the utility of using a panel of seven
+  cancer cell lines, NCI-7 Cell Line Panel, as a reference material for mass spectrometric
+  analysis of human proteome. Our results showed that not only is the NCI-7 material
+  suitable for benchmarking laboratory sample preparation methods, but also NCI-7
+  sample generation is highly reproducible at both the global and phosphoprotein levels.
+  In addition, the predicted genomic and experimental coverage of the NCI-7 proteome
+  suggests the NCI-7 material may also have applications as a universal standard proteomic
+  reference.
+resourceID: ID0050
+resourceSubcategory: Reference material
+resourceTags:
+- clinical guidelines
+- mass spectrometry
+- proteomics
+- publication
+- reference material
+- samples
+resourceTitle: Evaluation of NCI-7 cell line panel as a reference material for clinical
+  proteomics
+resourceUrl: https://pubs.acs.org/doi/10.1021/acs.jproteome.8b00165

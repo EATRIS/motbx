@@ -1,0 +1,44 @@
+resourceCategory: Metabolomics
+resourceDescription: "The metabolomics quality assurance and quality control consortium\
+  \ (mQACC) evolved from the recognized need for a community-wide consensus on improving\
+  \ and systematizing quality assurance (QA) and quality control (QC) practices for\
+  \ untargeted metabolomics. Objectives: In this work, we sought to identify and share\
+  \ the common and divergent QA and QC practices amongst mQACC members and collaborators\
+  \ who use liquid chromatography-mass spectrometry (LC\u2013MS) in untargeted metabolomics.\
+  \ All authors voluntarily participated in this collaborative research project by\
+  \ providing the details of and insights into the QA and QC practices used in their\
+  \ laboratories. This sharing was enabled via a six-page questionnaire composed of\
+  \ over 120 questions and comment fields which was developed as part of this work\
+  \ and has proved the basis for ongoing mQACC outreach: For QA, many laboratories\
+  \ reported documenting maintenance, calibration and tuning (82%); having established\
+  \ data storage and archival processes (71%); depositing data in public repositories\
+  \ (55%); having standard operating procedures (SOPs) in place for all laboratory\
+  \ processes (68%) and training staff on laboratory processes (55%). For QC, universal\
+  \ practices included using system suitability procedures (100%) and using a robust\
+  \ system of identification (Metabolomics Standards Initiative level 1 identification\
+  \ standards) for at least some of the detected compounds. Most laboratories used\
+  \ QC samples (>86%); used internal standards (91%); used a designated analytical\
+  \ acquisition template with randomized experimental samples (91%); and manually\
+  \ reviewed peak integration following data acquisition (86%). A minority of laboratories\
+  \ included technical replicates of experimental samples in their workflows (36%).\
+  \ Although the 23 contributors were researchers with diverse and international backgrounds\
+  \ from academia, industry and government, they are not necessarily representative\
+  \ of the worldwide pool of practitioners due to the recruitment method for participants\
+  \ and its voluntary nature. However, both questionnaire and the findings presented\
+  \ here have already informed and led other data gathering efforts by mQACC at conferences\
+  \ and other outreach activities and will continue to evolve in order to guide discussions\
+  \ for recommendations of best practices within the community and to establish internationally\
+  \ agreed upon reporting standards. We very much welcome further feedback from readers\
+  \ of this article."
+resourceID: ID0059
+resourceSubcategory: Guidelines and best practices
+resourceTags:
+- mass spectrometry
+- metabolomics
+- publication
+- quality assurance
+- quality control
+- reference materials
+resourceTitle: "Dissemination and analysis of the quality assurance (QA) and quality\
+  \ control (QC) practices of LC\u2013MS based untargeted metabolomics practitioners"
+resourceUrl: https://link.springer.com/article/10.1007/s11306-020-01728-5

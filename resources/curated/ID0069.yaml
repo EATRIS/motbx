@@ -1,0 +1,12 @@
+resourceCategory: Omics data management and analysis
+resourceDescription: FAIRsharing is a registry for community-developed standards including
+  data or metadata standards and ontologies, databases, and policies. It provies an
+  extensive search functionality to search by omics type, level of curation or support
+  by communities.
+resourceID: ID0069
+resourceSubcategory: FAIR omics data
+resourceTags:
+- data standards
+- metadata standards
+resourceTitle: 'FAIRsharing.org: A registry for data standards, databases, and policies'
+resourceUrl: https://fairsharing.org/

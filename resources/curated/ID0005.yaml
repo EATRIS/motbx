@@ -1,0 +1,17 @@
+resourceCategory: Internal Quality Control
+resourceDescription: Human Brain Total RNA is a total RNA sample extracted from neural
+  tissue for use as a positive control in QuantiGene assays.
+resourceID: ID0005
+resourceSubcategory: Reference material
+resourceTags:
+- NGS
+- RNA-seq
+- internal quality control (IQC)
+- multi-omics
+- nucleic acid quantitation
+- reference material
+- sequencing
+- transcriptomics
+resourceTitle: 'Total Human Brain Reference RNA: ThermoFisher Scientific catalog number
+  QS0611'
+resourceUrl: https://www.thermofisher.com/order/catalog/product/QS0611

@@ -1,0 +1,14 @@
+resourceCategory: Internal Quality Control
+resourceDescription: 'SEQC2: somatic mutation reference dataset, https://pubmed.ncbi.nlm.nih.gov/34753956/'
+resourceID: ID0081
+resourceSubcategory: Reference material
+resourceTags:
+- DNAseq
+- NGS
+- epigenomics
+- genomics
+- reference dataset
+- sequencing
+- somatic mutation
+resourceTitle: 'Reference dataset: DNASeq'
+resourceUrl: ftp://ftp-trace.ncbi.nlm.nih.gov/ReferenceSamples/seqc/Somatic_Mutation_WG

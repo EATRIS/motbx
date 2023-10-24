@@ -1,0 +1,12 @@
+resourceCategory: Proteomics
+resourceDescription: High-Performance Liquid Chromatography High-Resolution Mass Spectrometry
+  (HPLC-HRMS) method of plasma proteome profiling.
+resourceID: ID0053
+resourceSubcategory: Protocols
+resourceTags:
+- EATRIS-Plus project
+- HR-MS analysis
+- proteomics
+- protocol
+resourceTitle: HR-MS proteomic analysis with Thermo Orbitrap Fusion instrument setup
+resourceUrl: SampleAnalysisProtocols/IMTM_Proteomics/MOTBX_InternalProtocol_LCMS_HCD_OT_PlasmaAnalysis_20230627.pdf

@@ -1,0 +1,24 @@
+resourceCategory: Internal Quality Control
+resourceDescription: Universal Human Reference RNA is an RNA extract used as a positive
+  control in QuantiGene assays. The Universal Human Reference RNA is composed of total
+  RNA from 10 human cell lines (Adenocarcinoma, mammary gland; Melanoma; Hepatoblastoma,
+  liver; Liposarcoma; Adenocarcinoma, cervix; Histiocytic lymphoma, macrophage, histocyte;
+  Embryonal carcinoma, testis; Lymphoblastic leukemia, T lymphoblast; Glioblastoma,
+  brain; Plasmacytoma; myeloma; B lymphocyte). Equal quantities of DNase-treated total
+  RNA from each cell line were pooled to make the universal control.
+resourceID: ID0004
+resourceSubcategory: Reference material
+resourceTags:
+- NGS
+- RNA-seq
+- RT-PCR
+- internal quality control (IQC)
+- miRNA-seq
+- multi-omics
+- nucleic acid quantitation
+- reference material
+- sequencing
+- transcriptomics
+resourceTitle: 'Universal Human Reference RNA: ThermoFisher Scientific catalog number
+  QS0639'
+resourceUrl: https://www.thermofisher.com/order/catalog/product/QS0639

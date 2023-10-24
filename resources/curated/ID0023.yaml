@@ -1,0 +1,33 @@
+resourceCategory: Epigenomics
+resourceDescription: Bisulfite sequencing detects 5mC and 5hmC at single-base resolution.
+  However, bisulfite treatment damages DNA, which results in fragmentation, DNA loss,
+  and biased sequencing data. To overcome these problems, enzymatic methyl-seq (EM-seq)
+  was developed. This method detects 5mC and 5hmC using two sets of enzymatic reactions.
+  In the first reaction, TET2 and T4-BGT convert 5mC and 5hmC into products that cannot
+  be deaminated by APOBEC3A. In the second reaction, APOBEC3A deaminates unmodified
+  cytosines by converting them to uracils. Therefore, these three enzymes enable the
+  identification of 5mC and 5hmC. EM-seq libraries were compared with bisulfite-converted
+  DNA, and each library type was ligated to Illumina adaptors before conversion. Libraries
+  were made using NA12878 genomic DNA, cell-free DNA, and FFPE DNA over a range of
+  DNA inputs. The 5mC and 5hmC detected in EM-seq libraries were similar to those
+  of bisulfite libraries. However, libraries made using EM-seq outperformed bisulfite-converted
+  libraries in all specific measures examined (coverage, duplication, sensitivity,
+  etc.). EM-seq libraries displayed even GC distribution, better correlations across
+  DNA inputs, increased numbers of CpGs within genomic features, and accuracy of cytosine
+  methylation calls. EM-seq was effective using as little as 100 pg of DNA, and these
+  libraries maintained the described advantages over bisulfite sequencing. EM-seq
+  library construction, using challenging samples and lower DNA inputs, opens new
+  avenues for research and clinical applications.
+resourceID: ID0023
+resourceSubcategory: Protocols
+resourceTags:
+- EM-seq
+- epigenomics
+- methyl-seq
+- methylation sequencing
+- protocol
+- publication
+- sequencing
+resourceTitle: Enzymatic methyl sequencing detects DNA methylation at single-base
+  resolution from picograms of DNA
+resourceUrl: https://genome.cshlp.org/content/early/2021/06/17/gr.266551.120

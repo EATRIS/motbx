@@ -1,0 +1,24 @@
+resourceCategory: Internal Quality Control
+resourceDescription: NA12878 is a human genomic DNA sample standardised by the National
+  Institute of Standards and Technology (NIST). It serves as a reference standard
+  for the Genome in a Bottle consortium, which is led by NIST. The donor subject,
+  NA12878's mother, carries a single bp (G-to-A) transition at nucleotide 681 in exon
+  5 of the CYP2C19 gene (CYP2C19*2). This genetic change creates an aberrant splice
+  site, resulting in a 40-bp deletion at the beginning of exon 5 (from bp 643 to bp
+  682). As a consequence, amino acids 215 to 227 are deleted from the mRNA, causing
+  an alteration in the reading frame and the production of a truncated, nonfunctional
+  protein. The truncated protein contains 234 amino acids and lacks the heme-binding
+  region, rendering it catalytically inactive.
+resourceID: ID0006
+resourceSubcategory: Reference material
+resourceTags:
+- NGS
+- WGS
+- epigenomics
+- genomics
+- internal quality control (IQC)
+- multi-omics
+- reference material
+- sequencing
+resourceTitle: 'NIST NA12878: Whole genome sequencing'
+resourceUrl: https://catalog.coriell.org/0/Sections/Search/Sample_Detail.aspx?Ref=NA12878&Product=DNA

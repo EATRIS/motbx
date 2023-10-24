@@ -1,0 +1,12 @@
+resourceCategory: Metabolomics
+resourceDescription: Protocol includes instructions for sample preparation and analysis
+  of amino acids and acylcarnitines from human plasma by approach of targeted metabolomics
+  utilising UPLC ESI-MS/MS.
+resourceID: ID0061
+resourceSubcategory: Protocols
+resourceTags:
+- EATRIS-Plus project
+- metabolomics
+- targeted metabolomics
+resourceTitle: Protocol for performing targeted metabolomics
+resourceUrl: SampleAnalysisProtocols/RUMC_metabolomics_targeted/MOTBX_InternalProtocol_Appendix4_TargetedMetabolomics.pdf

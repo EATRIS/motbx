@@ -1,0 +1,23 @@
+resourceCategory: Proteomics
+resourceDescription: Mass spectrometry is a highly complex analytical technique and
+  mass spectrometry-based proteomics experiments can be subject to a large variability,
+  which forms an obstacle to obtaining accurate and reproducible results. Therefore,
+  a comprehensive and systematic approach to quality control is an essential requirement
+  to inspire confidence in the generated results. A typical mass spectrometry experiment
+  consists of multiple different phases including the sample preparation, liquid chromatography,
+  mass spectrometry, and bioinformatics stages. We review potential sources of variability
+  that can impact the results of a mass spectrometry experiment occurring in all of
+  these steps, and we discuss how to monitor and remedy the negative influences on
+  the experimental results. Furthermore, we describe how specialized quality control
+  samples of varying sample complexity can be incorporated into the experimental workflow
+  and how they can be used to rigorously assess detailed aspects of the instrument
+  performance.
+resourceID: ID0044
+resourceSubcategory: Guidelines and best practices
+resourceTags:
+- mass spectrometry
+- proteomics
+- publication
+- quality control
+resourceTitle: Quality control in mass spectrometry-based proteomics
+resourceUrl: https://pubmed.ncbi.nlm.nih.gov/28802010/

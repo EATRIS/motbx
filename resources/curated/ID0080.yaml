@@ -1,0 +1,24 @@
+resourceCategory: Omics data management and analysis
+resourceDescription: The report  describes the EATRIS-Plus FAIRification strategy
+  underpining the development of this resource - the multi-omics toolbox (MOTBX).
+  Developed as part of the EATRIS-Plus project, the aim is to provide researchers
+  with a comprehensive understanding of molecular profiles in personalised medicine.
+  The report focuses on implementing FAIR (Findability, Accessibility, Interoperability,
+  and Reusability) principles to ensure reproducibility and reusability of multi-omics
+  cohort data. The EATRIS-Plus FAIRification process is described, including the use
+  of standards, formats, and tools. The report emphasises the adoption of the ISA
+  metadata framework for capturing experimental metadata along with omics-specific
+  data standards. These files adhere to reporting guidelines for individual omics
+  types and facilitate integration of multi-omics data in personalised health and
+  medicine research projects.
+resourceID: ID0080
+resourceSubcategory: FAIR omics data
+resourceTags:
+- EATRIS-Plus project
+- FAIR principles
+- analysis workflows
+- metadata
+- metadata standard
+- multi-omics
+resourceTitle: Report Describing EATRIS-Plus FAIRification Template and Workflows
+resourceUrl: https://zenodo.org/record/8069891

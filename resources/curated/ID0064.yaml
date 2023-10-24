@@ -1,0 +1,37 @@
+resourceCategory: Metabolomics
+resourceDescription: The implementation of whole-exome sequencing in clinical diagnostics
+  has generated a need for functional evaluation of genetic variants. In the field
+  of inborn errors of metabolism (IEM), a diverse spectrum of targeted biochemical
+  assays is employed to analyze a limited amount of metabolites. We now present a
+  single-platform, high-resolution liquid chromatography quadrupole time of flight
+  (LC-QTOF) method that can be applied for holistic metabolic profiling in plasma
+  of individual IEM-suspected patients. This method, which we termed "next-generation
+  metabolic screening" (NGMS), can detect >10,000 features in each sample. In the
+  NGMS workflow, features identified in patient and control samples are aligned using
+  the "various forms of chromatography mass spectrometry (XCMS)" software package.
+  Subsequently, all features are annotated using the Human Metabolome Database, and
+  statistical testing is performed to identify significantly perturbed metabolite
+  concentrations in a patient sample compared with controls. We propose three main
+  modalities to analyze complex, untargeted metabolomics data. First, a targeted evaluation
+  can be done based on identified genetic variants of uncertain significance in metabolic
+  pathways. Second, we developed a panel of IEM-related metabolites to filter untargeted
+  metabolomics data. Based on this IEM-panel approach, we provided the correct diagnosis
+  for 42 of 46 IEMs. As a last modality, metabolomics data can be analyzed in an untargeted
+  setting, which we term "open the metabolome" analysis. This approach identifies
+  potential novel biomarkers in known IEMs and leads to identification of biomarkers
+  for as yet unknown IEMs. We are convinced that NGMS is the way forward in laboratory
+  diagnostics of IEMs. In summary, this article highligts next-generation metabolic
+  screening using targeted and untargeted metabolomics for the diagnosis of inborn
+  errors of metabolism in individual patients.
+resourceID: ID0064
+resourceSubcategory: Clinical use cases
+resourceTags:
+- NGS
+- biomarkers
+- metabolomics
+- protocol
+- publication
+- whole-exome sequencing
+resourceTitle: 'Next-generation metabolic screening: targeted and untargeted metabolomics
+  for the diagnosis of inborn errors of metabolism in individual patients.'
+resourceUrl: https://doi.org/10.1007/s10545-017-0131-6

@@ -1,0 +1,13 @@
+resourceCategory: Transcriptomics
+resourceDescription: Protocol for stranded sequencing mRNA extracted from human serum
+resourceID: ID0035
+resourceSubcategory: Protocols
+resourceTags:
+- EATRIS-Plus project
+- RNA
+- RNA-seq
+- protocol
+- sequencing
+- transcriptomics
+resourceTitle: Stranded mRNA sequencing
+resourceUrl: SampleAnalysisProtocols/FIMM_RNAseq/MOTBX_InternalProtocol_mRNASeq_20230626.pdf

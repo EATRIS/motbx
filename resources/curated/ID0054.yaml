@@ -1,0 +1,12 @@
+resourceCategory: Proteomics
+resourceDescription: Protocol for raw data search using Proteome Discoverer (Thermo)
+  including detail description of all parameters.
+resourceID: ID0054
+resourceSubcategory: Protocols
+resourceTags:
+- EATRIS-Plus project
+- data search
+- proteomics
+- protocol
+resourceTitle: Raw data search in proteomics
+resourceUrl: SampleAnalysisProtocols/IMTM_Proteomics/MOTBX_InternalProtocol_ProteinPeptideSearch_PlasmaAnalysis_20230627.pdf

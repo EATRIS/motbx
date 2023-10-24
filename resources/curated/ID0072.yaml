@@ -1,0 +1,13 @@
+resourceCategory: Omics data management and analysis
+resourceDescription: FAIR Data Cube is a collection of tools and services to facilitate
+  multi-omics data FAIRification, metadata registration, metadata searches, and federated
+  data analysis. It is being developed by the Netherlands X-omics Initiative.
+resourceID: ID0072
+resourceSubcategory: FAIR omics data
+resourceTags:
+- metadata
+- multi-omics
+- study management
+resourceTitle: 'X-omics FAIRDataCube: Enabling FAIR and scalable management of multi-omics
+  data'
+resourceUrl: https://github.com/Xomics/FAIRDataCube

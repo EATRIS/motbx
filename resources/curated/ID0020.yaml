@@ -1,0 +1,38 @@
+resourceCategory: Epigenomics
+resourceDescription: "Cytosine modifications in DNA such as 5-methylcytosine (5mC)\
+  \ underlie a broad range of developmental processes, maintain cellular lineage specification,\
+  \ and can define or stratify types of cancer and other diseases. However, the wide\
+  \ variety of approaches available to interrogate these modifications has created\
+  \ a need for harmonized materials, methods, and rigorous benchmarking to improve\
+  \ genome-wide methylome sequencing applications in clinical and basic research.\
+  \ Here, we present a multi-platform assessment and cross-validated resource for\
+  \ epigenetics research from the FDA\u2019s Epigenomics Quality Control Group. Each\
+  \ sample is processed in multiple replicates by three whole-genome bisulfite sequencing\
+  \ (WGBS) protocols (TruSeq DNA methylation, Accel-NGS MethylSeq, and SPLAT), oxidative\
+  \ bisulfite sequencing (TrueMethyl), enzymatic deamination method (EMSeq), targeted\
+  \ methylation sequencing (Illumina Methyl Capture EPIC), single-molecule long-read\
+  \ nanopore sequencing from Oxford Nanopore Technologies, and 850k Illumina methylation\
+  \ arrays. After rigorous quality assessment and comparison to Illumina EPIC methylation\
+  \ microarrays and testing on a range of algorithms (Bismark, BitmapperBS, bwa-meth,\
+  \ and BitMapperBS), we find overall high concordance between assays, but also differences\
+  \ in efficiency of read mapping, CpG capture, coverage, and platform performance,\
+  \ and variable performance across 26 microarray normalization algorithms. The data\
+  \ provided herein can guide the use of these DNA reference materials in epigenomics\
+  \ research, as well as provide best practices for experimental design in future\
+  \ studies. By leveraging seven human cell lines that are designated as publicly\
+  \ available reference materials, these data can be used as a baseline to advance\
+  \ epigenomics research. This article serves as recomendations for library preparation,\
+  \ sequencing, and data processing of methylome sequencing data."
+resourceID: ID0020
+resourceSubcategory: Technical and quality checks
+resourceTags:
+- EM-seq
+- data processing
+- epigenomics
+- library preparation
+- methyl-seq
+- methylation sequencing
+- publication
+- sequencing
+resourceTitle: The SEQC2 epigenomics quality control (EpiQC) study
+resourceUrl: https://genomebiology.biomedcentral.com/articles/10.1186/s13059-021-02529-2

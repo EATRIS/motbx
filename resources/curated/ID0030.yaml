@@ -1,0 +1,22 @@
+resourceCategory: Transcriptomics
+resourceDescription: The qPCR has been introduced in clinical and biomedical research
+  for over 10 years from now. Its use in trials and diagnostics is continuously increasing.
+  Due to this heavy use, the question of relyability and relevance of qPCR results
+  has to be asked. This review proposes a documented and evidence based answer to
+  this question, thanks to the MIQE (minimum information for publication of quantitative
+  real-time PCR experiments) guideline. The whole analysis process is addressed, from
+  nucleic acids extraction to data management. Simple answers are given, taking into
+  account the technical constraints from clinical research in order to allow a realistic
+  application of this guideline.
+resourceID: ID0030
+resourceSubcategory: Guidelines and best practices
+resourceTags:
+- MIQE
+- good practices
+- guidelines
+- publication
+- qPCR
+- transcriptomics
+resourceTitle: 'Quantitative PCR (qPCR) and the guide to good practices MIQE: adapting
+  and relevance in the clinical biology context'
+resourceUrl: https://www.jle.com/en/revues/abc/e-docs/la_pcr_quantitative_qpcr_et_le_guide_de_bonnes_pratiques_miqe_adaptation_et_pertinence_dans_le_contexte_de_la_biologie_clinique_301673/article.phtml

@@ -1,0 +1,28 @@
+resourceCategory: Proteomics
+resourceDescription: The proteomic analysis of human blood and blood-derived products
+  (e.g., plasma) offers an attractive avenue to translate research progress from the
+  laboratory into the clinic. However, due to its unique protein composition, performing
+  proteomics assays with plasma is challenging. Plasma proteomics has regained interest
+  due to recent technological advances, but challenges imposed by both complications
+  inherent to studying human biology (e.g., interindividual variability) and analysis
+  of biospecimens (e.g., sample variability), as well as technological limitations
+  remain. As part of the Human Proteome Project (HPP), the Human Plasma Proteome Project
+  (HPPP) brings together key aspects of the plasma proteomics pipeline. Here, we provide
+  considerations and recommendations concerning study design, plasma collection, quality
+  metrics, plasma processing workflows, mass spectrometry (MS) data acquisition, data
+  processing, and bioinformatic analysis. With exciting opportunities in studying
+  human health and disease though this plasma proteomics pipeline, a more informed
+  analysis of human plasma will accelerate interest while enhancing possibilities
+  for the incorporation of proteomics-scaled assays into clinical practice.
+resourceID: ID0048
+resourceSubcategory: Samples processing
+resourceTags:
+- mass spectrometry
+- proteomics
+- protocol
+- publication
+- sample collection
+- study design
+resourceTitle: 'Mass spectrometry-based plasma proteomics: considerations from sample
+  collection to achieving translational data'
+resourceUrl: https://pubs.acs.org/doi/full/10.1021/acs.jproteome.9b00503

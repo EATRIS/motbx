@@ -1,0 +1,13 @@
+resourceCategory: Omics data management and analysis
+resourceDescription: Workflowhub is a registry for scientific computational workflows
+  designed around FAIR principles. It allows sharing analysis workflows packaged as
+  Research Object (RO) Crates with direct links to the source code on GitHub. RO-Crates
+  are annoted with metadata about the workflows which faciliates findability of workflows.
+  Workflowhub is sponsored by multiple European initiatives including EOSC-Life and
+  ELIXIR.
+resourceID: ID0079
+resourceSubcategory: Multi-omics analysis
+resourceTags:
+- workflow registry
+resourceTitle: 'WorkflowHub: Registry for scientific computational workflows'
+resourceUrl: https://workflowhub.eu/

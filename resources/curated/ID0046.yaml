@@ -1,0 +1,27 @@
+resourceCategory: Proteomics
+resourceDescription: Plasma and serum are rich sources of information regarding an
+  individual's health state, and protein tests inform medical decision making. Despite
+  major investments, few new biomarkers have reached the clinic. Mass spectrometry
+  (MS)-based proteomics now allows highly specific and quantitative readout of the
+  plasma proteome. Here, we employ Plasma Proteome Profiling to define quality marker
+  panels to assess plasma samples and the likelihood that suggested biomarkers are
+  instead artifacts related to sample handling and processing. We acquire deep reference
+  proteomes of erythrocytes, platelets, plasma, and whole blood of 20 individuals
+  (> 6,000 proteins), and compare serum and plasma proteomes. Based on spike-in experiments,
+  we determine sample quality-associated proteins, many of which have been reported
+  as biomarker candidates as revealed by a comprehensive literature survey. We provide
+  sample preparation guidelines and an online resource ( www.plasmaproteomeprofiling.org)
+  to assess overall sample-related bias in clinical studies and to prevent costly
+  miss-assignment of biomarker candidates.
+resourceID: ID0046
+resourceSubcategory: Samples processing
+resourceTags:
+- biomarker
+- proteomics
+- publication
+- quality control
+- sample collection
+- study design
+resourceTitle: Plasma proteome profiling to detect and avoid sample-related biases
+  in biomarker studies
+resourceUrl: https://www.embopress.org/doi/full/10.15252/emmm.201910427

@@ -1,0 +1,28 @@
+resourceCategory: Proteomics
+resourceDescription: The emergence of MS-based proteomic platforms as a prominent
+  technology utilized in biochemical and biomedical research has increased the need
+  for high-quality MS measurements. To address this need, National Institute of Standards
+  and Technology (NIST) reference material (RM) 8323 yeast protein extract is introduced
+  as a proteomics quality control material for benchmarking the preanalytical and
+  analytical performance of proteomics-based experimental workflows. RM 8323 yeast
+  protein extract is based upon the well-characterized eukaryote Saccharomyces cerevisiae
+  and can be utilized in the design and optimization of proteomics-based methodologies
+  from sample preparation to data analysis. To demonstrate its utility as a proteomics
+  quality control material, we coupled LC-MS/MS measurements of RM 8323 with the NIST
+  MS Quality Control (MSQC) performance metrics to quantitatively assess the LC-MS/MS
+  instrumentation parameters that influence measurement accuracy, repeatability, and
+  reproducibility. Due to the complexity of the yeast proteome, we also demonstrate
+  how NIST RM 8323, along with the NIST MSQC performance metrics, can be used in the
+  evaluation and optimization of proteomics-based sample preparation methods.
+resourceID: ID0045
+resourceSubcategory: Reference material
+resourceTags:
+- mass spectrometry
+- proteomics
+- publication
+- quality assessment
+- quality control
+- workflow
+resourceTitle: A proteomics performance standard to support measurement quality in
+  proteomics
+resourceUrl: https://analyticalsciencejournals.onlinelibrary.wiley.com/doi/10.1002/pmic.201100522

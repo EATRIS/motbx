@@ -1,0 +1,36 @@
+resourceCategory: Transcriptomics
+resourceDescription: microRNAs (miRNA) expression in colorectal (CR) primary tumours
+  can facilitate a more precise molecular characterization. We identified and validated
+  a miRNA profile associated with clinical and histopathological features that might
+  be useful for patient stratification. In situ hybridization array using paraffin-embedded
+  biopsies of CR primary tumours were used to screen 1436 miRNAs. 17 miRNAs were selected
+  for validation by quantitative reverse transcription polymerase chain reaction (qRT-PCR)
+  (n = 192) and were further correlated with clinical and histopathological data.
+  We demonstrated that miRNAs associated to Colorectal Cancer (CRC) diagnosis age
+  (over 50s and 60s) included miR-1-3p, miR-23b-3p, miR-27b-3p, miR-143-3p, miR-145-5p
+  and miR-193b-5p. miR-23b-3p and miR-24-3p discriminated between Lynch Syndrome and
+  sporadic CRC. miR-10a-5p, miR-20a-5p, miR-642b and Let-7a-5p were associated to
+  stroma abundance. miR-642b and Let-7a-5p were associated with to peritumoral inflammation
+  abundance. miR-1-3p, miR-143-3p and miR-145-5p correlated with mucinous component.
+  miR-326 correlated with tumour location (right or left sided). miR-1-3p associated
+  with tumour grade. miR-20a-5p, miR-193b-5p, miR-320a, miR-326 and miR-642b-3p associated
+  to tumour stage and progression. Remarkably, we also demonstrated that miR-1-3p
+  and miR-326 expression significantly associated with patient overall survival (OS).
+  Hierarchical clustering and bioinformatics analysis indicated that selected miRNAs
+  could re-classify the patients and work cooperatively, modulating common target
+  genes involved in colorectal cancer key signalling pathways. In conclusion, molecular
+  characterization of CR primary tumours based on miRNAs could lead to more accurate
+  patient reclassification and may be useful for efficient patient management.
+resourceID: ID0041
+resourceSubcategory: Preclinical use cases
+resourceTags:
+- RT-qPCR
+- miRNAs
+- microRNA array profiling
+- preclinical use case
+- publication
+- qPCR
+- transcriptomics
+resourceTitle: Novel molecular characterization of colorectal primary tumors based
+  on miRNAs
+resourceUrl: https://www.mdpi.com/2072-6694/11/3/346

@@ -1,0 +1,19 @@
+resourceCategory: Proteomics
+resourceDescription: Perseus, available through the MaxQuant software suite, is a
+  powerful computational tool designed for the analysis and visualisation of large-scale
+  proteomics and omics datasets. It offers a comprehensive set of statistical and
+  computational methods, enabling researchers to explore, preprocess, and analyse
+  their data. With an intuitive user interface, Perseus facilitates data quality control,
+  normalisation, and downstream analysis, empowering researchers to uncover valuable
+  insights. It supports a wide range of data types and provides customisable workflows,
+  allowing for flexible data analysis. Utilised extensively in proteomics research,
+  Perseus serves as an invaluable resource for researchers aiming to gain a deeper
+  understanding of complex biological data. For detailed information see https://www.nature.com/articles/nmeth.3901
+resourceID: ID0057
+resourceSubcategory: Tool
+resourceTags:
+- data analysis
+- proteomics
+- visualisation tool
+resourceTitle: 'Perseus: Software tool for proteomic data analysis and visualization'
+resourceUrl: https://maxquant.net/perseus/

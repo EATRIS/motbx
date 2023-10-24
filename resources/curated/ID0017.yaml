@@ -1,0 +1,37 @@
+resourceCategory: Genomics
+resourceDescription: Recent studies have demonstrated the genetic significance of
+  insertions, deletions, and other more complex structural variants (SVs) in the human
+  population. With the development of the next-generation sequencing technologies,
+  high-throughput surveys of SVs on the whole-genome level have become possible. Here
+  we present split-read identification, calibrated (SRiC), a sequence-based method
+  for SV detection. We start by mapping each read to the reference genome in standard
+  fashion using gapped alignment. Then to identify SVs, we score each of the many
+  initial mappings with an assessment strategy designed to take into account both
+  sequencing and alignment errors (e.g. scoring more highly events gapped in the center
+  of a read). All current SV calling methods have multilevel biases in their identifications
+  due to both experimental and computational limitations (e.g. calling more deletions
+  than insertions). A key aspect of our approach is that we calibrate all our calls
+  against synthetic data sets generated from simulations of high-throughput sequencing
+  (with realistic error models). This allows us to calculate sensitivity and the positive
+  predictive value under different parameter-value scenarios and for different classes
+  of events (e.g. long deletions vs. short insertions). We run our calculations on
+  representative data from the 1000 Genomes Project. Coupling the observed numbers
+  of events on chromosome 1 with the calibrations gleaned from the simulations (for
+  different length events) allows us to construct a relatively unbiased estimate for
+  the total number of SVs in the human genome across a wide range of length scales.
+  We estimate in particular that an individual genome contains ~670,000 indels/SVs.
+  Compared with the existing read-depth and read-pair approaches for SV identification,
+  our method can pinpoint the exact breakpoints of SV events, reveal the actual sequence
+  content of insertions, and cover the whole size spectrum for deletions. Moreover,
+  with the advent of the third-generation sequencing technologies that produce longer
+  reads, we expect our method to be even more useful.
+resourceID: ID0017
+resourceSubcategory: Raw data processing
+resourceTags:
+- SRiC
+- genomics
+- publication
+- sequencing
+resourceTitle: Identification of genomic indels and structural variations using split
+  reads
+resourceUrl: https://pubmed.ncbi.nlm.nih.gov/21787423

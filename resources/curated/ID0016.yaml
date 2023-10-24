@@ -1,0 +1,12 @@
+resourceCategory: Genomics
+resourceDescription: Identify germline short variants (SNPs and Indels) in one or
+  more individuals to produce a joint callset in VCF format, available as part of
+  Genome Analysis ToolKit's (GATK) best practices and workflows.
+resourceID: ID0016
+resourceSubcategory: Guidelines and best practices
+resourceTags:
+- genomics
+- guidelines
+- workflow
+resourceTitle: Germline short variant discovery (SNPs and Indels)
+resourceUrl: https://gatk.broadinstitute.org/hc/en-us/articles/360035535932-Germline-short-variant-discovery-SNPs-Indels-

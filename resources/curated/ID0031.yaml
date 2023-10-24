@@ -1,0 +1,30 @@
+resourceCategory: Transcriptomics
+resourceDescription: "Currently, a lack of consensus exists on how best to perform\
+  \ and interpret quantitative real-time PCR (qPCR) experiments. The problem is exacerbated\
+  \ by a lack of sufficient experimental detail in many publications, which impedes\
+  \ a reader\u2019s ability to evaluate critically the quality of the results presented\
+  \ or to repeat the experiments. The Minimum Information for Publication of Quantitative\
+  \ Real-Time PCR Experiments (MIQE) guidelines target the reliability of results\
+  \ to help ensure the integrity of the scientific literature, promote consistency\
+  \ between laboratories, and increase experimental transparency. MIQE is a set of\
+  \ guidelines that describe the minimum information necessary for evaluating qPCR\
+  \ experiments. Included is a checklist to accompany the initial submission of a\
+  \ manuscript to the publisher. By providing all relevant experimental conditions\
+  \ and assay characteristics, reviewers can assess the validity of the protocols\
+  \ used. Full disclosure of all reagents, sequences, and analysis methods is necessary\
+  \ to enable other investigators to reproduce results. MIQE details should be published\
+  \ either in abbreviated form or as an online supplement. Following these guidelines\
+  \ will encourage better experimental practice, allowing more reliable and unequivocal\
+  \ interpretation of qPCR results."
+resourceID: ID0031
+resourceSubcategory: Guidelines and best practices
+resourceTags:
+- MIQE
+- guidelines
+- publication
+- qPCR
+- qRT-PCR
+- transcriptomics
+resourceTitle: 'The MIQE Guidelines: Minimum information for publication of quantitative
+  real-time PCR experiments'
+resourceUrl: https://academic.oup.com/clinchem/article/55/4/611/5631762

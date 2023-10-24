@@ -1,0 +1,13 @@
+resourceCategory: Proteomics
+resourceDescription: Protocol for processing plasma samples appropriately for High-Resolution
+  Mass Spectrometry (HR-MS) proteomic analysis.
+resourceID: ID0052
+resourceSubcategory: Protocols
+resourceTags:
+- EATRIS-Plus project
+- proteomics
+- protocol
+- sample preparation
+resourceTitle: Plasma sample preparation for HR-MS analysis
+resourceUrl: SampleAnalysisProtocols/IMTM_Proteomics/MOTBX_InternalProtocol_SamplePreparation_Plasma
+  Analysis_20230627.pdf
