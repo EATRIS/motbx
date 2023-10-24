@@ -39,6 +39,10 @@ This repository collects resources for MOTBX, a data model defing the structure 
 | **`src/`** | Python modules
 | **`test/`** | Files for testing (YAML, CSV)
 
+The JSON Schema file defining the structure of MOTBX resources was created with the notebook `notebooks\schema.ipynb`.
+
+A first version of MOTBX resources was added based on information collected in an Excel file (`resources\legacy\MOTBX_resources_for_website - Copy 2023-07-28.xlsx`). Each row was converted to YAML files using the Jupyter notebook `notebooks\add_legacy_resources.ipynb`. This first version allows resource URLs deviating from the pattern `https://*` and additionaly allowing `http://*`, `ftp://`, and `*.pdf`.
+
 #### Branching strategy
 
 https://docs.github.com/en/get-started/quickstart/github-flow

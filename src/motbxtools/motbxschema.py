@@ -57,18 +57,20 @@ class MotbxResource():
             format_checker=jsonschema.FormatChecker())
         # validate URL (pattern https://* already validated by jsonschema)
         url = self.resource["resourceUrl"]
-        try:
-            response = validators.url(url, public=True)
-            if not response:
-                raise Exception
-        except Exception:
-            raise
-        # check if URL is live
-        try:
-            response = requests.get(url)
-            response.raise_for_status()
-        except Exception:
-            raise
+        if url.startswith("http"):
+            try:
+                response = validators.url(url, public=True)
+                if not response:
+                    raise Exception
+            except Exception:
+                raise
+            # check if URL is live
+            try:
+                response = requests.get(url)
+                if response.status_code not in (200, 403):
+                    raise Exception
+            except Exception:
+                raise
         return
 
     def flatten(self, fieldnames):
