@@ -20,7 +20,7 @@ resourceTags:
 - alignment
 - bismark
 - data processing
-- epigneomics
+- epigenomics
 - mapping
 resourceTitle: Methylation (Bisulfite-Sequencing) analysis pipeline using Bismark
   or bwa-meth + MethylDackel
