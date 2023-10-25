@@ -34,7 +34,8 @@ The EATRIS Multi-omics Toolbox is a community effort and suggestions for new res
 
 | Folder / File | Description |
 |--------------|-------------|
-| [**`env/motbxtools.yml`**](https://github.com/EATRIS/motbx/blob/main/envs/motbxtools.yml) | [Conda](https://conda.io/) environment file specifying dependencies
+| [**`.github/`**](https://github.com/EATRIS/motbx/tree/main/.github) | [Issue templates](https://github.com/EATRIS/motbx/tree/main/.github/ISSUE_TEMPLATE) and [GitHub actions](https://github.com/EATRIS/motbx/tree/main/.github/workflows)
+| [**`envs/motbxtools.yml`**](https://github.com/EATRIS/motbx/blob/main/envs/motbxtools.yml) | [Conda](https://conda.io/) environment file specifying dependencies
 | [**`notebooks/`**](https://github.com/EATRIS/motbx/tree/main/notebooks) | Jupyter notebooks - make sure to run them from the `notebooks` directory
 | &emsp; [`schema.ipynb`](https://github.com/EATRIS/motbx/blob/main/notebooks/schema.ipynb) | This notebook was used to create the JSON schema file [`motbxschema.json`](https://github.com/EATRIS/motbx/blob/main/schema/motbxschema.json)
 | &emsp; [`add_legacy_resources.ipynb`](https://github.com/EATRIS/motbx/blob/main/notebooks/add_legacy_resources.ipynb) | A first version of MOTBX resources was added based on information collected in an Excel file (`resources\legacy\MOTBX_resources_for_website - Copy 2023-07-28.xlsx`). Each row was converted to YAML files using the Jupyter notebook `notebooks\add_legacy_resources.ipynb`. This first version allows resource URLs deviating from the pattern `https://*` and additionaly allowing `http://*`, `ftp://`, and `*.pdf`.
