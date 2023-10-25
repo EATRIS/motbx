@@ -12,13 +12,13 @@
 
 ## EATRIS
 
-<a href="https://eatris.eu/"><img src="https://github.com/EATRIS/.github/assets/1405356/06fb628b-13b9-4a9b-aef3-a4987d989bf6" alt="EATRIS logo" width="200"/></a>
+[<img src="https://github.com/EATRIS/.github/assets/1405356/06fb628b-13b9-4a9b-aef3-a4987d989bf6" alt="EATRIS logo" width="200"/>](https://eatris.eu/)
 
 EATRIS is the [European infrastructure for translational medicine](https://eatris.eu/) that brings together resources and services for research communities to translate scientific discoveries into benefits for patients. The organisation is a non-profit that provides access to a vast array of expertise and facilities from over 150 top-tier academic centres across Europe. EATRIS focuses on improving and optimising preclinical and early clinical development of drugs, vaccines and diagnostics, and overcome barriers to health innovation. Find out more here: https://eatris.eu/
 
 ## Multi-omics Toolbox (MOTBX)
 
-<a href="https://motbx.eatris.eu/"><img src="https://motbx.eatris.eu/wp-content/themes/motbx-child/img/logo/logo.svg" alt="MOTBX logo" width="200"/></a>
+[<img src="https://github.com/EATRIS/motbx/assets/1405356/3973fe3c-27b7-410a-80ae-7bf0a2927e8c" alt="MOTBX logo" width="200"/>](https://motbx.eatris.eu/)
 
 The EATRIS [Multi-omics Toolbox (MOTBX)](https://motbx.eatris.eu/) is a community-driven comprehensive knowledge base aimed at supporting researchers in academia and industry who are involved in the development, implementation, and adoption of multi-omics approaches for personalised medicine. MOTBX collects a rich selection of resources, including best practices, protocols for individual omics technologies, and tools for quality control and assessment. MOTBX is available at https://motbx.eatris.eu/.
 
