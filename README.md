@@ -34,7 +34,7 @@ The EATRIS Multi-omics Toolbox is a community effort and suggestions for new res
 
 | Folder / File | Description |
 |--------------|-------------|
-| [**`env/`**](https://github.com/EATRIS/motbx/tree/main/envs) | [Conda](https://conda.io/) environment file specifying dependencies
+| [**`env/motbxtools.yml`**](https://github.com/EATRIS/motbx/blob/main/envs/motbxtools.yml) | [Conda](https://conda.io/) environment file specifying dependencies
 | [**`notebooks/`**](https://github.com/EATRIS/motbx/tree/main/notebooks) | Jupyter notebooks - make sure to run them from the `notebooks` directory
 | &emsp; [`schema.ipynb`](https://github.com/EATRIS/motbx/blob/main/notebooks/schema.ipynb) | This notebook was used to create the JSON schema file [`motbxschema.json`](https://github.com/EATRIS/motbx/blob/main/schema/motbxschema.json)
 | &emsp; [`add_legacy_resources.ipynb`](https://github.com/EATRIS/motbx/blob/main/notebooks/add_legacy_resources.ipynb) | A first version of MOTBX resources was added based on information collected in an Excel file (`resources\legacy\MOTBX_resources_for_website - Copy 2023-07-28.xlsx`). Each row was converted to YAML files using the Jupyter notebook `notebooks\add_legacy_resources.ipynb`. This first version allows resource URLs deviating from the pattern `https://*` and additionaly allowing `http://*`, `ftp://`, and `*.pdf`.
@@ -42,10 +42,8 @@ The EATRIS Multi-omics Toolbox is a community effort and suggestions for new res
 | &emsp; [`summarise.ipynb`](https://github.com/EATRIS/motbx/blob/main/notebooks/summarise.ipynb) | Create CSV file from [all resources](https://github.com/EATRIS/motbx/tree/main/resources/curated) - each YAML file as one row in the CSV file
 | &emsp; `ext_biotoolsAPI.ipynb` | Query bio.tools registry using API
 | &emsp; `ext_FAIRsharingAPI.ipynb` | Query FAIRsharing registry using API
-| [**`resources/`**](https://github.com/EATRIS/motbx/tree/main/resources)
-| &emsp; [`curated/*.yaml`](https://github.com/EATRIS/motbx/tree/main/resources/curated) | Curated MOTBX resources in YAML format
-| [**`schema/`**](https://github.com/EATRIS/motbx/tree/main/schema)
-| &emsp; [`motbxschema.json`](https://github.com/EATRIS/motbx/blob/main/schema/motbxschema.json) | JSON Schema defining MOTBX resource structure
+| [**`resources/curated/*.yaml`**](https://github.com/EATRIS/motbx/tree/main/resources/curated) | Curated MOTBX resources in YAML format
+| [**`schema/motbxschema.json`**](https://github.com/EATRIS/motbx/blob/main/schema/motbxschema.json) | JSON Schema defining MOTBX resource structure
 | [**`src/motbxtools`**](https://github.com/EATRIS/motbx/tree/main/src/motbxtools) | Python module with classes for MOTBX resources and MOTBX resource schema including functions for resource validation
 | [**`test/`**](https://github.com/EATRIS/motbx/tree/main/tests) | Files for testing (YAML, CSV) and [Python module](https://github.com/EATRIS/motbx/tree/main/tests/test_motbxtools) for testing [`src/motbxtools`](https://github.com/EATRIS/motbx/tree/main/src/motbxtools)
 
