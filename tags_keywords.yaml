@@ -35,13 +35,20 @@
         - transcriptome
         - gene expression
         - RNA
-      - mRNA:
+      - mRNA-seq:
         - synonyms:
+          - mRNA
+          - mRNA sequencing
+          - mRNA Seq
           - messenger RNA
-      - miRNA:
+      - miRNA-seq:
         - synonyms:
+          - miRNA
+          - miRNA sequencing
+          - miRNA Seq
           - micro RNA
           - microRNA
+          - miRNAs
     - proteomics (tag):
       - synonyms:
         - protein levels
@@ -94,6 +101,10 @@
       - clinical data
       - clinical information
       - disease symptoms
+  - biomarker (tag):
+    - synonyms:
+      - biomarkers
+    - digital biomarker
 - assay type:
   - synonyms:
     - measurement type
@@ -135,11 +146,16 @@
           - NEBNext Enzymatic Methyl-seq
           - Enzymatic Methyl-seq Kit
           - EM-seq NGS
-  - array (tag)
+  - array (tag):
+    - microRNA array profiling
   - PCR (tag):
     - synonyms:
       - polymerase chain reaction
-    - qPCR
+    - qPCR:
+      - qPCR array:
+        - synonyms:
+          - qPCR arrays
+          - qPCR panels
     - RT-PCR:
       - synonyms:
         - reverse transcription PCR
@@ -196,21 +212,25 @@
     - lipid (tag)
 - type of resource:
   - quality:
-    - quality certification:
-      - ECCQ:
-        - synonyms:
-          - EATRIS Certificate of Commitment to Quality
-    - quality assurance:
-      - proficiency testing (tag):
-        - synonyms:
-          - PT
-          - proficiency testing scheme
-          - EQA
-          - external quality assessment (EQA)
-          - PT scheme
-          - ring trial
-          - inter-laboratory tests
-          - quality certification
+    - reproducibility
+    - data quality
+    - quality assessment:
+      - synonyms:
+        - quality assurance
+      - quality certification:
+        - ECCQ:
+          - synonyms:
+            - EATRIS Certificate of Commitment to Quality
+        - proficiency testing (tag):
+          - synonyms:
+            - PT
+            - proficiency testing scheme
+            - proficiency testing programme
+            - EQA
+            - external quality assessment (EQA)
+            - PT scheme
+            - ring trial
+            - inter-laboratory tests
     - quality control:
       - internal quality control (IQC) (tag):
         - synonyms:
@@ -304,6 +324,20 @@
         - nfcore:
           - synonyms:
             - NFcore
+  - data processing:
+    - synonyms:
+      - data analysis
+    - data search
+    - normalisation:
+      - synonyms:
+        - normalization
+    - alignment
+    - mapping
+    - data visualisation:
+      - synonyms:
+        - data visualization
+        - visualisation
+        - visualization
   - reference material (tag):
     - synonyms:
       - quality control material
@@ -314,29 +348,36 @@
   - reference data set (tag):
     - synonyms:
       - reference dataset
-  - standard (tag):
+  - standard:
     - synonyms:
+      - standards
       - specification
       - reference
-  - standardisation process:
-    - quality standard:
-      - ISO standard (tag):
+    - standardisation process:
+      - quality standard:
+        - ISO standard (tag):
+          - synonyms:
+            - international standard
+    - minimum information standard (tag):
+      - MIQE:
         - synonyms:
-          - international standard
-  - data standard (tag):
-    - vocabulary:
+          - minimum information for publication of quantitative real-time PCR experiments
+    - data standard (tag):
       - synonyms:
-        - terminology
-    - data schema
-    - data format
-  - metadata standard (tag):
-    - synonyms:
-      - metadata
-      - metadata standards
-    - phenopackets
-    - ISA:
+        - data standards
+      - vocabulary:
+        - synonyms:
+          - terminology
+      - data schema
+      - data format
+    - metadata standard (tag):
       - synonyms:
-        - investigation-study-assay
+        - metadata
+        - metadata standards
+      - phenopackets
+      - ISA:
+        - synonyms:
+          - investigation-study-assay
   - protocol (tag):
     - synonyms:
       - SOP
@@ -346,6 +387,19 @@
     - sample preparation protocol:
       - synonyms:
         - samples preparation
+        - sample preparation
+        - sample collection
+        - sample processing
+        - sample processing protocol
+      - extraction:
+        - synonyms:
+          - isolation
+      - cDNA synthesis:
+        - synonyms:
+          - retrotranscription
+          - Retrotranscription
+      - library preparation
+      - nucleic acid quantification
   - organisation (tag):
     - synonyms:
       - organization
@@ -358,6 +412,9 @@
       - EATRIS-Plus (tag):
         - synonyms:
           - EATRIS-Plus project
+    - EQIPD:
+      - synonyms:
+        - European Quality In Preclinical Data
   - registry (tag):
     - synonyms:
       - repository
