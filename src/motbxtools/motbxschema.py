@@ -44,7 +44,7 @@ class MotbxResource():
         return
 
     def save(self):
-        """Save a MOTBX resource to a YAML file.
+        """Save the MOTBX resource to a YAML file.
         """
         with open(self._yaml_path, "w") as fp:
             yaml.dump(self.resource, fp)
@@ -58,27 +58,28 @@ class MotbxResource():
         :type motbx_schema: :class:`~MotbxSchema`
         :raises Exception: Validation of URL fails
         """
-        # validate against JSON schema
-        jsonschema.validate(
-            self.resource, motbx_schema.schema,
-            format_checker=jsonschema.FormatChecker())
-        # validate URL (pattern https://* already validated by jsonschema)
+        try:
+            # validate against JSON schema
+            # this includes checking URL for pattern https://* or *.pdf
+            jsonschema.validate(
+                self.resource, motbx_schema.schema,
+                format_checker=jsonschema.FormatChecker())
+        except jsonschema.exceptions.ValidationError:
+            raise
         url = self.resource["resourceUrl"]
-        if url.startswith("http"):
-            try:
-                response = validators.url(url, public=True)
-                # possible errors include SSLError
-                if not response:
-                    raise Exception
-            except Exception:
-                raise
+        try:
+            # validate URL
+            response = validators.url(url, public=True)
+            # possible errors include SSLError
+            assert response
+        except Exception:
+            raise
+        try:
             # check if URL is live
-            try:
-                response = requests.get(url)
-                if response.status_code not in (200, ):  # , 403):
-                    raise Exception
-            except Exception:
-                raise
+            response = requests.get(url, timeout=10)
+            assert response.status_code != 404
+        except Exception:
+            raise
         return
 
     def flatten(self, fieldnames):
