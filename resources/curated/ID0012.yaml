@@ -25,6 +25,19 @@ resourceTags:
 - quality
 - toolbox
 - transcriptomics
+- EQIPD
+- certification
+- genomics
+- epigenomics
+- transcriptomics
+- proteomics
+- metabolomics
+- quality
+- toolbox
+- multi-omics
+- external quality assessment
+- EQA
+- Enhancing Quality in Preclinical Data
 resourceTitle: 'EQIPD Framework: Advancing quality and reproducibility in preclinical
   studies'
 resourceUrl: https://eqipd-toolbox.paasp.net/wiki/EQIPD_Quality_System
