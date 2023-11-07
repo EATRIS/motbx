@@ -4,10 +4,19 @@ resourceDescription: This repository provides the source code of phenotype datab
   provides an interactive and graphical user interface. Collections of previously
   used contology terms can be cashed to promote reuse of term across data sets.
 resourceID: ID0071
+resourceKeywords:
+- metadata
+- metadata standard
+- reference
+- specification
+- standard
+- standards
+- study management
+- synonyms
+- type of resource
 resourceSubcategory: FAIR omics data
 resourceTags:
-- metadata
-- study management
+- metadata standard
 resourceTitle: 'PhenotypeDatabase: Advancing phenotype data management and analysis
   through Open Collaboration'
 resourceUrl: https://github.com/PhenotypeFoundation/PhenotypeDatabase

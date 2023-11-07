@@ -19,14 +19,23 @@ resourceDescription: Bisulfite sequencing detects 5mC and 5hmC at single-base re
   library construction, using challenging samples and lower DNA inputs, opens new
   avenues for research and clinical applications.
 resourceID: ID0023
+resourceKeywords:
+- EM-seq
+- assay type
+- measurement type
+- methyl-seq
+- methylation profiling by high throughput sequencing
+- methylation sequencing
+- publication
+- scientific publication
+- sequencing
+- synonyms
+- type of resource
 resourceSubcategory: Protocols
 resourceTags:
-- EM-seq
 - epigenomics
-- methyl-seq
-- methylation sequencing
 - protocol
-- publication
+- scientific publication
 - sequencing
 resourceTitle: Enzymatic methyl sequencing detects DNA methylation at single-base
   resolution from picograms of DNA

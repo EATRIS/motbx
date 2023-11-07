@@ -22,14 +22,49 @@ resourceDescription: microRNAs (miRNA) expression in colorectal (CR) primary tum
   characterization of CR primary tumours based on miRNAs could lead to more accurate
   patient reclassification and may be useful for efficient patient management.
 resourceID: ID0041
-resourceSubcategory: Preclinical use cases
-resourceTags:
+resourceKeywords:
+- PCR
+- RT-PCR
 - RT-qPCR
+- array
+- assay type
+- experimental data
+- measurement type
+- miRNA
+- miRNA Seq
+- miRNA sequencing
+- miRNA-seq
 - miRNAs
+- micro RNA
+- microRNA
 - microRNA array profiling
+- omics
+- omics type
+- preclinical study
 - preclinical use case
 - publication
 - qPCR
+- qRT-PCR
+- quantitative RT-PCR
+- reverse transcription PCR
+- scientific publication
+- synonyms
+- transaltional example
+- transcriptomics
+- translational medicine
+- translational research
+- translational research data
+- translational research use case
+- translational science
+- translational use case
+- type of omics
+- type of resource
+resourceSubcategory: Preclinical use cases
+resourceTags:
+- PCR
+- array
+- preclinical study
+- scientific publication
 - transcriptomics
 resourceTitle: Novel molecular characterization of colorectal primary tumors based
   on miRNAs

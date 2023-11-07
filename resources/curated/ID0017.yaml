@@ -26,11 +26,16 @@ resourceDescription: Recent studies have demonstrated the genetic significance o
   with the advent of the third-generation sequencing technologies that produce longer
   reads, we expect our method to be even more useful.
 resourceID: ID0017
+resourceKeywords:
+- SRiC
+- publication
+- scientific publication
+- synonyms
+- type of resource
 resourceSubcategory: Raw data processing
 resourceTags:
-- SRiC
 - genomics
-- publication
+- scientific publication
 - sequencing
 resourceTitle: Identification of genomic indels and structural variations using split
   reads

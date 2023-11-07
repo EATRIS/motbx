@@ -24,14 +24,35 @@ resourceDescription: The implementation of whole-exome sequencing in clinical di
   screening using targeted and untargeted metabolomics for the diagnosis of inborn
   errors of metabolism in individual patients.
 resourceID: ID0064
+resourceKeywords:
+- NGS
+- assay type
+- biomarker
+- biomarkers
+- exome
+- experimental data
+- genomics
+- measurement type
+- next generation sequencing
+- omics
+- omics type
+- publication
+- scientific publication
+- sequencing
+- synonyms
+- translational research data
+- type of omics
+- type of resource
+- whole exome
+- whole-exome sequencing
 resourceSubcategory: Clinical use cases
 resourceTags:
-- NGS
-- biomarkers
+- biomarker
+- genomics
 - metabolomics
 - protocol
-- publication
-- whole-exome sequencing
+- scientific publication
+- sequencing
 resourceTitle: 'Next-generation metabolic screening: targeted and untargeted metabolomics
   for the diagnosis of inborn errors of metabolism in individual patients.'
 resourceUrl: https://doi.org/10.1007/s10545-017-0131-6

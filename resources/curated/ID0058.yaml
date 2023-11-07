@@ -21,15 +21,30 @@ resourceDescription: "The metabolomics quality assurance and quality control con
   \ studies and educational outreach and training, will further promote sound QA practices\
   \ in the community."
 resourceID: ID0058
-resourceSubcategory: Guidelines and best practices
-resourceTags:
+resourceKeywords:
+- experimental data
 - lipidomics
-- mass spectrometry
 - metabolomics
+- omics
+- omics type
 - publication
+- quality
+- quality assessment
 - quality assurance
 - quality control
+- reference material
 - reference materials
+- scientific publication
+- synonyms
+- translational research data
+- type of omics
+- type of resource
+resourceSubcategory: Guidelines and best practices
+resourceTags:
+- mass spectrometry
+- metabolomics
+- reference material
+- scientific publication
 resourceTitle: 'Reference materials for MS-based untargeted metabolomics and lipidomics:
   a review by the metabolomics quality assurance and quality control consortium (mQACC)'
 resourceUrl: https://link.springer.com/article/10.1007/s11306-021-01848-6

@@ -5,13 +5,41 @@ resourceDescription: 'Protocol for miRNAs extraction from serum/plasma samples u
   by RT-PCR in RNA from different samples, including appropriate controls and normalizers
   for further RT-PCR data analysis'
 resourceID: ID0037
-resourceSubcategory: Protocols
-resourceTags:
+resourceKeywords:
+- EATRIS flagship project
+- EATRIS project
+- EATRIS-Plus
 - EATRIS-Plus project
+- experimental data
 - extraction
+- flagship project
 - isolation
 - miRNA
+- miRNA Seq
+- miRNA sequencing
+- miRNA-seq
+- miRNAs
+- micro RNA
 - microRNA
+- omics
+- omics type
+- project
+- protocol
+- sample collection
+- sample preparation
+- sample preparation protocol
+- sample processing
+- sample processing protocol
+- samples preparation
+- synonyms
+- transcriptomics
+- translational research data
+- type of omics
+- type of resource
+resourceSubcategory: Protocols
+resourceTags:
+- EATRIS-Plus
+- miRNA
 - protocol
 - transcriptomics
 resourceTitle: miRNA isolation from serum/plasma samples

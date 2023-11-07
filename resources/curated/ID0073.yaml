@@ -4,9 +4,18 @@ resourceDescription: MOLGENIS is a modular web application for scientific data. 
   is highly customisable. It is developed by the Genomics Coordination Center (GCC)
   of the University Medical Center Groningen (NL).
 resourceID: ID0073
+resourceKeywords:
+- metadata
+- metadata standard
+- reference
+- specification
+- standard
+- standards
+- study management
+- synonyms
+- type of resource
 resourceSubcategory: FAIR omics data
 resourceTags:
-- metadata
-- study management
+- metadata standard
 resourceTitle: 'Molgenis: Empowering Genomic Research and Collaboration'
 resourceUrl: https://www.molgenis.org/

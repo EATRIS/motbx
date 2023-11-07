@@ -12,32 +12,31 @@ resourceDescription: Enhancing Quality in Preclinical Data (EQIPD) quality frame
   Quality System, researchers can enhance the robustness, reproducibility, and translatability
   of their preclinical studies.
 resourceID: ID0012
+resourceKeywords:
+- EQA
+- EQIPD
+- Enhancing Quality in Preclinical Data
+- certification
+- external quality assessment
+- external quality assessment (EQA)
+- proficiency testing
+- project
+- quality
+- quality assessment
+- quality assurance
+- quality certification
+- synonyms
+- toolbox
+- type of resource
 resourceSubcategory: Quality certification
 resourceTags:
-- EQIPD
-- certification
 - epigenomics
-- external quality assessment (EQA)
 - genomics
 - metabolomics
 - multi-omics
+- proficiency testing
 - proteomics
-- quality
-- toolbox
 - transcriptomics
-- EQIPD
-- certification
-- genomics
-- epigenomics
-- transcriptomics
-- proteomics
-- metabolomics
-- quality
-- toolbox
-- multi-omics
-- external quality assessment
-- EQA
-- Enhancing Quality in Preclinical Data
 resourceTitle: 'EQIPD Framework: Advancing quality and reproducibility in preclinical
   studies'
 resourceUrl: https://eqipd-toolbox.paasp.net/wiki/EQIPD_Quality_System

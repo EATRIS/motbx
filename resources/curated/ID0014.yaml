@@ -3,39 +3,46 @@ resourceDescription: Luxembourg Institute of Health (LIH) Proficiency Testing (P
   programme, which works as an external quality assessment tool, allows you to verify
   and benchmark the performance of your biospecimen processing or testing methods.
   Once registered, you receive standardised samples produced and shipped by LIH to
-  your laboratory. You use either your routine processing method to extract the
-  samples or your routine testing method to characterise the samples.
-  Following processing or testing, you send LIH the extracted samples (processing)
-  via mail, or the results (testing) via an online platform.
-  LIH analyse the received samples, gather the results from all participants and
-  perform statistical analyses and benchmarking. In the end, each participant receives
-  a personalized report, a certificate and a label of participation.
+  your laboratory. You use either your routine processing method to extract the samples
+  or your routine testing method to characterise the samples. Following processing
+  or testing, you send LIH the extracted samples (processing) via mail, or the results
+  (testing) via an online platform. LIH analyse the received samples, gather the results
+  from all participants and perform statistical analyses and benchmarking. In the
+  end, each participant receives a personalized report, a certificate and a label
+  of participation.
 resourceID: ID0014
-resourceSubcategory: Proficiency Testing programme
-resourceTags:
-- external quality assessment (EQA)
-- genomics
-- proficiency testing programme
-- transcriptomics
-- PT
-- Proficiency Testing
-- PT program
-- genomics
-- transcriptomics
+resourceKeywords:
+- Biospecimen Processing
 - EQA
 - External Quality Assessment
-- processing
-- analytical
-- scheme
-- Biospecimen Processing
+- PT
+- PT program
+- Proficiency Testing
 - Quality assurance
 - accreditation
-- laboratory testing
+- analytical
 - benchmarks
-- quality control
-- testing methods
+- external quality assessment (EQA)
 - lab accreditation
+- laboratory testing
 - medical compliance
 - pre-analytical
+- processing
+- proficiency testing
+- proficiency testing programme
+- quality
+- quality assessment
+- quality assurance
+- quality certification
+- quality control
+- scheme
+- synonyms
+- testing methods
+- type of resource
+resourceSubcategory: Proficiency Testing programme
+resourceTags:
+- genomics
+- proficiency testing
+- transcriptomics
 resourceTitle: 'Biospecimen PT Program: Benchmarking your processing and testing methods'
 resourceUrl: https://www.lih.lu/en/biospecimen-proficiency-testing/

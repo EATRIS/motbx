@@ -7,12 +7,17 @@ resourceDescription: A freely-available and open source Windows client applicati
   targeted methods for large-scale quantitative mass spectrometry studies in life
   sciences.
 resourceID: ID0055
+resourceKeywords:
+- data processing
+- software
+- software application
+- synonyms
+- toolbox
+- type of resource
 resourceSubcategory: Raw data processing
 resourceTags:
-- data processing
 - mass spectrometry
 - proteomics
-- software
-- toolbox
+- software application
 resourceTitle: 'Skyline: open source tool for analysing mass spectrometer data'
 resourceUrl: https://skyline.ms/project/home/software/skyline/begin.view

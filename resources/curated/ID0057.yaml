@@ -10,10 +10,14 @@ resourceDescription: Perseus, available through the MaxQuant software suite, is 
   Perseus serves as an invaluable resource for researchers aiming to gain a deeper
   understanding of complex biological data. For detailed information see https://www.nature.com/articles/nmeth.3901
 resourceID: ID0057
+resourceKeywords:
+- data analysis
+- data processing
+- synonyms
+- type of resource
+- visualisation tool
 resourceSubcategory: Tool
 resourceTags:
-- data analysis
 - proteomics
-- visualisation tool
 resourceTitle: 'Perseus: Software tool for proteomic data analysis and visualization'
 resourceUrl: https://maxquant.net/perseus/

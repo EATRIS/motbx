@@ -4,11 +4,30 @@ resourceDescription: EATRIS-Plus project template for FAIRification of phenotype
   with the GA4GH Phenopackets standard as used for the EATRIS-Plus multi-omics reference
   cohort. A software container is provided to run the notebook.
 resourceID: ID0075
-resourceSubcategory: FAIR omics data
-resourceTags:
+resourceKeywords:
+- EATRIS flagship project
+- EATRIS project
+- EATRIS-Plus
 - EATRIS-Plus project
+- flagship project
+- metadata standard
 - phenopackets
 - phenotype
+- phenotypic data
+- project
+- reference
+- specification
+- standard
+- standards
+- synonyms
 - template
+- training
+- translational research data
+- type of resource
+resourceSubcategory: FAIR omics data
+resourceTags:
+- EATRIS-Plus
+- metadata standard
+- phenotypic data
 resourceTitle: 'Phenopackets template: EATRIS-Plus FAIRification template and workflows'
 resourceUrl: https://github.com/EATRIS-Plus/phenopackets_template

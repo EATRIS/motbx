@@ -9,13 +9,30 @@ resourceDescription: The qPCR has been introduced in clinical and biomedical res
   account the technical constraints from clinical research in order to allow a realistic
   application of this guideline.
 resourceID: ID0030
-resourceSubcategory: Guidelines and best practices
-resourceTags:
+resourceKeywords:
 - MIQE
+- PCR
+- assay type
 - good practices
+- guideline
 - guidelines
+- measurement type
+- minimum information standard
 - publication
 - qPCR
+- reference
+- scientific publication
+- specification
+- standard
+- standards
+- synonyms
+- type of resource
+resourceSubcategory: Guidelines and best practices
+resourceTags:
+- PCR
+- guideline
+- minimum information standard
+- scientific publication
 - transcriptomics
 resourceTitle: 'Quantitative PCR (qPCR) and the guide to good practices MIQE: adapting
   and relevance in the clinical biology context'

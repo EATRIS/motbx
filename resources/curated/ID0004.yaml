@@ -7,15 +7,30 @@ resourceDescription: Universal Human Reference RNA is an RNA extract used as a p
   brain; Plasmacytoma; myeloma; B lymphocyte). Equal quantities of DNase-treated total
   RNA from each cell line were pooled to make the universal control.
 resourceID: ID0004
-resourceSubcategory: Reference material
-resourceTags:
+resourceKeywords:
 - NGS
+- PCR
+- RNA sequencing
 - RNA-seq
 - RT-PCR
-- internal quality control (IQC)
+- assay type
+- experimental data
+- measurement type
 - miRNA-seq
-- multi-omics
+- next generation sequencing
 - nucleic acid quantitation
+- omics
+- omics type
+- sequencing
+- synonyms
+- transcriptomics
+- translational research data
+- type of omics
+resourceSubcategory: Reference material
+resourceTags:
+- PCR
+- internal quality control (IQC)
+- multi-omics
 - reference material
 - sequencing
 - transcriptomics

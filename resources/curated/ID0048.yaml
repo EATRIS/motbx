@@ -15,14 +15,25 @@ resourceDescription: The proteomic analysis of human blood and blood-derived pro
   analysis of human plasma will accelerate interest while enhancing possibilities
   for the incorporation of proteomics-scaled assays into clinical practice.
 resourceID: ID0048
+resourceKeywords:
+- protocol
+- publication
+- sample collection
+- sample preparation
+- sample preparation protocol
+- sample processing
+- sample processing protocol
+- samples preparation
+- scientific publication
+- study design
+- synonyms
+- type of resource
 resourceSubcategory: Samples processing
 resourceTags:
 - mass spectrometry
 - proteomics
 - protocol
-- publication
-- sample collection
-- study design
+- scientific publication
 resourceTitle: 'Mass spectrometry-based plasma proteomics: considerations from sample
   collection to achieving translational data'
 resourceUrl: https://pubs.acs.org/doi/full/10.1021/acs.jproteome.9b00503

@@ -18,13 +18,18 @@ resourceDescription: To further integrate mass spectrometry (MS)-based proteomic
   - termed Evosep One - analyzes samples in an extremely robust and high throughput
   manner, without sacrificing in depth proteomics coverage.
 resourceID: ID0047
+resourceKeywords:
+- publication
+- scientific publication
+- study design
+- synonyms
+- type of resource
 resourceSubcategory: Samples processing
 resourceTags:
 - mass spectrometry
 - proteomics
 - protocol
-- publication
-- study design
+- scientific publication
 resourceTitle: A novel LC system embeds analytes in pre-formed gradients for rapid,
   ultra-robust proteomics
 resourceUrl: https://www.mcponline.org/article/S1535-9476(20)32029-6/fulltext

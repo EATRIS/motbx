@@ -12,15 +12,50 @@ resourceDescription: Biomarkers able to predict response and toxicity upon regor
   personalized and effective therapeutic strategy in fragile patients, while limiting
   the appearance of adverse effects.
 resourceID: ID0042
-resourceSubcategory: Preclinical use cases
-resourceTags:
+resourceKeywords:
+- PCR
+- RT-PCR
+- array
+- assay type
+- biomarker
 - biomarkers
+- experimental data
+- measurement type
+- miRNA
+- miRNA Seq
+- miRNA sequencing
+- miRNA-seq
 - miRNAs
+- micro RNA
+- microRNA
 - microRNA array profiling
+- omics
+- omics type
+- preclinical study
 - preclinical use case
 - publication
 - qPCR
 - qRT-PCR
+- reverse transcription PCR
+- scientific publication
+- synonyms
+- transaltional example
+- transcriptomics
+- translational medicine
+- translational research
+- translational research data
+- translational research use case
+- translational science
+- translational use case
+- type of omics
+- type of resource
+resourceSubcategory: Preclinical use cases
+resourceTags:
+- PCR
+- array
+- biomarker
+- preclinical study
+- scientific publication
 - transcriptomics
 resourceTitle: 'Biomarkers associated with regorafenib first-line treatment benefits
   in metastatic colorectal cancer patients: REFRAME molecular study'

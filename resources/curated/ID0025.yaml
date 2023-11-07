@@ -13,15 +13,39 @@ resourceDescription: The powerful HiSeq X sequencers with their patterned flowce
   observed an overall improved quality and yield of the WGBS data generated, which
   in turn empowers cost-effective and high quality DNA methylation studies.
 resourceID: ID0025
-resourceSubcategory: Technical and quality checks
-resourceTags:
+resourceKeywords:
+- CpG methylation
+- DNA sequence analysis
+- DNA sequencing
+- DNA-seq
+- DNAseq
 - Hi-seq
+- HiSeq
+- Illumina sequencing
+- assay type
 - data quality
 - epigenomics
+- experimental data
+- measurement type
 - methyl-seq
+- methylation
+- methylation profiling by high throughput sequencing
 - methylation sequencing
 - methylome
+- omics
+- omics type
 - publication
+- quality
+- scientific publication
+- sequencing
+- synonyms
+- translational research data
+- type of omics
+- type of resource
+resourceSubcategory: Technical and quality checks
+resourceTags:
+- epigenomics
+- scientific publication
 - sequencing
 resourceTitle: Data quality of whole genome bisulfite sequencing on Illumina platforms
 resourceUrl: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0195972

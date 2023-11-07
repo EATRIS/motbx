@@ -4,11 +4,18 @@ resourceDescription: Open source and open data registry of bioinformatics softwa
   allows to search the bio.tools registry by keywords to find, e.g., methods for multi-omics
   data analysis. Tools can be added and edited by the community.
 resourceID: ID0077
-resourceSubcategory: Multi-omics analysis
-resourceTags:
+resourceKeywords:
 - bioinformatics
 - data archives
-- multi-omics
+- database
+- registry
 - software registry
+- synonyms
+- type of resource
+resourceSubcategory: Multi-omics analysis
+resourceTags:
+- database
+- multi-omics
+- registry
 resourceTitle: 'Bioinformatics software registry: bio.tools'
 resourceUrl: https://bio.tools/

@@ -1,9 +1,18 @@
 resourceCategory: Transcriptomics
 resourceDescription: Protocol for sequencing microRNA extracted from human serum
 resourceID: ID0036
+resourceKeywords:
+- EATRIS flagship project
+- EATRIS project
+- EATRIS-Plus
+- EATRIS-Plus project
+- flagship project
+- project
+- synonyms
+- type of resource
 resourceSubcategory: Protocols
 resourceTags:
-- EATRIS-Plus project
+- EATRIS-Plus
 - miRNA
 - protocol
 - transcriptomics

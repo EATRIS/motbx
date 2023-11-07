@@ -25,13 +25,22 @@ resourceDescription: "Demonstrating that the data produced in metabolic phenotyp
   \ are considered at two levels of detail: \u201Cminimal\u201D and \u201Cbest reporting\
   \ practice\u201D levels."
 resourceID: ID0060
+resourceKeywords:
+- publication
+- quality
+- quality assessment
+- quality assurance
+- quality control
+- reference material
+- reference materials
+- scientific publication
+- synonyms
+- type of resource
 resourceSubcategory: Guidelines and best practices
 resourceTags:
 - metabolomics
-- publication
-- quality assurance
-- quality control
-- reference materials
+- reference material
+- scientific publication
 resourceTitle: 'Quality assurance and quality control reporting in untargeted metabolic
   phenotyping: mQACC recommendations for analytical quality management'
 resourceUrl: https://link.springer.com/article/10.1007/s11306-022-01926-3

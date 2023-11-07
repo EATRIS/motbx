@@ -24,15 +24,32 @@ resourceDescription: "Cytosine modifications in DNA such as 5-methylcytosine (5m
   \ epigenomics research. This article serves as recomendations for library preparation,\
   \ sequencing, and data processing of methylome sequencing data."
 resourceID: ID0020
+resourceKeywords:
+- EM-seq
+- assay type
+- data processing
+- library preparation
+- measurement type
+- methyl-seq
+- methylation profiling by high throughput sequencing
+- methylation sequencing
+- protocol
+- publication
+- sample collection
+- sample preparation
+- sample preparation protocol
+- sample processing
+- sample processing protocol
+- samples preparation
+- scientific publication
+- sequencing
+- synonyms
+- type of resource
 resourceSubcategory: Technical and quality checks
 resourceTags:
-- EM-seq
-- data processing
 - epigenomics
-- library preparation
-- methyl-seq
-- methylation sequencing
-- publication
+- protocol
+- scientific publication
 - sequencing
 resourceTitle: The SEQC2 epigenomics quality control (EpiQC) study
 resourceUrl: https://genomebiology.biomedcentral.com/articles/10.1186/s13059-021-02529-2

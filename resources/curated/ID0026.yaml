@@ -13,15 +13,25 @@ resourceDescription: nf-core/methylseq is a bioinformatics analysis pipeline use
   the nf-core website. The pipeline allows you to choose between running either Bismark
   or bwa-meth / MethylDackel.
 resourceID: ID0026
-resourceSubcategory: Raw data processing
-resourceTags:
+resourceKeywords:
 - BWAmeth
 - NFcore
 - alignment
+- bioinformatics tool
 - bismark
+- data analysis
 - data processing
-- epigenomics
 - mapping
+- nextflow
+- nfcore
+- software application
+- synonyms
+- type of resource
+- workflow management system
+resourceSubcategory: Raw data processing
+resourceTags:
+- epigenomics
+- software application
 resourceTitle: Methylation (Bisulfite-Sequencing) analysis pipeline using Bismark
   or bwa-meth + MethylDackel
 resourceUrl: https://nf-co.re/methylseq

@@ -4,8 +4,14 @@ resourceDescription: Nf-core is a community collection of analysis pipelines usi
   preprocessing workflows that have been widely adopted in the community. Several
   workflows were also applied in the EATRIS-Plus project.
 resourceID: ID0078
+resourceKeywords:
+- computational workflow registry
+- registry
+- synonyms
+- type of resource
+- workflow registry
 resourceSubcategory: Multi-omics analysis
 resourceTags:
-- workflow registry
+- registry
 resourceTitle: 'Framework for community-curated bioinformatics pipelines: nf-core'
 resourceUrl: https://nf-co.re/

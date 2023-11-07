@@ -4,9 +4,20 @@ resourceDescription: FAIR Cookbook is an online resource for the Life Sciences w
   and Reusable (FAIR). It provides a comprehensive introduction to FAIR topics and
   technologies and offers tutorials for implementing FAIR practices.
 resourceID: ID0070
+resourceKeywords:
+- metadata
+- metadata standard
+- reference
+- specification
+- standard
+- standards
+- synonyms
+- training
+- tutorial
+- tutorials
+- type of resource
 resourceSubcategory: FAIR omics data
 resourceTags:
-- metadata
-- tutorials
+- metadata standard
 resourceTitle: 'FAIR Cookbook: Empowering researchers with FAIR Data Practices'
 resourceUrl: https://faircookbook.elixir-europe.org/content/home.html

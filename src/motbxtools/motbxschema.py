@@ -43,6 +43,13 @@ class MotbxResource():
             self.resource = yaml.safe_load(fp)
         return
 
+    def save(self):
+        """Save a MOTBX resource to a YAML file.
+        """
+        with open(self._yaml_path, "w") as fp:
+            yaml.dump(self.resource, fp)
+        return
+
     def validate(self, motbx_schema):
         """Validate MOTBX resource with JSON schema and confirm that URL is
         valid and live.
@@ -60,6 +67,7 @@ class MotbxResource():
         if url.startswith("http"):
             try:
                 response = validators.url(url, public=True)
+                # possible errors include SSLError
                 if not response:
                     raise Exception
             except Exception:
@@ -67,7 +75,7 @@ class MotbxResource():
             # check if URL is live
             try:
                 response = requests.get(url)
-                if response.status_code not in (200, 403):
+                if response.status_code not in (200, ):  # , 403):
                     raise Exception
             except Exception:
                 raise
