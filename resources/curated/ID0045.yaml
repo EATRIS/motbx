@@ -15,14 +15,20 @@ resourceDescription: The emergence of MS-based proteomic platforms as a prominen
   how NIST RM 8323, along with the NIST MSQC performance metrics, can be used in the
   evaluation and optimization of proteomics-based sample preparation methods.
 resourceID: ID0045
+resourceKeywords:
+- publication
+- quality
+- quality assessment
+- quality control
+- scientific publication
+- synonyms
+- type of resource
+- workflow
 resourceSubcategory: Reference material
 resourceTags:
 - mass spectrometry
 - proteomics
-- publication
-- quality assessment
-- quality control
-- workflow
+- scientific publication
 resourceTitle: A proteomics performance standard to support measurement quality in
   proteomics
 resourceUrl: https://analyticalsciencejournals.onlinelibrary.wiley.com/doi/10.1002/pmic.201100522

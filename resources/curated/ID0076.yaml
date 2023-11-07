@@ -3,10 +3,19 @@ resourceDescription: A web-based platform for biomedical data analysis. Galaxy p
   a collection of data analysis tools and pipelines. Analyses can be run on public
   Galaxy servers or servers can be deployed locally.
 resourceID: ID0076
+resourceKeywords:
+- analysis platform
+- computational workflow registry
+- registry
+- software application
+- synonyms
+- type of resource
+- web application
+- workflow registry
 resourceSubcategory: Multi-omics analysis
 resourceTags:
-- analysis platform
-- workflow registry
+- registry
+- software application
 resourceTitle: 'The European Galaxy Server: Empowering bioinformatics research with
   accessible tools and workflows'
 resourceUrl: https://usegalaxy.eu/

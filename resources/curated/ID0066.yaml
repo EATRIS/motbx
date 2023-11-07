@@ -2,9 +2,14 @@ resourceCategory: Omics data management and analysis
 resourceDescription: This document describes the FAIR data stewardship and tool development
   guidelines of the Netherlands X-omics Initiative.
 resourceID: ID0066
+resourceKeywords:
+- FAIR principles
+- guideline
+- guidelines
+- synonyms
+- type of resource
 resourceSubcategory: FAIR omics data
 resourceTags:
-- FAIR principles
-- guidelines
+- guideline
 resourceTitle: 'X-omics: FAIR data stewardship and tool development in X-omics'
 resourceUrl: https://www.x-omics.nl/pdfs/FAIR%20policies%20X-omics_v4.pdf

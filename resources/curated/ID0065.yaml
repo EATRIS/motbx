@@ -3,9 +3,14 @@ resourceDescription: This website of GO FAIR gives an overview of the FAIR (Find
   Accessible, Interoperable, Reusable) data principles including specific guidelines
   and practical examples.
 resourceID: ID0065
+resourceKeywords:
+- FAIR principles
+- guideline
+- guidelines
+- synonyms
+- type of resource
 resourceSubcategory: FAIR omics data
 resourceTags:
-- FAIR principles
-- guidelines
+- guideline
 resourceTitle: 'FAIR Principles: GO FAIR Initiative, enabling global open science'
 resourceUrl: https://www.go-fair.org/fair-principles/

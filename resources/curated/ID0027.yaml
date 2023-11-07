@@ -7,14 +7,41 @@ resourceDescription: Gene expression analysis of microRNA molecules is becoming 
   terms of better reduction of technical variation and more accurate appreciation
   of biological changes.
 resourceID: ID0027
+resourceKeywords:
+- PCR
+- RT-PCR
+- RT-qPCR
+- assay type
+- data analysis
+- data processing
+- experimental data
+- measurement type
+- miRNA
+- miRNA Seq
+- miRNA sequencing
+- miRNA-seq
+- miRNAs
+- micro RNA
+- microRNA
+- normalisation
+- normalization
+- omics
+- omics type
+- publication
+- qRT-PCR
+- quantitative RT-PCR
+- reverse transcription PCR
+- scientific publication
+- synonyms
+- transcriptomics
+- translational research data
+- type of omics
+- type of resource
 resourceSubcategory: Guidelines and best practices
 resourceTags:
-- RT-qPCR
-- data processing
-- miRNAs
-- normalization
+- PCR
 - protocol
-- publication
+- scientific publication
 - transcriptomics
 resourceTitle: A novel and universal method for microRNA RT-qPCR data normalization
 resourceUrl: https://genomebiology.biomedcentral.com/articles/10.1186/gb-2009-10-6-r64

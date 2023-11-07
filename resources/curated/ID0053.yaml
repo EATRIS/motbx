@@ -2,10 +2,26 @@ resourceCategory: Proteomics
 resourceDescription: High-Performance Liquid Chromatography High-Resolution Mass Spectrometry
   (HPLC-HRMS) method of plasma proteome profiling.
 resourceID: ID0053
+resourceKeywords:
+- EATRIS flagship project
+- EATRIS project
+- EATRIS-Plus
+- EATRIS-Plus project
+- HR-MS
+- HR-MS analysis
+- HRMS
+- assay type
+- flagship project
+- high-resolution mass spectrometry
+- mass spectrometry
+- measurement type
+- project
+- synonyms
+- type of resource
 resourceSubcategory: Protocols
 resourceTags:
-- EATRIS-Plus project
-- HR-MS analysis
+- EATRIS-Plus
+- mass spectrometry
 - proteomics
 - protocol
 resourceTitle: HR-MS proteomic analysis with Thermo Orbitrap Fusion instrument setup

@@ -12,13 +12,35 @@ resourceDescription: The report  describes the EATRIS-Plus FAIRification strateg
   types and facilitate integration of multi-omics data in personalised health and
   medicine research projects.
 resourceID: ID0080
-resourceSubcategory: FAIR omics data
-resourceTags:
+resourceKeywords:
+- EATRIS flagship project
+- EATRIS project
+- EATRIS-Plus
 - EATRIS-Plus project
 - FAIR principles
+- analysis workflow
 - analysis workflows
+- bioinformatics workflow
+- computational workflow
+- flagship project
+- guideline
 - metadata
 - metadata standard
+- pipeline
+- project
+- reference
+- software application
+- specification
+- standard
+- standards
+- synonyms
+- type of resource
+resourceSubcategory: FAIR omics data
+resourceTags:
+- EATRIS-Plus
+- guideline
+- metadata standard
 - multi-omics
+- software application
 resourceTitle: Report Describing EATRIS-Plus FAIRification Template and Workflows
 resourceUrl: https://zenodo.org/record/8069891

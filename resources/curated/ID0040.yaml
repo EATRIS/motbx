@@ -12,15 +12,40 @@ resourceDescription: Different technologies, such as quantitative real-time PCR 
   data in an attempt to provide a basis for the establishment of a global standard
   procedure that will allow comparison across studies.
 resourceID: ID0040
-resourceSubcategory: Raw data processing
-resourceTags:
+resourceKeywords:
+- PCR
+- assay type
+- data analysis
 - data processing
+- experimental data
+- guideline
 - guidelines
+- measurement type
+- miRNA
+- miRNA Seq
+- miRNA sequencing
+- miRNA-seq
 - miRNAs
+- micro RNA
+- microRNA
+- normalisation
 - normalization
-- protocol
+- omics
+- omics type
 - publication
 - qPCR
+- scientific publication
+- synonyms
+- transcriptomics
+- translational research data
+- type of omics
+- type of resource
+resourceSubcategory: Raw data processing
+resourceTags:
+- PCR
+- guideline
+- protocol
+- scientific publication
 - transcriptomics
 resourceTitle: Data normalization strategies for microRNA quantification
 resourceUrl: https://academic.oup.com/clinchem/article/61/11/1333/5611589

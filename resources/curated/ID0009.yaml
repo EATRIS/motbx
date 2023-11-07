@@ -6,15 +6,28 @@ resourceDescription: Unmethylated lambda DNA and CpG-methylated pUC19 DNA, two e
   role in validating the quality of EM-seq libraries, enabling researchers to achieve
   robust and precise outcomes in their experiments.
 resourceID: ID0009
+resourceKeywords:
+- CpG methylation
+- DNA
+- epigenomics
+- experimental data
+- material entity
+- methyl-seq kit
+- molecular entity
+- omics
+- omics type
+- organic polymer
+- sample
+- translational research data
+- type of omics
+- unmethylated lambda DNA
 resourceSubcategory: Reference material
 resourceTags:
-- CpG methylation
+- DNA
 - epigenomics
 - genomics
 - internal quality control (IQC)
-- methyl-seq kit
 - multi-omics
-- unmethylated lambda DNA
 resourceTitle: 'DNA Controls in EM-Seq Kit: Unmethylated lambda and CpG-Methylated
   pUC19'
 resourceUrl: https://international.neb.com/faqs/2019/06/04/what-levels-of-conversion-are-typical-with-the-control-dnas-supplied-in-the-em-seq-kit

@@ -16,13 +16,22 @@ resourceDescription: "DNA methylation is the most studied epigenetic mark involv
   \ series. In summary, our data suggests that EM-seq overall performed better than\
   \ PBAT in whole-genome methylation quantification of low input samples."
 resourceID: ID0021
-resourceSubcategory: Technical and quality checks
-resourceTags:
+resourceKeywords:
 - EM-seq
-- epigenomics
+- assay type
+- measurement type
 - methyl-seq
+- methylation profiling by high throughput sequencing
 - methylation sequencing
 - publication
+- scientific publication
+- sequencing
+- synonyms
+- type of resource
+resourceSubcategory: Technical and quality checks
+resourceTags:
+- epigenomics
+- scientific publication
 - sequencing
 resourceTitle: Comparison of EM-seq and PBAT methylome library methods for low-input
   DNA

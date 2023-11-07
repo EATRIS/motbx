@@ -17,13 +17,32 @@ resourceDescription: "Currently, a lack of consensus exists on how best to perfo
   \ will encourage better experimental practice, allowing more reliable and unequivocal\
   \ interpretation of qPCR results."
 resourceID: ID0031
-resourceSubcategory: Guidelines and best practices
-resourceTags:
+resourceKeywords:
 - MIQE
+- PCR
+- RT-PCR
+- assay type
+- guideline
 - guidelines
+- measurement type
+- minimum information standard
 - publication
 - qPCR
 - qRT-PCR
+- reference
+- reverse transcription PCR
+- scientific publication
+- specification
+- standard
+- standards
+- synonyms
+- type of resource
+resourceSubcategory: Guidelines and best practices
+resourceTags:
+- PCR
+- guideline
+- minimum information standard
+- scientific publication
 - transcriptomics
 resourceTitle: 'The MIQE Guidelines: Minimum information for publication of quantitative
   real-time PCR experiments'

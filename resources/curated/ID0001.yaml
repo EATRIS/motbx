@@ -11,18 +11,42 @@ resourceDescription: ISO Guide 80:2014 guidance for the in-house preparation of 
   case studies for different sectors. Users should have material knowledge and be
   aware of matrix effects and contamination risks.
 resourceID: ID0001
+resourceKeywords:
+- guidelines
+- quality control material
+- in-house
+- ISO Guide 80:2014
+- Quality Control Materials
+- QCMs
+- ISO Guide 80
+- Reference Materials
+- Quality Control
+- Stable Materials
+- Transportation
+- ISO Guides 34
+- ISO Guide 35
+- Homogeneity
+- Stability
+- Characterization
+- Statistical Control
+- Measurement System
+- Usage Guidance
+- Preparation
+- Case Studies
+- Material Knowledge
+- Matrix Effects
+- Contamination Risks
 resourceSubcategory: Guidelines and best practices
 resourceTags:
 - ISO standard
 - epigenomics
 - genomics
-- guidelines
-- in-house
+- guideline
 - internal quality control (IQC)
 - metabolomics
 - multi-omics
 - proteomics
-- quality control material
+- reference material
 - transcriptomics
 resourceTitle: 'ISO Guide 80:2014: Guidance for in-house preparation of quality control
   materials'

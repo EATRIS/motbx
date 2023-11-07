@@ -6,13 +6,33 @@ resourceDescription: ISO Guide 31:2015 guideline assists reference material (RM)
   assess the appropriateness of an RM or Certified Reference Material (CRM). This
   guideline also sets out the minimum criteria for labeling the RM container.
 resourceID: ID0002
+resourceKeywords:
+- Certified Reference Material (CRM)
+- IQC
+- ISO Guide 31:2015
+- RM
+- RM certificates
+- RM container
+- comprehensive documentation
+- documentation
+- guideline
+- guidelines
+- internal quality control
+- internal quality control (IQC)
+- labeling
+- minimum criteria
+- product information sheets
+- quality
+- quality control
+- reference material producers
+- synonyms
+- type of resource
 resourceSubcategory: Guidelines and best practices
 resourceTags:
 - ISO standard
-- documentation
 - epigenomics
 - genomics
-- guidelines
+- guideline
 - internal quality control (IQC)
 - metabolomics
 - multi-omics

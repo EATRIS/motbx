@@ -2,14 +2,41 @@ resourceCategory: Transcriptomics
 resourceDescription: Protocol for miRNAs amplification by qPCR using miRCURY LNA miRNome
   PCR Panels or Serum/Plasma Focus PCR Panels Qiagen kit (Reference number 339325)
 resourceID: ID0039
-resourceSubcategory: Protocols
-resourceTags:
+resourceKeywords:
+- EATRIS flagship project
+- EATRIS project
+- EATRIS-Plus
 - EATRIS-Plus project
+- PCR
+- assay type
+- experimental data
+- flagship project
+- measurement type
 - miRNA
+- miRNA Seq
+- miRNA sequencing
+- miRNA-seq
+- miRNAs
+- micro RNA
 - microRNA
-- protocol
+- omics
+- omics type
+- project
+- qPCR
+- qPCR array
 - qPCR arrays
 - qPCR panels
+- synonyms
+- transcriptomics
+- translational research data
+- type of omics
+- type of resource
+resourceSubcategory: Protocols
+resourceTags:
+- EATRIS-Plus
+- PCR
+- miRNA
+- protocol
 - transcriptomics
 resourceTitle: miRNAs amplification by qPCR arrays
 resourceUrl: SampleAnalysisProtocols/IRYCIS_qRT_PCR/MOTBX_InternalProtocol_Panels_qPCR_20230630.pdf

@@ -2,16 +2,37 @@ resourceCategory: Internal Quality Control
 resourceDescription: DNA methylation reference dataset for methylation profiling by
   high throughput sequencing (Methyl-seq). The full article can be found at https://doi.org/10.1186/s13059-021-02529-2
 resourceID: ID0008
+resourceKeywords:
+- EM-seq
+- EM-seq NGS
+- Enzymatic Methyl-seq Kit
+- NEBNext Enzymatic Methyl-seq
+- assay type
+- experimental data
+- genomics
+- measurement type
+- methyl-seq
+- methylation profiling by high throughput sequencing
+- methylation sequencing
+- omics
+- omics type
+- reference data set
+- reference dataset
+- sequencing
+- somatic genome variations
+- somatic mutation
+- somatic mutations
+- synonyms
+- translational research data
+- type of omics
+- type of resource
 resourceSubcategory: Reference material
 resourceTags:
-- EM-seq NGS
 - epigenomics
 - genomics
 - internal quality control (IQC)
-- methyl-seq
 - multi-omics
-- reference dataset
+- reference data set
 - sequencing
-- somatic mutation
 resourceTitle: 'The SEQC2 epigenomics quality control (EpiQC) study: Reference dataset'
 resourceUrl: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE186383

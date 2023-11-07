@@ -5,6 +5,11 @@ resourceDescription: Multi-omics reference materials and practical tools to enha
   as quality control measures, ensuring accurate data integration in precision medicine
   studies.
 resourceID: ID0010
+resourceKeywords:
+- reference data set
+- reference dataset
+- synonyms
+- type of resource
 resourceSubcategory: Reference material
 resourceTags:
 - epigenomics
@@ -13,7 +18,7 @@ resourceTags:
 - metabolomics
 - multi-omics
 - proteomics
-- reference dataset
+- reference data set
 - transcriptomics
 resourceTitle: 'Quality control and data integration of multi-omics profiling: Reference
   dataset'

@@ -10,17 +10,31 @@ resourceDescription: EATRIS Certificate of Commitment to Quality (ECCQ) emphasiz
   pilot program signifies EATRIS' commitment to promoting quality and best practices
   in translational research across Europe.
 resourceID: ID0013
+resourceKeywords:
+- Academic Institutions
+- ECCQ
+- EQA
+- Quality Commitment
+- best practice
+- certification
+- external quality assessment
+- external quality assessment (EQA)
+- proficiency testing
+- quality
+- quality assessment
+- quality assurance
+- quality certification
+- quality recognition
+- synonyms
+- type of resource
 resourceSubcategory: Quality certification
 resourceTags:
-- ECCQ
-- certification
 - epigenomics
-- external quality assessment (EQA)
 - genomics
 - metabolomics
 - multi-omics
+- proficiency testing
 - proteomics
-- quality
 - transcriptomics
 resourceTitle: 'Eatris Product: ECCQ certificate of commitment to quality'
 resourceUrl: https://eatris.eu/news/the-eatris-certificate-of-commitment-to-quality-pilot-launched/

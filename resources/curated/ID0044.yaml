@@ -13,11 +13,17 @@ resourceDescription: Mass spectrometry is a highly complex analytical technique 
   and how they can be used to rigorously assess detailed aspects of the instrument
   performance.
 resourceID: ID0044
+resourceKeywords:
+- publication
+- quality
+- quality control
+- scientific publication
+- synonyms
+- type of resource
 resourceSubcategory: Guidelines and best practices
 resourceTags:
 - mass spectrometry
 - proteomics
-- publication
-- quality control
+- scientific publication
 resourceTitle: Quality control in mass spectrometry-based proteomics
 resourceUrl: https://pubmed.ncbi.nlm.nih.gov/28802010/

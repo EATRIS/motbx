@@ -4,10 +4,25 @@ resourceDescription: EATRIS-Plus project template for FAIRification of multi-omi
   (ISA) metadata in ISA-Tab and ISA-JSON format following the metadata structure used
   for the EATRIS-Plus multi-omics reference cohort.
 resourceID: ID0067
+resourceKeywords:
+- EATRIS flagship project
+- EATRIS project
+- EATRIS-Plus
+- EATRIS-Plus project
+- flagship project
+- metadata
+- metadata standard
+- project
+- reference
+- specification
+- standard
+- standards
+- synonyms
+- type of resource
 resourceSubcategory: FAIR omics data
 resourceTags:
-- EATRIS-Plus project
-- metadata
+- EATRIS-Plus
+- metadata standard
 resourceTitle: 'EATRIS-Plus ISA: Creation of ISA metadata structure for multi-omics
   study'
 resourceUrl: https://github.com/EATRIS-Plus/eatris-plus-isa

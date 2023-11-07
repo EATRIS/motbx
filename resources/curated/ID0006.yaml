@@ -10,10 +10,23 @@ resourceDescription: NA12878 is a human genomic DNA sample standardised by the N
   protein. The truncated protein contains 234 amino acids and lacks the heme-binding
   region, rendering it catalytically inactive.
 resourceID: ID0006
-resourceSubcategory: Reference material
-resourceTags:
+resourceKeywords:
 - NGS
 - WGS
+- assay type
+- experimental data
+- genomics
+- measurement type
+- next generation sequencing
+- omics
+- omics type
+- sequencing
+- synonyms
+- translational research data
+- type of omics
+- whole genome
+resourceSubcategory: Reference material
+resourceTags:
 - epigenomics
 - genomics
 - internal quality control (IQC)

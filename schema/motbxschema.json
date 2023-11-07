@@ -46,6 +46,12 @@
         "type": "string"
       },
       "minItems": 1
+    },
+    "resourceKeywords": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
     }
   },
   "required": [

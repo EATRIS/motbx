@@ -18,14 +18,21 @@ resourceDescription: Reference materials are vital to benchmarking the reproduci
   suggests the NCI-7 material may also have applications as a universal standard proteomic
   reference.
 resourceID: ID0050
+resourceKeywords:
+- clinical guidelines
+- guideline
+- publication
+- samples
+- scientific publication
+- synonyms
+- type of resource
 resourceSubcategory: Reference material
 resourceTags:
-- clinical guidelines
+- guideline
 - mass spectrometry
 - proteomics
-- publication
 - reference material
-- samples
+- scientific publication
 resourceTitle: Evaluation of NCI-7 cell line panel as a reference material for clinical
   proteomics
 resourceUrl: https://pubs.acs.org/doi/10.1021/acs.jproteome.8b00165

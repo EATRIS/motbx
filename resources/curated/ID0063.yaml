@@ -6,11 +6,17 @@ resourceDescription: 'Provides a user-friendly, flexible and easily extendable s
   of mass spectrometry based molecular profile data, https://academic.oup.com/bioinformatics/article/22/5/634/206500?login=false),
   but has been completely redesigned and rewritten since then.'
 resourceID: ID0063
+resourceKeywords:
+- MZmine
+- bioinformatics tool
+- data processing
+- software
+- software application
+- synonyms
+- type of resource
 resourceSubcategory: Raw data processing
 resourceTags:
-- MZmine
-- data processing
 - metabolomics
-- software
+- software application
 resourceTitle: MZmine 3-open source code repository
 resourceUrl: https://github.com/mzmine/mzmine3

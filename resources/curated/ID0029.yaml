@@ -2,14 +2,32 @@ resourceCategory: Transcriptomics
 resourceDescription: 'Featured article on the MIQE guidelines: minimum information
   for publication of quantitative real-time PCR experiments.'
 resourceID: ID0029
-resourceSubcategory: Guidelines and best practices
-resourceTags:
+resourceKeywords:
 - MIQE
+- PCR
+- assay type
+- guideline
 - guidelines
-- protocol
+- measurement type
+- minimum information standard
 - publication
 - qPCR
+- quality
+- reference
 - reproducibility
+- scientific publication
+- specification
+- standard
+- standards
+- synonyms
+- type of resource
+resourceSubcategory: Guidelines and best practices
+resourceTags:
+- PCR
+- guideline
+- minimum information standard
+- protocol
+- scientific publication
 - transcriptomics
 resourceTitle: 'MIQE: A step toward more robust and reproducible quantitative PCR'
 resourceUrl: https://academic.oup.com/clinchem/article/63/9/1537/5612653

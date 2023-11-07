@@ -10,9 +10,13 @@ resourceDescription: The MaxQuant software, with a suite of advanced algorithms 
   to uncover the intricacies of complex biological systems. For detailed information
   see https://www.nature.com/articles/nprot.2016.136
 resourceID: ID0056
+resourceKeywords:
+- data analysis
+- data processing
+- data search
+- type of resource
 resourceSubcategory: Tool
 resourceTags:
-- data search
 - proteomics
 resourceTitle: 'MaxQuant: Software tool for quantitative analysis of mass spectrometry-based
   proteomics data'

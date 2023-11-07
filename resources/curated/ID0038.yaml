@@ -2,13 +2,42 @@ resourceCategory: Transcriptomics
 resourceDescription: 'Protocol for First-Strand cDNA Synthesis: miRNA Retrotranscription
   (RT) from serum or plasma using Qiagen kit (reference number 339340)'
 resourceID: ID0038
-resourceSubcategory: Protocols
-resourceTags:
+resourceKeywords:
+- EATRIS flagship project
+- EATRIS project
+- EATRIS-Plus
 - EATRIS-Plus project
 - Retrotranscription
 - cDNA synthesis
+- experimental data
+- flagship project
 - miRNA
+- miRNA Seq
+- miRNA sequencing
+- miRNA-seq
+- miRNAs
+- micro RNA
 - microRNA
+- omics
+- omics type
+- project
+- protocol
+- retrotranscription
+- sample collection
+- sample preparation
+- sample preparation protocol
+- sample processing
+- sample processing protocol
+- samples preparation
+- synonyms
+- transcriptomics
+- translational research data
+- type of omics
+- type of resource
+resourceSubcategory: Protocols
+resourceTags:
+- EATRIS-Plus
+- miRNA
 - protocol
 - transcriptomics
 resourceTitle: miRNAs cDNA synthesis

@@ -14,14 +14,27 @@ resourceDescription: Plasma and serum are rich sources of information regarding 
   to assess overall sample-related bias in clinical studies and to prevent costly
   miss-assignment of biomarker candidates.
 resourceID: ID0046
+resourceKeywords:
+- protocol
+- publication
+- quality
+- quality control
+- sample collection
+- sample preparation
+- sample preparation protocol
+- sample processing
+- sample processing protocol
+- samples preparation
+- scientific publication
+- study design
+- synonyms
+- type of resource
 resourceSubcategory: Samples processing
 resourceTags:
 - biomarker
 - proteomics
-- publication
-- quality control
-- sample collection
-- study design
+- protocol
+- scientific publication
 resourceTitle: Plasma proteome profiling to detect and avoid sample-related biases
   in biomarker studies
 resourceUrl: https://www.embopress.org/doi/full/10.15252/emmm.201910427

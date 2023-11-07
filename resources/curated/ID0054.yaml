@@ -2,10 +2,21 @@ resourceCategory: Proteomics
 resourceDescription: Protocol for raw data search using Proteome Discoverer (Thermo)
   including detail description of all parameters.
 resourceID: ID0054
+resourceKeywords:
+- EATRIS flagship project
+- EATRIS project
+- EATRIS-Plus
+- EATRIS-Plus project
+- data analysis
+- data processing
+- data search
+- flagship project
+- project
+- synonyms
+- type of resource
 resourceSubcategory: Protocols
 resourceTags:
-- EATRIS-Plus project
-- data search
+- EATRIS-Plus
 - proteomics
 - protocol
 resourceTitle: Raw data search in proteomics

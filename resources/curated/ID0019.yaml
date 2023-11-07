@@ -21,11 +21,21 @@ resourceDescription: "With rapidly dropping sequencing cost, the popularity of w
   \ for the Swift Biosciences\u2019s Accel-NGS Methyl-Seq protocol to remove the Adaptase\
   \ sequence."
 resourceID: ID0019
+resourceKeywords:
+- assay type
+- measurement type
+- methyl-seq
+- methylation profiling by high throughput sequencing
+- methylation sequencing
+- publication
+- scientific publication
+- sequencing
+- synonyms
+- type of resource
 resourceSubcategory: Guidelines and best practices
 resourceTags:
 - epigenomics
-- methyl-seq
-- publication
+- scientific publication
 - sequencing
 resourceTitle: Evaluation of whole-genome DNA methylation sequencing library preparation
   protocols

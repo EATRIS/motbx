@@ -15,10 +15,17 @@ resourceDescription: "Variation in RNA expression data can be attributed to a va
   \ and traceable from NIST-certified DNA plasmids. The transcripts are designed to\
   \ be 250 to 2,000 nt in length, which mimic natural eukaryotic mRNAs."
 resourceID: ID0003
+resourceKeywords:
+- NGS
+- RNA sequencing
+- RNA-seq
+- assay type
+- measurement type
+- next generation sequencing
+- sequencing
+- synonyms
 resourceSubcategory: Reference material
 resourceTags:
-- NGS
-- RNA-seq
 - genomics
 - internal quality control (IQC)
 - mRNA

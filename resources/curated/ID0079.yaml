@@ -6,8 +6,14 @@ resourceDescription: Workflowhub is a registry for scientific computational work
   Workflowhub is sponsored by multiple European initiatives including EOSC-Life and
   ELIXIR.
 resourceID: ID0079
+resourceKeywords:
+- computational workflow registry
+- registry
+- synonyms
+- type of resource
+- workflow registry
 resourceSubcategory: Multi-omics analysis
 resourceTags:
-- workflow registry
+- registry
 resourceTitle: 'WorkflowHub: Registry for scientific computational workflows'
 resourceUrl: https://workflowhub.eu/

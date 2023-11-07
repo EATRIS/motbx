@@ -12,11 +12,19 @@ resourceDescription: European Molecular Genetics Quality Network (EMQN) Certific
   quality assurance and standardisation in molecular genetic testing, ultimately benefiting
   patients and healthcare providers.
 resourceID: ID0011
-resourceSubcategory: Quality certification
-resourceTags:
+resourceKeywords:
 - EMQN
 - certification
 - external quality assessment (EQA)
+- proficiency testing
 - quality
+- quality assessment
+- quality assurance
+- quality certification
+- synonyms
+- type of resource
+resourceSubcategory: Quality certification
+resourceTags:
+- proficiency testing
 resourceTitle: 'EMQN Certifications: Advancing quality asurance in genetic testing'
 resourceUrl: https://www.emqn.org/

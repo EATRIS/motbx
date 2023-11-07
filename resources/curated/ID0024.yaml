@@ -8,14 +8,36 @@ resourceDescription: The NEBNext Enzymatic Methyl-seq library preparation method
   the method offers a streamlined and automated, workflow enabling the generation
   of high-quality libraries for next-generation sequencing.
 resourceID: ID0024
-resourceSubcategory: Protocols
-resourceTags:
+resourceKeywords:
+- CpG methylation
+- EATRIS flagship project
+- EATRIS project
+- EATRIS-Plus
 - EATRIS-Plus project
 - EM-seq
+- assay type
 - epigenomics
+- experimental data
+- flagship project
+- measurement type
 - methyl-seq
 - methylation
+- methylation profiling by high throughput sequencing
 - methylation sequencing
+- methylome
+- omics
+- omics type
+- project
+- sequencing
+- synonyms
+- translational research data
+- type of omics
+- type of resource
+resourceSubcategory: Protocols
+resourceTags:
+- EATRIS-Plus
+- epigenomics
 - protocol
+- sequencing
 resourceTitle: 'Methylome sequencing: NEBNext enzymatic methyl-seq (EM-seq) protocol'
 resourceUrl: SampleAnalysisProtocol/UU_MethSeq/MOTBX_InternalProtocol_MethylSeq_20230706/pdf

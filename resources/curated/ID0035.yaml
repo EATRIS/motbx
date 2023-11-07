@@ -1,11 +1,34 @@
 resourceCategory: Transcriptomics
 resourceDescription: Protocol for stranded sequencing mRNA extracted from human serum
 resourceID: ID0035
-resourceSubcategory: Protocols
-resourceTags:
+resourceKeywords:
+- EATRIS flagship project
+- EATRIS project
+- EATRIS-Plus
 - EATRIS-Plus project
 - RNA
+- RNA sequencing
 - RNA-seq
+- assay type
+- experimental data
+- flagship project
+- material entity
+- measurement type
+- molecular entity
+- omics
+- omics type
+- organic polymer
+- project
+- sample
+- sequencing
+- synonyms
+- transcriptomics
+- translational research data
+- type of omics
+- type of resource
+resourceSubcategory: Protocols
+resourceTags:
+- EATRIS-Plus
 - protocol
 - sequencing
 - transcriptomics

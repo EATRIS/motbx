@@ -15,11 +15,16 @@ resourceDescription: "Proteins in the circulatory system mirror an individual\u2
   \ an informative portrait of a person\u2019s health state, and we envision its large-scale\
   \ use in biomedicine."
 resourceID: ID0051
+resourceKeywords:
+- publication
+- scientific publication
+- synonyms
+- type of resource
 resourceSubcategory: Technical and quality checks
 resourceTags:
 - mass spectrometry
 - proteomics
 - protocol
-- publication
+- scientific publication
 resourceTitle: Plasma proteome profiling to assess human health and disease
 resourceUrl: https://www.sciencedirect.com/science/article/pii/S2405471216300722

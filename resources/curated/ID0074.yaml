@@ -4,9 +4,16 @@ resourceDescription: The RDMkit collects best practices and guidelines to help m
   introduction to research data lifecycle and FAIR management, curated collections
   offer solutions and tool collection for various domains or data manegment tasks.
 resourceID: ID0074
+resourceKeywords:
+- bioinformatics software registry
+- registry
+- services registry
+- software registry
+- synonyms
+- tool registry
+- type of resource
 resourceSubcategory: FAIR omics data
 resourceTags:
-- services registry
-- tool registry
+- registry
 resourceTitle: RDMkit- The research data management toolkit for life sciences
 resourceUrl: https://rdmkit.elixir-europe.org/

@@ -4,9 +4,17 @@ resourceDescription: This website is home to Investigation/Study/Assay (ISA) too
   capturing metadata of multi-omics experiments and is supported by several EMBL-EBI
   data archives.
 resourceID: ID0068
+resourceKeywords:
+- metadata
+- metadata standard
+- reference
+- specification
+- standard
+- standards
+- synonyms
+- type of resource
 resourceSubcategory: FAIR omics data
 resourceTags:
-- metadata
 - metadata standard
 - multi-omics
 resourceTitle: 'ISA framework: Open source ISA metadata framework'

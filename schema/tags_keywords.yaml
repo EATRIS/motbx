@@ -1,0 +1,444 @@
+- translational research data:
+  - omics:
+    - synonyms:
+      - type of omics
+      - omics type
+      - experimental data
+    - multi-omics (tag)
+    - genomics (tag):
+      - synonyms:
+        - genome
+        - genomics DNA
+        - genotype
+      - whole genome:
+        - synonyms:
+          - WGS
+      - exome:
+        - synonyms:
+          - whole exome
+          - whole-exome sequencing
+      - copy number variation
+      - somatic genome variations:
+        - synonyms:
+          - somatic mutations
+          - somatic mutation
+    - epigenomics (tag):
+      - synonyms:
+        - epigenetic modifications
+        - epigenome
+      - CpG methylation:
+        - synonyms:
+          - methylation
+          - methylome
+    - transcriptomics (tag):
+      - synonyms:
+        - transcriptome
+        - gene expression
+        - RNA
+      - mRNA-seq:
+        - synonyms:
+          - mRNA
+          - mRNA sequencing
+          - mRNA Seq
+          - messenger RNA
+      - miRNA-seq:
+        - synonyms:
+          - miRNA
+          - miRNA sequencing
+          - miRNA Seq
+          - micro RNA
+          - microRNA
+          - miRNAs
+    - proteomics (tag):
+      - synonyms:
+        - protein levels
+        - proteins
+        - proteome
+    - metabolomics (tag):
+      - synonyms:
+        - metabolite levels
+        - metabolite profiling
+        - metabolites
+        - metabolome
+      - targeted metabolomics:
+        - synonyms:
+          - targeted metabolite profiling
+      - untargeted metabolomics:
+        - synonyms:
+          - untargeted metabolite profiling
+      - lipidomics:
+        - synonyms:
+          - lipidomic profiling
+          - lipid profiling
+        - targeted lipidomics
+        - untargeted lipidomics
+      - fluxomics
+    - microbiomics:
+      - synonyms:
+        - microbiome
+        - microbiota
+    - macrobiomics:
+      - synonyms:
+        - macrobiota
+    - glycomics:
+      - synonyms:
+        - glycans
+        - glycan profiling
+        - glycome
+        - glycomic profiling
+    - spatial omics:
+      - synonyms:
+        - omics imaging
+  - biomedical imaging:
+    - synonyms:
+      - medical imaging
+    - radiomics:
+      - synonyms:
+        - radiomic features
+  - phenotypic data (tag):
+    - synonyms:
+      - phenotype
+      - clinical data
+      - clinical information
+      - disease symptoms
+  - biomarker (tag):
+    - synonyms:
+      - biomarkers
+    - digital biomarker
+- assay type:
+  - synonyms:
+    - measurement type
+  - mass spectrometry (tag):
+    - high-resolution mass spectrometry:
+      - synonyms:
+        - HR-MS
+        - HRMS
+        - HR-MS analysis
+    - Liquid chromatography (LC)
+    - UltraHighPerfomenceLiquidChromatography (UHPLC)
+    - HILIC
+    - Reversed phase:
+      - C18
+      - C30
+    - direct infusion - mass spectrometry (DI-MS)
+  - sequencing (tag):
+    - next generation sequencing:
+      - synonyms:
+        - NGS
+    - DNA sequencing:
+      - synonyms:
+        - DNA sequence analysis
+        - DNAseq
+        - DNA-seq
+      - Illumina sequencing:
+        - HiSeq:
+          - synonyms:
+            - Hi-seq
+    - RNA sequencing:
+      - synonyms:
+        - RNA-seq
+    - methylation sequencing:
+      - synonyms:
+        - methylation profiling by high throughput sequencing
+        - methyl-seq
+      - EM-seq:
+        - synonyms:
+          - NEBNext Enzymatic Methyl-seq
+          - Enzymatic Methyl-seq Kit
+          - EM-seq NGS
+  - array (tag):
+    - microRNA array profiling
+  - PCR (tag):
+    - synonyms:
+      - polymerase chain reaction
+    - qPCR:
+      - qPCR array:
+        - synonyms:
+          - qPCR arrays
+          - qPCR panels
+    - RT-PCR:
+      - synonyms:
+        - reverse transcription PCR
+      - microRNA profiling by RT-PCR
+      - qRT-PCR:
+        - synonyms:
+          - quantitative RT-PCR
+          - RT-qPCR
+- biospecimen type:
+  - synonyms:
+    - sample type
+    - specimen type
+    - type of biospecimen
+  - single-cell (tag):
+    - synonyms:
+      - single cell sample
+      - single cell specimen
+      - single cell analysis
+  - biological fluid (tag):
+    - synonyms:
+      - biofluid
+      - biofluids
+    - blood:
+      - synonyms:
+        - blood sample
+        - blood specimen
+      - serum
+      - plasma
+    - saliva
+  - tissue (tag)
+- molecular entity:
+  - synonyms:
+    - material entity
+    - sample
+  - organic polymer:
+    - DNA (tag):
+      - synonyms:
+        - deoxyribonucleic acid
+      - unmethylated lambda DNA
+    - RNA:
+      - synonyms:
+        - ribonucleic acid
+      - mRNA (tag)
+      - miRNA (tag)
+    - protein (tag)
+  - small molecule:
+    - synonyms:
+      - small molecules
+    - amino acid (tag)
+    - metabolite (tag):
+      - polar metabolites
+      - non-polar metabolites
+    - nucleic acid (tag)
+    - lipid (tag)
+- type of resource:
+  - quality:
+    - reproducibility
+    - data quality
+    - quality assessment:
+      - synonyms:
+        - quality assurance
+      - quality certification:
+        - ECCQ:
+          - synonyms:
+            - EATRIS Certificate of Commitment to Quality
+        - proficiency testing (tag):
+          - synonyms:
+            - PT
+            - proficiency testing scheme
+            - proficiency testing programme
+            - EQA
+            - external quality assessment (EQA)
+            - PT scheme
+            - ring trial
+            - inter-laboratory tests
+    - quality control:
+      - internal quality control (IQC) (tag):
+        - synonyms:
+          - IQC
+          - internal quality control
+          - in-house quality control
+          - in-house
+  - translational research use case:
+    - synonyms:
+      - translational use case
+      - transaltional example
+      - translational research
+      - translational medicine
+      - translational science
+    - preclinical study (tag):
+      - synonyms:
+        - preclinical use case
+        - basic research
+        - discovery science
+        - preclinical testing
+        - basic research study
+    - clinical study (tag):
+      - synonyms:
+        - clinical testing
+      - phase I clinical trial:
+        - synonyms:
+          - proof of concept
+          - translation to humans
+          - first-in-human
+      - phase II or III clinical trial:
+        - synonyms:
+          - translation to patients
+  - scientific publication (tag):
+    - synonyms:
+      - paper
+      - publication
+    - original research article
+    - review article
+    - short communication:
+      - synonyms:
+        - short report
+        - letter
+        - editorial
+    - case study
+    - method article
+    - meta-analysis
+  - policy (tag):
+    - synonyms:
+      - regulation
+  - training:
+    - tutorial:
+      - synonyms:
+        - tutorials
+    - template
+  - guideline (tag):
+    - synonyms:
+      - recommendations
+      - guidelines
+      - best practices
+      - best practice guidance
+      - framework
+      - good practices
+    - clinical guidelines
+    - FAIR principles:
+      - synonyms:
+        - FAIR guiding principles
+        - FAIR
+  - software application (tag):
+    - synonyms:
+      - tool
+      - software
+      - application
+    - web application:
+      - analysis platform
+    - desktop application
+    - command-line tool
+    - computational workflow:
+      - synonyms:
+        - pipeline
+        - bioinformatics workflow
+        - analysis workflow
+        - analysis workflows
+    - script
+    - notebook
+    - source code
+    - bioinformatics tool:
+      - MZmine
+      - bismark
+    - workflow management system:
+      - nextflow:
+        - nfcore:
+          - synonyms:
+            - NFcore
+  - data processing:
+    - synonyms:
+      - data analysis
+    - data search
+    - normalisation:
+      - synonyms:
+        - normalization
+    - alignment
+    - mapping
+    - data visualisation:
+      - synonyms:
+        - data visualization
+        - visualisation
+        - visualization
+  - reference material (tag):
+    - synonyms:
+      - quality control material
+      - reference materials
+    - certified reference material:
+      - synonyms:
+        - reference standard
+  - reference data set (tag):
+    - synonyms:
+      - reference dataset
+  - standard:
+    - synonyms:
+      - standards
+      - specification
+      - reference
+    - standardisation process:
+      - quality standard:
+        - ISO standard (tag):
+          - synonyms:
+            - international standard
+    - minimum information standard (tag):
+      - MIQE:
+        - synonyms:
+          - minimum information for publication of quantitative real-time PCR experiments
+    - data standard (tag):
+      - synonyms:
+        - data standards
+      - vocabulary:
+        - synonyms:
+          - terminology
+      - data schema
+      - data format
+    - metadata standard (tag):
+      - synonyms:
+        - metadata
+        - metadata standards
+      - phenopackets
+      - ISA:
+        - synonyms:
+          - investigation-study-assay
+  - protocol (tag):
+    - synonyms:
+      - SOP
+      - standard operating procedure
+      - procedure
+      - step-by-step instructions
+    - sample preparation protocol:
+      - synonyms:
+        - samples preparation
+        - sample preparation
+        - sample collection
+        - sample processing
+        - sample processing protocol
+      - extraction:
+        - synonyms:
+          - isolation
+      - cDNA synthesis:
+        - synonyms:
+          - retrotranscription
+          - Retrotranscription
+      - library preparation
+      - nucleic acid quantification
+  - organisation (tag):
+    - synonyms:
+      - organization
+    - EATRIS
+  - project:
+    - EATRIS flagship project:
+      - synonyms:
+        - EATRIS project
+        - flagship project
+      - EATRIS-Plus (tag):
+        - synonyms:
+          - EATRIS-Plus project
+    - EQIPD:
+      - synonyms:
+        - European Quality In Preclinical Data
+  - registry (tag):
+    - synonyms:
+      - repository
+    - computational workflow registry:
+      - synonyms:
+        - workflow registry
+    - software registry:
+      - synonyms:
+        - bioinformatics software registry
+        - tool registry
+    - services registry
+    - standards registry
+    - database registry
+    - data catalogue:
+      - synonyms:
+        - metadata repository
+        - data registry
+        - data catalog
+  - database (tag):
+    - synonyms:
+      - database portal
+      - data repository
+      - data archive
+      - data archives
+  - knowledgebase (tag):
+    - synonyms:
+      - resource collection

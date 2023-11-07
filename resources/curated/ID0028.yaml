@@ -3,16 +3,53 @@ resourceDescription: General guidelines for profiling miRNAS in cell-free body f
   and microvesicles, by NGS and qRT-PCR. Sample processing, RNA extraction and miRNAs
   detection procedures are detailed
 resourceID: ID0028
+resourceKeywords:
+- MIQE
+- PCR
+- RT-PCR
+- assay type
+- biofluids
+- biological fluid
+- biospecimen type
+- data analysis
+- data processing
+- experimental data
+- guideline
+- guidelines
+- measurement type
+- miRNA
+- miRNA Seq
+- miRNA sequencing
+- miRNA-seq
+- miRNAs
+- micro RNA
+- microRNA
+- minimum information standard
+- normalisation
+- normalization
+- omics
+- omics type
+- qRT-PCR
+- reference
+- reverse transcription PCR
+- sample type
+- specification
+- specimen type
+- standard
+- standards
+- synonyms
+- transcriptomics
+- translational research data
+- type of biospecimen
+- type of omics
+- type of resource
 resourceSubcategory: Guidelines and best practices
 resourceTags:
-- MIQE
-- biofluids
-- guidelines
-- miRNAs
-- normalization
+- PCR
+- biological fluid
+- guideline
+- minimum information standard
 - protocol
-- qRT-PCR
-- standards
 - transcriptomics
 resourceTitle: Guidelines for profiling biofluid miRNAs
 resourceUrl: https://www.bionova.es/documents/exiqon/mirna_biofluids_guidelines_qiagen.pdf

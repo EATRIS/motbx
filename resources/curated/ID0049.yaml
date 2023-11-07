@@ -10,12 +10,17 @@ resourceDescription: The National Institute of Standards and Technology (NIST) i
   and benchmarking between laboratories and techniques. Data are available via PRIDE
   with identifier PXD013608.
 resourceID: ID0049
+resourceKeywords:
+- publication
+- scientific publication
+- synonyms
+- type of resource
 resourceSubcategory: Reference material
 resourceTags:
 - mass spectrometry
 - proteomics
-- publication
 - reference material
+- scientific publication
 resourceTitle: Characterization of a human liver reference material fit for proteomics
   applications
 resourceUrl: https://www.nature.com/articles/s41597-019-0336-7

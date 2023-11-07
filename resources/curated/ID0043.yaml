@@ -18,15 +18,42 @@ resourceDescription: Despite promising findings, quantitative PCR (qPCR)-based t
   EU-CardioRNA COST Action consortium (www.cardiorna.eu). Their applicability encompasses
   all clinical areas.
 resourceID: ID0043
-resourceSubcategory: Clinical use cases
-resourceTags:
+resourceKeywords:
+- PCR
+- RT-PCR
+- assay type
+- biomarker
 - biomarkers
 - clinical validation
+- experimental data
+- guideline
 - guidelines
+- measurement type
+- miRNA
+- miRNA Seq
+- miRNA sequencing
+- miRNA-seq
 - miRNAs
+- micro RNA
+- microRNA
+- omics
+- omics type
 - publication
 - qPCR
 - qRT-PCR
+- reverse transcription PCR
+- scientific publication
+- synonyms
+- transcriptomics
+- translational research data
+- type of omics
+- type of resource
+resourceSubcategory: Clinical use cases
+resourceTags:
+- PCR
+- biomarker
+- guideline
+- scientific publication
 - transcriptomics
 resourceTitle: Consensus guidelines for the validation of qRT-PCR assays in clinical
   research by the cardioRNA consortium

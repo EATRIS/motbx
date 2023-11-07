@@ -15,13 +15,38 @@ resourceDescription: "MicroRNAs are important negative regulators of protein-cod
   \ help to guide informed selection of a quantitative microRNA gene expression platform\
   \ for particular study goals."
 resourceID: ID0034
-resourceSubcategory: Reference material
-resourceTags:
+resourceKeywords:
+- PCR
+- assay type
+- experimental data
+- measurement type
+- miRNA
+- miRNA Seq
+- miRNA sequencing
+- miRNA-seq
 - miRNAs
+- micro RNA
+- microRNA
+- omics
+- omics type
 - publication
 - qPCR
+- quality
 - quality control
+- reference
+- scientific publication
+- specification
+- standard
 - standards
+- synonyms
+- transcriptomics
+- translational research data
+- type of omics
+- type of resource
+resourceSubcategory: Reference material
+resourceTags:
+- PCR
+- scientific publication
 - transcriptomics
 resourceTitle: Evaluation of quantitative miRNA expression platforms in the microRNA
   quality control (miRQC) study
