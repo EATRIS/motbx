@@ -1,0 +1,14 @@
+resourceCategory: Data management and stewardship
+resourceDescription: Metadata registry cataloguing health datasets of HDR UK. Datasets
+  can be searched by phenotype, accessibility, data standards, and more.
+resourceID: ID0083
+resourceKeywords:
+- metadata
+- metadata catalog
+resourceSubcategory: Databases and catalogues
+resourceTags:
+- multi-omics
+- database
+- registry
+resourceTitle: Datasets at the Health Data Research UK Innovation Gateway
+resourceUrl: https://web.www.healthdatagateway.org/search?search=&datasetSort=latest&tab=Datasets

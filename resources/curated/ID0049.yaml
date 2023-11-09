@@ -1,4 +1,4 @@
-resourceCategory: Proteomics
+resourceCategory: Quality control and assessment
 resourceDescription: The National Institute of Standards and Technology (NIST) is
   creating new, economical, qualitative reference materials and data for proteomics
   comparisons, benchmarking and harmonization. Here we describe a large dataset from
@@ -15,7 +15,7 @@ resourceKeywords:
 - scientific publication
 - synonyms
 - type of resource
-resourceSubcategory: Reference material
+resourceSubcategory: Reference materials for quality control
 resourceTags:
 - mass spectrometry
 - proteomics

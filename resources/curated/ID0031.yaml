@@ -1,4 +1,4 @@
-resourceCategory: Transcriptomics
+resourceCategory: Data management and stewardship
 resourceDescription: "Currently, a lack of consensus exists on how best to perform\
   \ and interpret quantitative real-time PCR (qPCR) experiments. The problem is exacerbated\
   \ by a lack of sufficient experimental detail in many publications, which impedes\
@@ -37,7 +37,7 @@ resourceKeywords:
 - standards
 - synonyms
 - type of resource
-resourceSubcategory: Guidelines and best practices
+resourceSubcategory: Data and metadata standards
 resourceTags:
 - PCR
 - guideline

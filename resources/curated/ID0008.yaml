@@ -1,4 +1,4 @@
-resourceCategory: Internal Quality Control
+resourceCategory: Quality control and assessment
 resourceDescription: DNA methylation reference dataset for methylation profiling by
   high throughput sequencing (Methyl-seq). The full article can be found at https://doi.org/10.1186/s13059-021-02529-2
 resourceID: ID0008
@@ -26,7 +26,7 @@ resourceKeywords:
 - translational research data
 - type of omics
 - type of resource
-resourceSubcategory: Reference material
+resourceSubcategory: Reference materials for quality control
 resourceTags:
 - epigenomics
 - genomics

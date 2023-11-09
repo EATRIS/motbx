@@ -1,4 +1,4 @@
-resourceCategory: Transcriptomics
+resourceCategory: Quality control and assessment
 resourceDescription: "MicroRNAs are important negative regulators of protein-coding\
   \ gene expression and have been studied intensively over the past years. Several\
   \ measurement platforms have been developed to determine relative miRNA abundance\
@@ -43,7 +43,7 @@ resourceKeywords:
 - translational research data
 - type of omics
 - type of resource
-resourceSubcategory: Reference material
+resourceSubcategory: Reference materials for quality control
 resourceTags:
 - PCR
 - scientific publication

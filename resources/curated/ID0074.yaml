@@ -1,4 +1,4 @@
-resourceCategory: Omics data management and analysis
+resourceCategory: Data management and stewardship
 resourceDescription: The RDMkit collects best practices and guidelines to help making
   data FAIR (Findable, Accessible, Interoperable and Reusable). In addition to a comperehensive
   introduction to research data lifecycle and FAIR management, curated collections
@@ -12,7 +12,7 @@ resourceKeywords:
 - synonyms
 - tool registry
 - type of resource
-resourceSubcategory: FAIR omics data
+resourceSubcategory: Guidelines and best practices
 resourceTags:
 - registry
 resourceTitle: RDMkit- The research data management toolkit for life sciences

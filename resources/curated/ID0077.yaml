@@ -1,4 +1,4 @@
-resourceCategory: Omics data management and analysis
+resourceCategory: Data analysis
 resourceDescription: Open source and open data registry of bioinformatics software,
   databases, and services annotated with precise ontology-based descriptions. This
   allows to search the bio.tools registry by keywords to find, e.g., methods for multi-omics
@@ -12,7 +12,7 @@ resourceKeywords:
 - software registry
 - synonyms
 - type of resource
-resourceSubcategory: Multi-omics analysis
+resourceSubcategory: Software applications and workflows
 resourceTags:
 - database
 - multi-omics

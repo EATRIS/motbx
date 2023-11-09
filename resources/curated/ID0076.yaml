@@ -1,4 +1,4 @@
-resourceCategory: Omics data management and analysis
+resourceCategory: Data analysis
 resourceDescription: A web-based platform for biomedical data analysis. Galaxy provides
   a collection of data analysis tools and pipelines. Analyses can be run on public
   Galaxy servers or servers can be deployed locally.
@@ -12,7 +12,7 @@ resourceKeywords:
 - type of resource
 - web application
 - workflow registry
-resourceSubcategory: Multi-omics analysis
+resourceSubcategory: Computing platforms
 resourceTags:
 - registry
 - software application

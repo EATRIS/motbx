@@ -1,4 +1,4 @@
-resourceCategory: Metabolomics
+resourceCategory: Data analysis
 resourceDescription: 'Provides a user-friendly, flexible and easily extendable software
   with a complete set of modules covering the entire MS data analysis workflow, with
   the main focus on LC-MS data. It is based on the original MZmine toolbox described
@@ -14,7 +14,7 @@ resourceKeywords:
 - software application
 - synonyms
 - type of resource
-resourceSubcategory: Raw data processing
+resourceSubcategory: Software applications and workflows
 resourceTags:
 - metabolomics
 - software application

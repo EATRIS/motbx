@@ -1,0 +1,18 @@
+resourceCategory: Data management and stewardship
+resourceDescription: Searchable data catalogue for health and life science datasets
+  provided by Health-RI, the Dutch national initiative to facilitate and stimulate
+  an integrated health data infrastructure accessible for researchers, citizens,
+  care providers and industry
+resourceID: ID0082
+resourceKeywords:
+- Health-RI
+- HealthRI
+- metadata
+- metadata catalog
+resourceSubcategory: Databases and catalogues
+resourceTags:
+- multi-omics
+- database
+- registry
+resourceTitle: Health-RI data catalogue
+resourceUrl: https://catalog.accesshealthdata.nl/#/data

@@ -1,9 +1,12 @@
 #! /usr/bin/env python
+import csv
 import json
 import jsonschema
-import yaml
+import os
 import requests
 import validators
+import yaml
+from motbxtools import utils
 
 
 class MotbxSchema():
@@ -117,3 +120,121 @@ class MotbxResource():
 
         row = _flatten(self.resource, fieldnames)
         return row
+
+
+class MotbxCollection():
+    """This class collects all MOTBX resources.
+    """
+    def __init__(self, collection_dir, schema_json_path):
+        """Initialise MOTBX collection object.
+
+        :param collection_dir: Path to directory containing MOTBX resources
+        :type collection_dir: str
+        """
+        self._collection_dir = collection_dir
+        self.schema = MotbxSchema(schema_json_path)
+        self.schema.validate()
+        self.fieldnames = list(self.schema.schema["properties"].keys())
+        return
+
+    def get_info(self, fields=None):
+        if not fields:
+            fields = [("resourceCategory", "resourceSubcategory"),
+                      "resourceTags"]
+        info = {k: set() for k in fields}
+        # iterate through resources
+        for root, dirs, files in os.walk(self._collection_dir):
+            for name in files:
+                if not name.endswith(".yaml"):
+                    continue
+                # load one MOTBX resource
+                resource = MotbxResource(os.path.join(root, name))
+                for k in fields:
+                    try:
+                        v = resource.resource[k]
+                    except KeyError:
+                        v = tuple([resource.resource[i] for i in k])
+                    if isinstance(v, str) or isinstance(v, tuple):
+                        info[k].add(v)
+                    else:
+                        info[k] |= set(v)
+        return info
+
+    def summarise(self, summary_csv_path, validate=True, verbose=True,
+                  summary_csv_path_old=None, changelog_path=None):
+        """Summarise all MOTBX resources in folder and write to CSV file
+
+        :param summary_csv_path: Path to CSV file summarising resources of
+            latest MOTBX version
+        :type summary_csv_path: str
+        :param validate: Validate resource against JSON schema if True
+        :type validate: bool
+        :param verbose: Print processed resource IDs if True
+        :type verbose: bool
+        :param summary_csv_path_old: Path to CSV file summarising resources of
+            previous MOTBX version
+        :type summary_csv_path_old: str
+        :param changelog_path: Path to CSV file summarising changes
+        :type changelog_path: str
+        """
+        if summary_csv_path_old:  # load summary CSV from previous version
+            summary_old = {}
+            with open(summary_csv_path_old, "r") as csvfile:
+                reader = csv.DictReader(csvfile)
+                for row in reader:
+                    if verbose:
+                        print("Loading summary of previous MOTBX version  |",
+                              row["resourceID"], end="\r")
+                    summary_old[row["resourceID"]] = row
+
+        with (open(summary_csv_path, "w", newline="", encoding="utf-8") as sf,
+              utils.open_conditional(
+                  changelog_path, "w", newline="", encoding="utf-8") as cf):
+            if verbose and summary_csv_path_old:
+                print()
+            # create CSV writer for summary file
+            summary = csv.DictWriter(sf, fieldnames=self.fieldnames)
+            summary.writeheader()
+            if changelog_path:  # create CSV writer for changelog
+                changelog = csv.DictWriter(cf, fieldnames=[
+                    "resourceID", "New resource (yes/no)", "Updated field(s)"])
+                changelog.writeheader()
+
+            # iterate through resources
+            for root, dirs, files in os.walk(self._collection_dir):
+                for name in files:
+                    if not name.endswith(".yaml"):
+                        continue
+                    if verbose:
+                        print("Loading resources for latest MOTBX version |",
+                              name, end="\r")
+                    # load one MOTBX resource
+                    resource = MotbxResource(os.path.join(root, name))
+                    if validate:  # validate against JSON schema
+                        resource.validate(self.schema)
+                    # write to CSV file
+                    row = resource.flatten(self.fieldnames)
+                    # write resource to summary file
+                    summary.writerow(row)
+                    if summary_csv_path_old:
+                        new_resource = False
+                        try:  # get resource from previous version using ID
+                            row_old = summary_old[row["resourceID"]]
+                        except KeyError:  # resource is new
+                            row_old = {}
+                            new_resource = True
+                        if changelog_path:  # write changes to changelog
+                            # determine which MOTBX resource fields differ
+                            # between previous and latest version
+                            changed_fields = sorted(dict(
+                                set(row.items()) ^ set(row_old.items())
+                                ).keys())
+                            if len(changed_fields) > 0:
+                                changelog.writerow({
+                                    "resourceID": row["resourceID"],
+                                    "New resource (yes/no)": "yes"
+                                    if new_resource else "no",
+                                    "Updated field(s)":
+                                    ", ".join(changed_fields)
+                                })
+        return

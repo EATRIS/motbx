@@ -1,4 +1,4 @@
-resourceCategory: Internal Quality Control
+resourceCategory: Quality control and assessment
 resourceDescription: Multi-omics reference materials and practical tools to enhance
   the reproducibility and reliability of multi-omics results (Fudan Quartet samples)
   provided as part of the Quartet project. These well-characterised resources serve
@@ -10,7 +10,7 @@ resourceKeywords:
 - reference dataset
 - synonyms
 - type of resource
-resourceSubcategory: Reference material
+resourceSubcategory: Reference materials for quality control
 resourceTags:
 - epigenomics
 - genomics

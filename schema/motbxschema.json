@@ -10,20 +10,18 @@
     "resourceCategory": {
       "type": "string",
       "enum": [
-        "Epigenomics",
-        "External Quality Assessment",
         "Genomics",
-        "Internal Quality Control",
-        "Metabolomics",
-        "Omics data management and analysis",
+        "Epigenomics",
+        "Transcriptomics",
         "Proteomics",
-        "Transcriptomics"
+        "Metabolomics",
+        "Quality control and assessment",
+        "Data management and stewardship",
+        "Data analysis"
       ]
     },
     "resourceSubcategory": {
-      "type": "string",
-      "minLength": 4,
-      "maxLength": 30
+      "type": "string"
     },
     "resourceTitle": {
       "type": "string",
@@ -54,6 +52,79 @@
       }
     }
   },
+  "anyOf": [
+    {
+      "properties": {
+        "resourceCategory": {
+          "enum": [
+            "Genomics",
+            "Epigenomics",
+            "Transcriptomics",
+            "Proteomics",
+            "Metabolomics"
+          ]
+        },
+        "resourceSubcategory": {
+          "enum": [
+            "Guidelines and best practices",
+            "Laboratory protocols and methods",
+            "Translational research use case"
+          ]
+        }
+      }
+    },
+    {
+      "properties": {
+        "resourceCategory": {
+          "enum": [
+            "Quality control and assessment"
+          ]
+        },
+        "resourceSubcategory": {
+          "enum": [
+            "Guidelines and best practices",
+            "Reference materials for quality control",
+            "Proficiency testing and external quality assessment",
+            "Quality certification"
+          ]
+        }
+      }
+    },
+    {
+      "properties": {
+        "resourceCategory": {
+          "enum": [
+            "Data management and stewardship"
+          ]
+        },
+        "resourceSubcategory": {
+          "enum": [
+            "Guidelines and best practices",
+            "Data and metadata standards",
+            "Databases and catalogues",
+            "Translational research use cases"
+          ]
+        }
+      }
+    },
+    {
+      "properties": {
+        "resourceCategory": {
+          "enum": [
+            "Data analysis"
+          ]
+        },
+        "resourceSubcategory": {
+          "enum": [
+            "Guidelines and best practices",
+            "Software applications and workflows",
+            "Computing platforms",
+            "Translational research use cases"
+          ]
+        }
+      }
+    }
+  ],
   "required": [
     "resourceID",
     "resourceCategory",

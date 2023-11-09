@@ -1,4 +1,4 @@
-resourceCategory: Internal Quality Control
+resourceCategory: Quality control and assessment
 resourceDescription: "Variation in RNA expression data can be attributed to a variety\
   \ of factors including the quality of the starting material, the level of cellularity\
   \ and RNA yield, the platform employed, and the person performing the experiment.\
@@ -24,7 +24,7 @@ resourceKeywords:
 - next generation sequencing
 - sequencing
 - synonyms
-resourceSubcategory: Reference material
+resourceSubcategory: Reference materials for quality control
 resourceTags:
 - genomics
 - internal quality control (IQC)

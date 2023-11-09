@@ -1,4 +1,4 @@
-resourceCategory: Transcriptomics
+resourceCategory: Data analysis
 resourceDescription: Different technologies, such as quantitative real-time PCR or
   microarrays, have been developed to measure microRNA (miRNA) expression levels.
   Quantification of miRNA transcripts implicates data normalization using endogenous
@@ -40,7 +40,7 @@ resourceKeywords:
 - translational research data
 - type of omics
 - type of resource
-resourceSubcategory: Raw data processing
+resourceSubcategory: Software applications and workflows
 resourceTags:
 - PCR
 - guideline
