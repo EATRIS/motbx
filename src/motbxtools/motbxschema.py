@@ -137,6 +137,29 @@ class MotbxCollection():
         self.fieldnames = list(self.schema.schema["properties"].keys())
         return
 
+    def get_info(self, fields=None):
+        if not fields:
+            fields = [("resourceCategory", "resourceSubcategory"),
+                      "resourceTags"]
+        info = {k: set() for k in fields}
+        # iterate through resources
+        for root, dirs, files in os.walk(self._collection_dir):
+            for name in files:
+                if not name.endswith(".yaml"):
+                    continue
+                # load one MOTBX resource
+                resource = MotbxResource(os.path.join(root, name))
+                for k in fields:
+                    try:
+                        v = resource.resource[k]
+                    except KeyError:
+                        v = tuple([resource.resource[i] for i in k])
+                    if isinstance(v, str) or isinstance(v, tuple):
+                        info[k].add(v)
+                    else:
+                        info[k] |= set(v)
+        return info
+
     def summarise(self, summary_csv_path, validate=True, verbose=True,
                   summary_csv_path_old=None, changelog_path=None):
         """Summarise all MOTBX resources in folder and write to CSV file

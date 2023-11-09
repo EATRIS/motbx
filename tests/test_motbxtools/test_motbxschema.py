@@ -69,8 +69,14 @@ class TestMotbxResourceMethods(unittest.TestCase):
                 os.path.join(self.resources_fail, "testfailUrl1.yaml"))
             resource.validate(self.schema)
 
+    def test_validate_failSubcategory(self):
+        with self.assertRaises(jsonschema.exceptions.ValidationError):
+            resource = motbxschema.MotbxResource(
+                os.path.join(self.resources_fail, "testfailSubcategory.yaml"))
+            resource.validate(self.schema)
+
     def test_validate_failUrl2(self):
-        with self.assertRaises(requests.exceptions.HTTPError):
+        with self.assertRaises(AssertionError):
             resource = motbxschema.MotbxResource(
                 os.path.join(self.resources_fail, "testfailUrl2.yaml"))
             resource.validate(self.schema)
