@@ -1,4 +1,4 @@
-resourceCategory: Internal Quality Control
+resourceCategory: Quality control and assessment
 resourceDescription: 'SEQC2: somatic mutation reference dataset, https://pubmed.ncbi.nlm.nih.gov/34753956/'
 resourceID: ID0081
 resourceKeywords:
@@ -24,7 +24,7 @@ resourceKeywords:
 - translational research data
 - type of omics
 - type of resource
-resourceSubcategory: Reference material
+resourceSubcategory: Reference materials for quality control
 resourceTags:
 - epigenomics
 - genomics

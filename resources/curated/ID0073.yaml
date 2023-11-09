@@ -1,4 +1,4 @@
-resourceCategory: Omics data management and analysis
+resourceCategory: Data management and stewardship
 resourceDescription: MOLGENIS is a modular web application for scientific data. The
   modular platform allows to capture data and metadata for multi-omcis studies and
   is highly customisable. It is developed by the Genomics Coordination Center (GCC)
@@ -14,7 +14,7 @@ resourceKeywords:
 - study management
 - synonyms
 - type of resource
-resourceSubcategory: FAIR omics data
+resourceSubcategory: Databases and catalogues
 resourceTags:
 - metadata standard
 resourceTitle: 'Molgenis: Empowering Genomic Research and Collaboration'

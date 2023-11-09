@@ -1,4 +1,4 @@
-resourceCategory: Proteomics
+resourceCategory: Quality control and assessment
 resourceDescription: Reference materials are vital to benchmarking the reproducibility
   of clinical tests and essential for monitoring laboratory performance for clinical
   proteomics. The reference material utilized for mass spectrometric analysis of the
@@ -26,7 +26,7 @@ resourceKeywords:
 - scientific publication
 - synonyms
 - type of resource
-resourceSubcategory: Reference material
+resourceSubcategory: Reference materials for quality control
 resourceTags:
 - guideline
 - mass spectrometry

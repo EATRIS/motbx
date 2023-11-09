@@ -1,4 +1,4 @@
-resourceCategory: Genomics
+resourceCategory: Data analysis
 resourceDescription: Recent studies have demonstrated the genetic significance of
   insertions, deletions, and other more complex structural variants (SVs) in the human
   population. With the development of the next-generation sequencing technologies,
@@ -32,7 +32,7 @@ resourceKeywords:
 - scientific publication
 - synonyms
 - type of resource
-resourceSubcategory: Raw data processing
+resourceSubcategory: Software applications and workflows
 resourceTags:
 - genomics
 - scientific publication

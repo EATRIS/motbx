@@ -1,4 +1,4 @@
-resourceCategory: Internal Quality Control
+resourceCategory: Quality control and assessment
 resourceDescription: NA12878 is a human genomic DNA sample standardised by the National
   Institute of Standards and Technology (NIST). It serves as a reference standard
   for the Genome in a Bottle consortium, which is led by NIST. The donor subject,
@@ -25,7 +25,7 @@ resourceKeywords:
 - translational research data
 - type of omics
 - whole genome
-resourceSubcategory: Reference material
+resourceSubcategory: Reference materials for quality control
 resourceTags:
 - epigenomics
 - genomics

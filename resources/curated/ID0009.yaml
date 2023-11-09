@@ -1,4 +1,4 @@
-resourceCategory: Internal Quality Control
+resourceCategory: Quality control and assessment
 resourceDescription: Unmethylated lambda DNA and CpG-methylated pUC19 DNA, two essential
   spike-ins employed in EM-seq library preparation. The unmethylated lambda DNA serves
   to evaluate conversion efficiency, while the CpG-methylated pUC19 DNA acts as a
@@ -21,7 +21,7 @@ resourceKeywords:
 - translational research data
 - type of omics
 - unmethylated lambda DNA
-resourceSubcategory: Reference material
+resourceSubcategory: Reference materials for quality control
 resourceTags:
 - DNA
 - epigenomics

@@ -1,4 +1,4 @@
-resourceCategory: Omics data management and analysis
+resourceCategory: Data management and stewardship
 resourceDescription: FAIR Cookbook is an online resource for the Life Sciences with
   recipes that help you to make and keep data Findable, Accessible, Interoperable
   and Reusable (FAIR). It provides a comprehensive introduction to FAIR topics and
@@ -16,7 +16,7 @@ resourceKeywords:
 - tutorial
 - tutorials
 - type of resource
-resourceSubcategory: FAIR omics data
+resourceSubcategory: Guidelines and best practices
 resourceTags:
 - metadata standard
 resourceTitle: 'FAIR Cookbook: Empowering researchers with FAIR Data Practices'

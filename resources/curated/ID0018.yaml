@@ -1,4 +1,4 @@
-resourceCategory: Genomics
+resourceCategory: Data analysis
 resourceDescription: CNVkit is a Python library and command-line software toolkit
   to infer and visualise copy number from high-throughput DNA sequencing data. It
   is designed for use with hybrid capture, including both whole-exome and custom target
@@ -10,7 +10,7 @@ resourceKeywords:
 - synonyms
 - toolkit
 - type of resource
-resourceSubcategory: Raw data processing
+resourceSubcategory: Software applications and workflows
 resourceTags:
 - genomics
 - software application

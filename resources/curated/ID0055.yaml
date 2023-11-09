@@ -1,4 +1,4 @@
-resourceCategory: Proteomics
+resourceCategory: Data analysis
 resourceDescription: A freely-available and open source Windows client application
   for building Selected Reaction Monitoring (SRM)/Multiple Reaction Monitoring (MRM),
   Parallel Reaction Monitoring (PRM), Data Independent Acquisition (DIA/SWATH) and
@@ -14,7 +14,7 @@ resourceKeywords:
 - synonyms
 - toolbox
 - type of resource
-resourceSubcategory: Raw data processing
+resourceSubcategory: Software applications and workflows
 resourceTags:
 - mass spectrometry
 - proteomics

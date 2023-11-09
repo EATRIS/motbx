@@ -1,4 +1,4 @@
-resourceCategory: Internal Quality Control
+resourceCategory: Quality control and assessment
 resourceDescription: The Peptide Mix and LC/MS Instrument Performance Monitoring Software
   includes a 6x5 LC-MS/MS Peptide Reference Mix. This combination provides a comprehensive
   solution for monitoring and optimising LC/MS instrument performance including sensitivity
@@ -6,7 +6,7 @@ resourceDescription: The Peptide Mix and LC/MS Instrument Performance Monitoring
   reliable and precise results.
 resourceID: ID0007
 resourceKeywords: []
-resourceSubcategory: Reference material
+resourceSubcategory: Reference materials for quality control
 resourceTags:
 - internal quality control (IQC)
 - mass spectrometry

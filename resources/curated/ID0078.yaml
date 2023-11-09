@@ -1,4 +1,4 @@
-resourceCategory: Omics data management and analysis
+resourceCategory: Data analysis
 resourceDescription: Nf-core is a community collection of analysis pipelines using
   Nextflow. This curated collection of computational workflows includes many omics
   preprocessing workflows that have been widely adopted in the community. Several
@@ -10,7 +10,7 @@ resourceKeywords:
 - synonyms
 - type of resource
 - workflow registry
-resourceSubcategory: Multi-omics analysis
+resourceSubcategory: Software applications and workflows
 resourceTags:
 - registry
 resourceTitle: 'Framework for community-curated bioinformatics pipelines: nf-core'

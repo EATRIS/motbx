@@ -1,4 +1,4 @@
-resourceCategory: Proteomics
+resourceCategory: Data analysis
 resourceDescription: The MaxQuant software, with a suite of advanced algorithms and
   statistical methods, allows for accurate protein identification, quantification,
   and statistical analysis. The software incorporates state-of-the-art computational
@@ -15,7 +15,7 @@ resourceKeywords:
 - data processing
 - data search
 - type of resource
-resourceSubcategory: Tool
+resourceSubcategory: Software applications and workflows
 resourceTags:
 - proteomics
 resourceTitle: 'MaxQuant: Software tool for quantitative analysis of mass spectrometry-based

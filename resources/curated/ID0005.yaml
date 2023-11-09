@@ -1,4 +1,4 @@
-resourceCategory: Internal Quality Control
+resourceCategory: Quality control and assessment
 resourceDescription: Human Brain Total RNA is a total RNA sample extracted from neural
   tissue for use as a positive control in QuantiGene assays.
 resourceID: ID0005
@@ -12,7 +12,7 @@ resourceKeywords:
 - nucleic acid quantitation
 - sequencing
 - synonyms
-resourceSubcategory: Reference material
+resourceSubcategory: Reference materials for quality control
 resourceTags:
 - internal quality control (IQC)
 - multi-omics

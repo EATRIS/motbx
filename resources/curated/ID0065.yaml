@@ -1,7 +1,7 @@
-resourceCategory: Omics data management and analysis
-resourceDescription: This website of GO FAIR gives an overview of the FAIR (Findable,
-  Accessible, Interoperable, Reusable) data principles including specific guidelines
-  and practical examples.
+resourceCategory: Data management and stewardship
+resourceDescription: This website of the GO FAIR initiative gives an overview of
+  the FAIR (Findable, Accessible, Interoperable, Reusable) data principles including
+  specific guidelines and practical examples.
 resourceID: ID0065
 resourceKeywords:
 - FAIR principles
@@ -9,7 +9,7 @@ resourceKeywords:
 - guidelines
 - synonyms
 - type of resource
-resourceSubcategory: FAIR omics data
+resourceSubcategory: Guidelines and best practices
 resourceTags:
 - guideline
 resourceTitle: 'FAIR Principles: GO FAIR Initiative, enabling global open science'
