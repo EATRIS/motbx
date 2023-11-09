@@ -80,3 +80,5 @@ ID0078,no,"resourceCategory, resourceKeywords, resourceSubcategory, resourceTags
 ID0079,no,"resourceCategory, resourceKeywords, resourceSubcategory, resourceTags"
 ID0080,no,"resourceCategory, resourceKeywords, resourceSubcategory, resourceTags"
 ID0081,no,"resourceCategory, resourceKeywords, resourceSubcategory, resourceTags, resourceUrl"
+ID0082,yes,"resourceCategory, resourceDescription, resourceID, resourceKeywords, resourceSubcategory, resourceTags, resourceTitle, resourceUrl"
+ID0083,yes,"resourceCategory, resourceDescription, resourceID, resourceKeywords, resourceSubcategory, resourceTags, resourceTitle, resourceUrl"
