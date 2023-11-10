@@ -6,8 +6,8 @@ resourceID: ID0061
 resourceKeywords:
 - EATRIS flagship project
 - EATRIS project
-- EATRIS-Plus
 - EATRIS-Plus project
+- EATRIS-Plus
 - experimental data
 - flagship project
 - metabolomics
@@ -21,7 +21,7 @@ resourceKeywords:
 - type of resource
 resourceSubcategory: Laboratory protocols and methods
 resourceTags:
-- EATRIS-Plus
+- EATRIS-Plus project
 - metabolomics
 resourceTitle: Protocol for performing targeted metabolomics
 resourceUrl: SampleAnalysisProtocols/RUMC_metabolomics_targeted/MOTBX_InternalProtocol_Appendix4_TargetedMetabolomics.pdf

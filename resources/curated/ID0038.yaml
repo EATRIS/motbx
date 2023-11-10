@@ -5,8 +5,8 @@ resourceID: ID0038
 resourceKeywords:
 - EATRIS flagship project
 - EATRIS project
-- EATRIS-Plus
 - EATRIS-Plus project
+- EATRIS-Plus
 - Retrotranscription
 - cDNA synthesis
 - experimental data
@@ -36,7 +36,7 @@ resourceKeywords:
 - type of resource
 resourceSubcategory: Laboratory protocols and methods
 resourceTags:
-- EATRIS-Plus
+- EATRIS-Plus project
 - miRNA
 - protocol
 - transcriptomics

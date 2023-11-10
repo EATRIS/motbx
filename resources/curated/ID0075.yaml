@@ -7,8 +7,8 @@ resourceID: ID0075
 resourceKeywords:
 - EATRIS flagship project
 - EATRIS project
-- EATRIS-Plus
 - EATRIS-Plus project
+- EATRIS-Plus
 - flagship project
 - metadata standard
 - phenopackets
@@ -26,7 +26,7 @@ resourceKeywords:
 - type of resource
 resourceSubcategory: Data and metadata standards
 resourceTags:
-- EATRIS-Plus
+- EATRIS-Plus project
 - metadata standard
 - phenotypic data
 resourceTitle: 'Phenopackets template: EATRIS-Plus FAIRification template and workflows'

@@ -227,7 +227,8 @@ class MotbxCollection():
             assert str(file_path).endswith(".csv")
             cf = open(file_path, "w", newline="", encoding="utf-8")
             changelog = csv.DictWriter(cf, fieldnames=[
-                "resourceID", "New resource (yes/no)", "Updated field(s)"])
+                "resourceID", "Resource status [added/updated/removed]",
+                "Passed validation [yes/no]", "Updated field(s)"])
             changelog.writeheader()
             try:
                 yield changelog
@@ -248,9 +249,9 @@ class MotbxCollection():
                 summary[row["resourceID"]] = row
         return summary
 
-    def summarise(self, summary_csv_path, validate=True, verbose=True,
+    def summarise(self, summary_csv_path, validate=True, exclude_invalid=False,
                   old_summary_csv_path=None, changelog_path=None,
-                  validationlog_path=None):
+                  validationlog_path=None, verbose=True):
         """Summarise all MOTBX resources in folder and write to CSV file.
 
         :param summary_csv_path: Path to CSV file summarising resources of
@@ -278,6 +279,7 @@ class MotbxCollection():
             if not errorlog:
                 errorlog = sys.stdout
 
+            resource_ids = set()
             # iterate through resources
             for root, dirs, files in os.walk(self._collection_dir):
                 for name in files:
@@ -288,10 +290,12 @@ class MotbxCollection():
 
                     # load one MOTBX resource
                     resource = MotbxResource(os.path.join(root, name))
+                    invalid = False
                     if validate:  # validate against JSON schema
                         try:
                             resource.validate(self.schema)
                         except Exception as error:
+                            invalid = True
                             # print validation errors to validation report file
                             print(error, file=errorlog)
                             print("Resource:", name, file=errorlog)
@@ -299,9 +303,12 @@ class MotbxCollection():
                                   file=errorlog)
                             print(79*"-", file=errorlog)
 
+                    if exclude_invalid and invalid:
+                        continue
                     # write resource to summary CSV file
                     row = resource.flatten(self.fieldnames)
                     summary.writerow(row)
+                    resource_ids.add(row["resourceID"])
 
                     # compare to older version
                     if old_summary_csv_path:
@@ -314,14 +321,28 @@ class MotbxCollection():
                         if changelog_path:  # write changes to changelog
                             # determine which MOTBX resource fields differ
                             # between previous and latest version
-                            changed_fields = sorted(dict(set(
-                                row.items()) ^ set(row_old.items())).keys())
+                            changed_fields = sorted(dict(
+                                set(row.items()) ^ set(row_old.items())
+                                ).keys())
                             if len(changed_fields) > 0:  # else no changes
-                                changelog.writerow({
+                                change_row = {
                                     "resourceID": row["resourceID"],
-                                    "New resource (yes/no)": "yes"
-                                    if new_resource else "no",
+                                    "Resource status [added/updated/removed]":
+                                    "added" if new_resource else "updated",
                                     "Updated field(s)":
-                                    ", ".join(changed_fields)
-                                })
+                                    ", ".join(changed_fields)}
+                                if validate:
+                                    change_row["Passed validation [yes/no]"
+                                               ] = "no" if invalid else "yes"
+                                changelog.writerow(change_row)
+
+            # check which resources have been removed
+            if old_summary_csv_path and changelog_path:
+                removed_ids = [k for k in summary_old.keys()
+                               if k not in resource_ids]
+                for i in removed_ids:
+                    changelog.writerow({
+                        "resourceID": i,
+                        "Resource status [added/updated/removed]": "removed"})
+
         return

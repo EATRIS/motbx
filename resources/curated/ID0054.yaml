@@ -5,8 +5,8 @@ resourceID: ID0054
 resourceKeywords:
 - EATRIS flagship project
 - EATRIS project
-- EATRIS-Plus
 - EATRIS-Plus project
+- EATRIS-Plus
 - data analysis
 - data processing
 - data search
@@ -16,7 +16,7 @@ resourceKeywords:
 - type of resource
 resourceSubcategory: Software applications and workflows
 resourceTags:
-- EATRIS-Plus
+- EATRIS-Plus project
 - proteomics
 - protocol
 resourceTitle: Raw data search in proteomics
