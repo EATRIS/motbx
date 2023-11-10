@@ -6,6 +6,7 @@ import requests
 import pathlib
 from motbxtools import motbxschema
 
+
 DATA_DIR = pathlib.Path(__file__).parents[1]
 RESOURCES_PASS_DIR = DATA_DIR.joinpath("resources_pass")
 RESOURCES_FAIL_DIR = DATA_DIR.joinpath("resources_fail")
@@ -47,15 +48,6 @@ class TestMotbxResourceMethods(unittest.TestCase):
                     resource.validate(self.schema)
                 except Exception:
                     self.fail("MotbxResource.validate() failed")
-
-    # def test_validate_failDate(self):
-    #     """These MOTBX resources do not meet the requirements. Test that
-    #     their validation fails.
-    #     """
-    #     with self.assertRaises(jsonschema.exceptions.ValidationError):
-    #         resource = motbxschema.MotbxResource(
-    #             os.path.join(self.resources_fail, "testfailDate.yaml"))
-    #         resource.validate(self.schema)
 
     def test_validate_failNoDesc(self):
         with self.assertRaises(jsonschema.exceptions.ValidationError):

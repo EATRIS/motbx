@@ -86,6 +86,7 @@ A set of [Jupyter notebooks](https://github.com/EATRIS/motbx/tree/main/notebooks
          conda install -c conda-forge keyring
          conda install -c anaconda pandas
          conda install -c conda-forge openpyxl
+         conda install sphinx
          ```
 
     Option 2: install environment from [YAML file](https://github.com/EATRIS/motbx/blob/main/envs/motbxtools.yml)
