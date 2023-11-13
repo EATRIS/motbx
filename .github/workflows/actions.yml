@@ -31,7 +31,7 @@ jobs:
 
       - name: Build environment
         run: |
-          conda activate motbxtools
+          conda activate motbxtest_and_doc
           python -m pip install -e .
 
       - name: Run unit tests
