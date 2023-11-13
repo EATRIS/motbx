@@ -39,18 +39,28 @@ Install Conda environment
 
          conda env create -f envs/motbxtools.yml
 
-Run Jupyter notebook
---------------------
+
+Run Jupyter
+-----------
 
 Jupyter can now be started from the base environment::
 
    jupyter notebook
 
-This opens Jupyter in your default browser. Select a `notebook from the notebooks folder`_ to open it.
+This opens Jupyter in your default browser. Select a notebook from the `notebooks`_ folder to open it.
+
+
+Notebooks
+---------
+
+A set of `Jupyter notebooks`_
+showcase how `MOTBXtools` can be used to create/modify the MOTBX resource schema and validate resources.
+Make sure to run them from the `notebooks` directory.
 
 
 .. _MOTBX GitHub repository: https://github.com/EATRIS/motbx
 .. _Conda: https://docs.conda.io/en/latest/
 .. _Miniconda3: https://docs.conda.io/projects/miniconda/en/latest/
 .. _YAML environment file: https://github.com/EATRIS/motbx/blob/main/envs/motbxtools.yml
-.. _notebook from the notebooks folder: https://github.com/EATRIS/motbx/tree/main/notebooks
+.. _notebook: https://github.com/EATRIS/motbx/tree/main/notebooks
+.. _Jupyter notebooks: https://github.com/EATRIS/motbx/tree/main/notebooks

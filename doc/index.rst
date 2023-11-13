@@ -13,8 +13,8 @@ Welcome to MOTBXtools' documentation!
    motbx
    schema
    modules
-   contribute
    usemotbxtools
+   contribute
    builddoc
 
 Indices and tables

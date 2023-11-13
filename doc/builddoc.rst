@@ -1,7 +1,11 @@
 Build documentation
 ===================
 
-This documentation was built using `Sphinx`_.
+This `documentation`_ was built using `Sphinx`_.
+
+
+Build locally
+-------------
 
 The following commands can be used to create a `Conda`_ environment that contains all packages needed to build the documentation.
 
@@ -30,7 +34,18 @@ The `HTML` documentation can be built using::
 
     make html
 
+
+Deploy on GitHub pages
+----------------------
+
+A GitHub action has been defined to build the documention and deploy it on GitHub pages.
+The action is defined in `.github/workflows/documentation.yml`_ and can be manually triggered via `actions`_.
+
+
+.. _documentation: https://eatris.github.io/motbx/index.html
 .. _Conda: https://docs.conda.io/en/latest/
 .. _Miniconda3: https://docs.conda.io/projects/miniconda/en/latest/
 .. _Sphinx: https://www.sphinx-doc.org/en/master/
 .. _YAML environment file: https://github.com/EATRIS/motbx/blob/main/envs/motbxdoc.yml
+.. _.github/workflows/documentation.yml: https://github.com/EATRIS/motbx/blob/main/.github/workflows/documentation.yml
+.. _actions: https://github.com/EATRIS/motbx/actions/workflows/documentation.yml
