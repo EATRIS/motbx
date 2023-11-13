@@ -4,11 +4,11 @@ channels:
   - defaults
 dependencies:
   - furo=2023.9.10
-  - jsonschema=4.19.2
-  - pip=23.3
+  - jsonschema=4.17.3
+  - pip=23.2.1
+  - python=3.11.4
   - pytest
-  - python=3.11.5
-  - pyyaml=6.0.1
-  - requests=2.31.0
-  - sphinx=7.2.6
-  - validators=0.22.0
+  - pyyaml=6.0
+  - requests=2.27.1
+  - sphinx=7.0.0
+  - validators=0.20.0
