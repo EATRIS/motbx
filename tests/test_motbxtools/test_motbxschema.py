@@ -1,4 +1,5 @@
-#! /usr/bin/env python
+"""This module contains unit tests for the Python package motbxtools
+"""
 import unittest
 import os
 import jsonschema

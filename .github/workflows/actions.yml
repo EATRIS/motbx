@@ -1,9 +1,7 @@
-name: motbxtools
+name: motbxtools_test_and_doc
 
 on:
-  pull_request:
-    branches: ['none']
-    paths: ['**.yaml', '**.py', '**.json']
+  workflow_dispatch:
 
 jobs:
   build:
@@ -27,16 +25,28 @@ jobs:
           miniforge-variant: Mambaforge
           channels: conda-forge
           python-version: ${{ matrix.python-version }}
-          activate-environment: motbxtools
-          environment-file: envs/motbxtools.yml
+          activate-environment: motbxtest_and_doc
+          environment-file: envs/motbxtest_and_doc.yml
           use-mamba: true
 
       - name: Build environment
         run: |
           conda activate motbxtools
-          python -m ipykernel install --user --name motbxtools
           python -m pip install -e .
 
-      - name: Test with pytest
+      - name: Run unit tests
         run: |
           pytest
+
+      - name: Sphinx build documentation
+        run: |
+          sphinx-build doc _build
+
+      - name: Deploy documentation to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/main' }}
+        with:
+          publish_branch: gh-pages
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: _build/
+          force_orphan: true
