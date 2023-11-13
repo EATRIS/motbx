@@ -3,7 +3,7 @@ channels:
   - conda-forge
   - defaults
 dependencies:
-  - furo=2023.0.10
+  - furo=2023.9.10
   - jsonschema=4.19.2
   - pip=23.3
   - pytest
