@@ -17,7 +17,7 @@ EATRIS is the [European infrastructure for translational medicine](https://eatri
 
 ## Multi-omics Toolbox (MOTBX)
 
-[<img src="https://github.com/EATRIS/motbx/assets/1405356/3973fe3c-27b7-410a-80ae-7bf0a2927e8c" alt="MOTBX logo" width="200"/>](https://motbx.eatris.eu/)
+[<img src="https://github.com/EATRIS/motbx/assets/1405356/c69d920f-5a63-4015-9784-81b5c5874f6c" alt="MOTBX logo" width="200"/>](https://motbx.eatris.eu/)
 
 The EATRIS [Multi-omics Toolbox (MOTBX)](https://motbx.eatris.eu/) is a community-driven comprehensive knowledge base aimed at supporting researchers in academia and industry who are involved in the development, implementation, and adoption of multi-omics approaches for personalised medicine. MOTBX collects a rich selection of resources, including best practices, protocols for individual omics technologies, and tools for quality control and assessment. MOTBX is available at https://motbx.eatris.eu/.
 
