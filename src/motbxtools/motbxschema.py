@@ -63,7 +63,7 @@ class MotbxResource():
         """Validate MOTBX resource with JSON schema and confirm that URL is
         valid and live.
 
-        :param motbx_schema: _description_
+        :param motbx_schema: A JSON schema defining structure of MOTBX resource
         :type motbx_schema: :class:`~MotbxSchema`
         :raises Exception: Validation of URL fails
         """
