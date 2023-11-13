@@ -4,6 +4,7 @@
 - [Multi-omics Toolbox (MOTBX)](#multi-omics-toolbox-motbx)
 - [This repository](#this-repository)
   - [Contribute to MOTBX](#contribute-to-motbx)
+  - [Documentation](#documentation)
   - [Structure of this repository](#structure-of-this-repository)
   - [Development](#development)
   - [Running notebooks](#running-notebooks)
@@ -28,6 +29,10 @@ The EATRIS [Multi-omics Toolbox (MOTBX)](https://motbx.eatris.eu/) is a communit
 ### Contribute to MOTBX
 
 The EATRIS Multi-omics Toolbox is a community effort and suggestions for new resources are very welcome. You can [submit an issue](https://github.com/EATRIS/motbx/issues/new/choose) to request addition of a new resource, changes to existing resources, or removal of a resource. We also welcome new ideas for this repository, or developers who want to actively contribute to it. [Contact us](https://motbx.eatris.eu/contact/) if you have any questions.
+
+### Documentation
+
+Find more information in our [documentation](https://eatris.github.io/motbx/index.html)
 
 ### Structure of this repository
 
