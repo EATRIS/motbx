@@ -53,14 +53,14 @@ This opens Jupyter in your default browser. Select a notebook from the `notebook
 Notebooks
 ---------
 
-A set of `Jupyter notebooks`_
-showcase how `MOTBXtools` can be used to create/modify the MOTBX resource schema and validate resources.
-Make sure to run them from the `notebooks` directory.
+A set of `Jupyter notebooks`_ showcase how `MOTBXtools` can be used to create/modify
+the MOTBX resource schema and validate resources.
+Make sure to run them from the `notebooks`_ directory.
 
 
 .. _MOTBX GitHub repository: https://github.com/EATRIS/motbx
 .. _Conda: https://docs.conda.io/en/latest/
 .. _Miniconda3: https://docs.conda.io/projects/miniconda/en/latest/
 .. _YAML environment file: https://github.com/EATRIS/motbx/blob/main/envs/motbxtools.yml
-.. _notebook: https://github.com/EATRIS/motbx/tree/main/notebooks
+.. _notebooks: https://github.com/EATRIS/motbx/tree/main/notebooks
 .. _Jupyter notebooks: https://github.com/EATRIS/motbx/tree/main/notebooks

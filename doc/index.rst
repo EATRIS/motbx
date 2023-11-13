@@ -14,8 +14,8 @@ Welcome to MOTBXtools' documentation!
    schema
    modules
    usemotbxtools
-   contribute
    builddoc
+   contribute
 
 Indices and tables
 ==================
