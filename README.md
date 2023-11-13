@@ -7,7 +7,6 @@
   - [Structure of this repository](#structure-of-this-repository)
   - [Development](#development)
   - [Running notebooks](#running-notebooks)
-    - [Install Conda environment and Jupyter](#install-conda-environment-and-jupyter)
 - [Acknowledgements](#acknowledgements)
 
 ## EATRIS
@@ -56,49 +55,7 @@ When making changes to this repository, we follow the [GitHub flow](https://docs
 
 A set of [Jupyter notebooks](https://github.com/EATRIS/motbx/tree/main/notebooks) provide functionality to create/modify the MOTBX resource schema and validate resources. We provide a conda environment file to install dependencies for running the notebooks locally.
 
-#### Install Conda environment and Jupyter
 
-1. Install [Miniconda3](https://docs.conda.io/projects/miniconda/en/latest/) (Conda 23.5.2 Python 3.11.3 released July 13, 2023)
-
-2. Install dependencies
-
-    Option 1: install dependencies manually
-
-      * Install *notebook* and Jupyter kernels (*nb_conda_kernels*) to Conda base environment
-
-         ```
-         conda install -c conda-forge notebook
-         conda install -c conda-forge nb_conda_kernels
-         ```
-
-      * Create new environment and register kernel for Jupyter
-
-         ```
-         conda create -n motbxtools python=3.11
-         conda activate motbxtools
-         conda install ipykernel
-         python -m ipykernel install --user --name=motbxtools --display-name "Python 3.11 (motbxtools)"
-         conda install -c anaconda requests
-         conda install -c conda-forge pyyaml
-         conda install -c conda-forge jsonschema
-         conda install -c conda-forge validators
-         conda install -c conda-forge pygithub
-         conda install -c conda-forge keyring
-         conda install -c anaconda pandas
-         conda install -c conda-forge openpyxl
-         conda install sphinx
-         ```
-
-    Option 2: install environment from [YAML file](https://github.com/EATRIS/motbx/blob/main/envs/motbxtools.yml)
-
-      ```
-      conda env create -f envs/motbxtools.yml
-      ```
-
-3. Run Jupyter notebook from base environment
-    ```
-    jupyter notebook
-    ```
 
 ## Acknowledgements
 

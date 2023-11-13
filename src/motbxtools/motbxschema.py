@@ -177,7 +177,7 @@ class MotbxCollection():
         return info
 
     @contextmanager
-    def validation_file(self, file_path=None):
+    def _validation_file(self, file_path=None):
         """Create text file for collecting information on failed resource
         validations.
 
@@ -198,7 +198,7 @@ class MotbxCollection():
                 vf.close()
 
     @contextmanager
-    def summary_file(self, file_path):
+    def _summary_file(self, file_path):
         """Create CSV file summarising MOTBX resources.
 
         :param file_path: Path to a MOTBX summary CSV file
@@ -214,7 +214,7 @@ class MotbxCollection():
             sf.close()
 
     @contextmanager
-    def changelog_file(self, file_path=None):
+    def _changelog_file(self, file_path=None):
         """Create CSV file summarising changes in MOTBX resources comparing two
         versions of MOTBX
 
@@ -235,7 +235,7 @@ class MotbxCollection():
             finally:
                 cf.close()
 
-    def load_summary(self, file_path):
+    def _load_summary(self, file_path):
         """Load a MOTBX summary CSV file.
 
         :param file_path: Path to a MOTBX summary CSV file
@@ -271,11 +271,11 @@ class MotbxCollection():
         :type validationlog_path: str
         """
         if old_summary_csv_path:  # load summary CSV from previous version
-            summary_old = self.load_summary(old_summary_csv_path)
+            summary_old = self._load_summary(old_summary_csv_path)
 
-        with (self.summary_file(summary_csv_path) as summary,
-              self.changelog_file(changelog_path) as changelog,
-              self.validation_file(validationlog_path) as errorlog):
+        with (self._summary_file(summary_csv_path) as summary,
+              self._changelog_file(changelog_path) as changelog,
+              self._validation_file(validationlog_path) as errorlog):
             if not errorlog:
                 errorlog = sys.stdout
 
