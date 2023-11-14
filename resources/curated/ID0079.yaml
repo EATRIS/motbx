@@ -1,4 +1,4 @@
-resourceCategory: Data analysis
+resourceCategory: Data Analysis
 resourceDescription: Workflowhub is a registry for scientific computational workflows
   designed around FAIR principles. It allows sharing analysis workflows packaged as
   Research Object (RO) Crates with direct links to the source code on GitHub. RO-Crates

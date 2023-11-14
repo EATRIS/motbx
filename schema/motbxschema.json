@@ -16,8 +16,8 @@
         "Proteomics",
         "Metabolomics",
         "Quality Control and Assessment",
-        "Data management and stewardship",
-        "Data analysis"
+        "Data Management and Stewardship",
+        "Data Analysis"
       ]
     },
     "resourceSubcategory": {
@@ -94,7 +94,7 @@
       "properties": {
         "resourceCategory": {
           "enum": [
-            "Data management and stewardship"
+            "Data Management and Stewardship"
           ]
         },
         "resourceSubcategory": {
@@ -111,7 +111,7 @@
       "properties": {
         "resourceCategory": {
           "enum": [
-            "Data analysis"
+            "Data Analysis"
           ]
         },
         "resourceSubcategory": {

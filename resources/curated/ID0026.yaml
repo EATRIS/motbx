@@ -1,4 +1,4 @@
-resourceCategory: Data analysis
+resourceCategory: Data Analysis
 resourceDescription: nf-core/methylseq is a bioinformatics analysis pipeline used
   for Methylation (Bisulfite) sequencing data. It pre-processes raw data from FastQ
   inputs, aligns the reads and performs extensive quality-control on the results.
