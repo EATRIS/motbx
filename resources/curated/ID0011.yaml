@@ -1,4 +1,4 @@
-resourceCategory: Quality control and assessment
+resourceCategory: Quality Control and Assessment
 resourceDescription: European Molecular Genetics Quality Network (EMQN) Certifications
   aim to improve the quality of molecular genetic testing. EMQN provides external
   quality assessment (EQA) schemes and educational resources to laboratories worldwide,
@@ -15,7 +15,6 @@ resourceID: ID0011
 resourceKeywords:
 - EMQN
 - certification
-- external quality assessment (EQA)
 - proficiency testing
 - quality
 - quality assessment
@@ -25,6 +24,7 @@ resourceKeywords:
 - type of resource
 resourceSubcategory: Quality certification
 resourceTags:
+- external quality assessment (EQA)
 - proficiency testing
 resourceTitle: 'EMQN Certifications: Advancing quality asurance in genetic testing'
 resourceUrl: https://www.emqn.org/

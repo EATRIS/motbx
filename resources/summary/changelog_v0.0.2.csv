@@ -1,0 +1,20 @@
+resourceID,Resource status [added/updated/removed],Passed validation [yes/no],Updated field(s)
+ID0001,updated,yes,resourceCategory
+ID0002,updated,yes,resourceCategory
+ID0003,updated,yes,resourceCategory
+ID0004,updated,yes,resourceCategory
+ID0005,updated,yes,resourceCategory
+ID0006,updated,yes,resourceCategory
+ID0007,updated,yes,resourceCategory
+ID0008,updated,yes,resourceCategory
+ID0009,updated,yes,resourceCategory
+ID0010,updated,no,resourceCategory
+ID0011,updated,yes,"resourceCategory, resourceKeywords, resourceTags"
+ID0012,updated,yes,"resourceCategory, resourceKeywords, resourceTags"
+ID0013,updated,yes,"resourceCategory, resourceKeywords, resourceTags"
+ID0014,updated,yes,"resourceCategory, resourceKeywords, resourceTags"
+ID0034,updated,yes,resourceCategory
+ID0045,updated,yes,resourceCategory
+ID0049,updated,yes,resourceCategory
+ID0050,updated,yes,resourceCategory
+ID0081,updated,yes,resourceCategory

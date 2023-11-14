@@ -15,7 +15,7 @@
         "Transcriptomics",
         "Proteomics",
         "Metabolomics",
-        "Quality control and assessment",
+        "Quality Control and Assessment",
         "Data management and stewardship",
         "Data analysis"
       ]
@@ -77,7 +77,7 @@
       "properties": {
         "resourceCategory": {
           "enum": [
-            "Quality control and assessment"
+            "Quality Control and Assessment"
           ]
         },
         "resourceSubcategory": {
