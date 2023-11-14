@@ -1,4 +1,4 @@
-resourceCategory: Quality control and assessment
+resourceCategory: Quality Control and Assessment
 resourceDescription: Enhancing Quality in Preclinical Data (EQIPD) quality framework
   and toolbox. The EQIPD Quality System is a comprehensive framework designed to enhance
   the quality and reliability of preclinical research. The EQIPD (Experimental Quality
@@ -18,7 +18,6 @@ resourceKeywords:
 - Enhancing Quality in Preclinical Data
 - certification
 - external quality assessment
-- external quality assessment (EQA)
 - proficiency testing
 - project
 - quality
@@ -31,6 +30,7 @@ resourceKeywords:
 resourceSubcategory: Quality certification
 resourceTags:
 - epigenomics
+- external quality assessment (EQA)
 - genomics
 - metabolomics
 - multi-omics

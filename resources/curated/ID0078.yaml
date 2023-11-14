@@ -1,4 +1,4 @@
-resourceCategory: Data analysis
+resourceCategory: Data Analysis
 resourceDescription: Nf-core is a community collection of analysis pipelines using
   Nextflow. This curated collection of computational workflows includes many omics
   preprocessing workflows that have been widely adopted in the community. Several

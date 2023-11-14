@@ -1,4 +1,4 @@
-resourceCategory: Data management and stewardship
+resourceCategory: Data Management and Stewardship
 resourceDescription: EATRIS-Plus project template for FAIRification of multi-omics
   metadata. This GitHub repository contains a Jupyter notebook to create Investigation/Study/Assay
   (ISA) metadata in ISA-Tab and ISA-JSON format following the metadata structure used

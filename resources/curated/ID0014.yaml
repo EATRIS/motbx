@@ -1,4 +1,4 @@
-resourceCategory: Quality control and assessment
+resourceCategory: Quality Control and Assessment
 resourceDescription: Luxembourg Institute of Health (LIH) Proficiency Testing (PT)
   programme, which works as an external quality assessment tool, allows you to verify
   and benchmark the performance of your biospecimen processing or testing methods.
@@ -22,7 +22,6 @@ resourceKeywords:
 - accreditation
 - analytical
 - benchmarks
-- external quality assessment (EQA)
 - lab accreditation
 - laboratory testing
 - medical compliance
@@ -41,6 +40,7 @@ resourceKeywords:
 - type of resource
 resourceSubcategory: Proficiency testing and external quality assessment
 resourceTags:
+- external quality assessment (EQA)
 - genomics
 - proficiency testing
 - transcriptomics
