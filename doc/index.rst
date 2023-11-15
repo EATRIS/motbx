@@ -6,6 +6,10 @@
 Welcome to MOTBXtools' documentation!
 ======================================
 
+.. image:: https://github.com/EATRIS/motbx/assets/1405356/cf4ddf87-a2d0-40c3-8f18-058e36885bea
+  :width: 300
+  :alt: MOTBX logo
+
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
