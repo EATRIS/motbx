@@ -19,14 +19,14 @@ SUMMARY_DIR = MOTBX_DIR.joinpath("resources/summary")
 if __name__ == "__main__":
     version = sys.argv[1]
     print("Received input 'version':", version)
-    with open(VERSION_FILE, "r") as f:
+    with VERSION_FILE.open(mode="r", encoding="utf-8") as f:
         motbx_versions = yaml.safe_load(f)
     # get latest version based on input parameter 'version'
     if version == "latest":
         latest_version = motbx_versions["latest"]
         print("Updating latest version:", latest_version)
     else:
-        with open(VERSION_FILE, "w") as f:
+        with VERSION_FILE.open(mode="w", encoding="utf-8") as f:
             motbx_versions["previous"].insert(0, motbx_versions["latest"])
             latest_version = motbx_versions["latest"] = version
             yaml.dump(motbx_versions, VERSION_FILE)
