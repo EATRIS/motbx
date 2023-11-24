@@ -1,14 +1,13 @@
 """Create a summary CSV file of MOTBX resources (YAML files).
 """
-import os
-import yaml
 import sys
+import yaml
 from pathlib import Path
 from motbxtools import motbxschema
 
 MOTBX_DIR = Path.cwd()
 # file defining MOTBX resource summary version
-VERSION_FILE = MOTBX_DIR.joinpath("resources/motbx_versions.yaml")
+VERSION_FILE = MOTBX_DIR.joinpath("resources/MOTBX_version.yaml")
 # path to JSON SCHEMA file defining structure of MOTBX resources
 SCHEMA_JSON = MOTBX_DIR.joinpath("schema/motbxschema.json")
 # path to directory where resources YAML file are saved
