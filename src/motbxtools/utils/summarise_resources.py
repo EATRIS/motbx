@@ -59,9 +59,3 @@ if __name__ == "__main__":
         old_summary_csv_path=summary_csv_previous_fp,
         changelog_path=changelog_csv_fp,
         validationlog_path=validation_report_fp)
-    # validate resources and create summary CSV file; exclude invalid resources
-    motbx_collection.summarise(
-        summary_csv_latest_excl_invalid_fp,
-        validate=True,
-        exclude_invalid=True,
-        old_summary_csv_path=summary_csv_previous_fp)
