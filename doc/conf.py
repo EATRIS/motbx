@@ -18,7 +18,7 @@ sys.path.insert(0, os.path.abspath('../src/motbxtools'))
 # -- Project information -----------------------------------------------------
 
 project = 'MOTBXtools'
-copyright = '2023, Anna Niehues'
+copyright = '2023, EATRIS'
 author = 'Anna Niehues'
 
 # The full version, including alpha/beta/rc tags

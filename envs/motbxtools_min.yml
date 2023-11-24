@@ -1,0 +1,11 @@
+name: motbxtools_min
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - jsonschema=4.17.3
+  - pip=23.2.1
+  - python=3.11.4
+  - pyyaml=6.0
+  - requests=2.27.1
+  - validators=0.20.0

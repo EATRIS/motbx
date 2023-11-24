@@ -18,7 +18,8 @@ jobs:
         python-version: ["3.11"]
 
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout repository
+        uses: actions/checkout@v3
 
       - name: Setup miniconda
         uses: conda-incubator/setup-miniconda@v2
@@ -40,7 +41,7 @@ jobs:
         run: |
           sphinx-build doc _build
 
-      - name: Deploy to GitHub Pages
+      - name: Deploy documentation to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         if: ${{ github.event_name == 'workflow_dispatch' && github.ref == 'refs/heads/main' }}
         with:
