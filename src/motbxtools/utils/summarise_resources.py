@@ -1,9 +1,12 @@
-"""Create a summary CSV file of MOTBX resources (YAML files).
+"""Summarise MOTBX resources
+
+This script creates a summary CSV file of MOTBX resources (YAML files).
 """
-import sys
+import argparse
 import yaml
 from pathlib import Path
 from motbxtools import motbxschema
+
 
 MOTBX_DIR = Path.cwd()
 # file defining MOTBX resource summary version
@@ -16,19 +19,25 @@ RESOURCES_DIR = MOTBX_DIR.joinpath("resources/curated")
 SUMMARY_DIR = MOTBX_DIR.joinpath("resources/summary")
 
 
-if __name__ == "__main__":
-    version = sys.argv[1]
-    print("Received input 'version':", version)
+def main():
+    parser = argparse.ArgumentParser(usage=__doc__)
+    parser.add_argument(
+        'version',
+        type=str,
+        help="The version of the MOTBX resources summary.")
+    args = parser.parse_args()
+
+    print("Received input 'version':", args.version)
     with VERSION_FILE.open(mode="r", encoding="utf-8") as f:
         motbx_versions = yaml.safe_load(f)
     # get latest version based on input parameter 'version'
-    if version == "latest":
+    if args.version == "latest":
         latest_version = motbx_versions["latest"]
         print("Updating latest version:", latest_version)
     else:
         with VERSION_FILE.open(mode="w", encoding="utf-8") as f:
             motbx_versions["previous"].insert(0, motbx_versions["latest"])
-            latest_version = motbx_versions["latest"] = version
+            latest_version = motbx_versions["latest"] = args.version
             yaml.dump(motbx_versions, f)
             print("Creating new version:", latest_version)
     # get previous version
@@ -41,8 +50,6 @@ if __name__ == "__main__":
     # these files will be created or overwritten
     summary_csv_latest_fp = SUMMARY_DIR.joinpath(
         f"MOTBX_{latest_version}.csv")
-    summary_csv_latest_excl_invalid_fp = SUMMARY_DIR.joinpath(
-        f"MOTBX_{latest_version}_excl_invalid.csv")
     changelog_csv_fp = SUMMARY_DIR.joinpath(
         f"changelog_{latest_version}.csv")
     validation_report_fp = SUMMARY_DIR.joinpath(
@@ -58,3 +65,7 @@ if __name__ == "__main__":
         old_summary_csv_path=summary_csv_previous_fp,
         changelog_path=changelog_csv_fp,
         validationlog_path=validation_report_fp)
+
+
+if __name__ == "__main__":
+    main()
