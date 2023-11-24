@@ -45,3 +45,5 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           commit-message: "[create-pull-request] automated resource summary test"
           branch: create-pull-request/resource_summary
+          add-paths: |
+            resources/summary/*

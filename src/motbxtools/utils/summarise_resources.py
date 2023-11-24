@@ -8,5 +8,5 @@ MOTBX_DIR = Path.cwd()
 
 if __name__ == "__main__":
     print(MOTBX_DIR)
-    with open("test.txt", "w") as f:
+    with open(MOTBX_DIR.joinpath("resources/summary/test.txt"), "w") as f:
         print(MOTBX_DIR, file=f)
