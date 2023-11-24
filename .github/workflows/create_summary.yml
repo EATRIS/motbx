@@ -3,8 +3,12 @@ name: create_summary
 on:
   workflow_dispatch:
 
+permissions:
+  contents: write
+  pull-requests: write
+
 jobs:
-  build:
+  create_summary:
     runs-on: ubuntu-latest
 
     defaults:
@@ -35,15 +39,9 @@ jobs:
         run: |
           python src/motbxtools/utils/summarise_resources.py
 
-      - name: Commit changes
-        run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git add -A
-          git diff-index --quiet HEAD || (git commit -a -m "updated files" --allow-empty)
-
-      - name: Push changes
-        uses: ad-m/github-push-action@v0.6.0
+      - name: Commit changes and create pull request
+        uses: peter-evans/create-pull-request@v5
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: "[create-pull-request] automated resource summary test"
           branch: main
