@@ -42,7 +42,7 @@ jobs:
 
       - name: Execute Python script to create resources summary
         run: |
-          python src/motbxtools/utils/summarise_resources.py github.event.inputs.version
+          python src/motbxtools/utils/summarise_resources.py ${{github.event.inputs.version}}
 
       - name: Commit changes and create pull request
         uses: peter-evans/create-pull-request@v5
