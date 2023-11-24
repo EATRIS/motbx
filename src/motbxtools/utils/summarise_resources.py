@@ -8,7 +8,7 @@ MOTBX_DIR = Path.cwd()
 
 
 if __name__ == "__main__":
-    version = sys.argv[2]
+    version = sys.argv[1]
     print(version, sys.argv)
     if version == "latest":
         with open(MOTBX_DIR.joinpath("resources/MOTBX_version.yaml"), "r") as f:
