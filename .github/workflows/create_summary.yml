@@ -4,9 +4,10 @@ on:
   workflow_dispatch:
     inputs:
       version:
-        description: 'Version of resources summary'
-        required: false
+        description: 'Version of resources summary. DEFAULT: retrieve latest version from "resources/MOTBX_version.yaml". ALTERNATIVE: specify a new version; this will update the latest version specified in "resources/MOTBX_version.yaml".'
+        required: true
         default: 'latest'
+        type: string
 
 permissions:
   contents: write
@@ -24,7 +25,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: Setup miniconda
+      - name: Setup Miniconda
         uses: conda-incubator/setup-miniconda@v2
         with:
           auto-update-conda: true
@@ -35,7 +36,7 @@ jobs:
           environment-file: envs/motbxtools_min.yml
           use-mamba: true
 
-      - name: Build environment and install local motbxtools Python library
+      - name: Activate conda environment and install local motbxtools Python library
         run: |
           conda activate motbxtools_min
           python -m pip install -e .
@@ -48,7 +49,10 @@ jobs:
         uses: peter-evans/create-pull-request@v5
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          commit-message: "[create-pull-request] automated resource summary test"
+          commit-message: '[create_summary] automated MOTBX resources summary'
+          title: 'Changes created by "create_summary" action'
+          body: 'Automated changes by [create_summary](https://github.com/EATRIS/motbx/blob/main/.github/workflows/create_summary.yml) GitHub action'
           branch: create-pull-request/resource_summary
           add-paths: |
             resources/summary/*
+            resources/MOTBX_version.yaml
