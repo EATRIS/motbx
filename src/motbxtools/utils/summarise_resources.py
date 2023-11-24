@@ -29,7 +29,7 @@ if __name__ == "__main__":
         with VERSION_FILE.open(mode="w", encoding="utf-8") as f:
             motbx_versions["previous"].insert(0, motbx_versions["latest"])
             latest_version = motbx_versions["latest"] = version
-            yaml.dump(motbx_versions, VERSION_FILE)
+            yaml.dump(motbx_versions, f)
             print("Creating new version:", latest_version)
     # get previous version
     previous_version = motbx_versions["previous"][0]
