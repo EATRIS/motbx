@@ -15,7 +15,7 @@ overcome barriers to health innovation. Find out more here: https://eatris.eu/
 
 .. _European infrastructure for translational medicine: https://eatris.eu/
 
-.. image:: https://github.com/EATRIS/motbx/assets/1405356/cf4ddf87-a2d0-40c3-8f18-058e36885bea
+.. image:: https://github.com/EATRIS/motbx/assets/1405356/8c3418b2-d67e-43d4-b204-3e086dbb9822
   :width: 200
   :alt: MOTBX logo
 
