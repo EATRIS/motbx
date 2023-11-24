@@ -1,4 +1,4 @@
-name: motbxtools
+name: motbxtools_notebooks
 channels:
   - anaconda
   - conda-forge

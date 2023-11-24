@@ -1,7 +1,7 @@
-`MOTBXtools` Python package
+`motbxtools` Python package
 ===========================
 
-The `MOTBXtools` package provides classes and methods to read, write, validate,
+The `motbxtools` package provides classes and methods to read, write, validate,
 or summarise MOTBX resources. It is available in the directory `src/motbxtools`_.
 
 
@@ -14,9 +14,9 @@ Module `motbxschema`
 
 
 Unit testing
-~~~~~~~~~~~~
+------------
 
-The directory `tests/test_motbxtools`_ contains unit tests for the `MOTBXtools` package.
+The directory `tests/test_motbxtools`_ contains unit tests for the `motbxtools` package.
 The `tests`_ directory additionally contains MOTBX resource `YAML` files used by the tests.
 Unit tests can be run using the GitHub action defined in `.github/workflows/tests.yml`_ via `actions`_.
 

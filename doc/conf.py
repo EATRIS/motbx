@@ -17,7 +17,7 @@ sys.path.insert(0, os.path.abspath('../src/motbxtools'))
 
 # -- Project information -----------------------------------------------------
 
-project = 'MOTBXtools'
+project = 'motbxtools'
 copyright = '2023, EATRIS'
 author = 'Anna Niehues'
 
@@ -31,7 +31,8 @@ release = '0.1'
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
-    'sphinx.ext.autodoc'
+    'sphinx.ext.autodoc',
+    'sphinxarg.ext'
 ]
 
 # Add any paths that contain templates here, relative to this directory.

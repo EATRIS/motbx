@@ -1,4 +1,4 @@
-name: motbxtest_and_doc
+name: motbxtools_doc
 channels:
   - conda-forge
   - defaults
@@ -7,8 +7,8 @@ dependencies:
   - jsonschema=4.17.3
   - pip=23.2.1
   - python=3.11.4
-  - pytest
   - pyyaml=6.0
   - requests=2.27.1
   - sphinx=7.0.0
+  - sphinx-argparse=0.4.0
   - validators=0.20.0

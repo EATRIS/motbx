@@ -19,25 +19,31 @@ RESOURCES_DIR = MOTBX_DIR.joinpath("resources/curated")
 SUMMARY_DIR = MOTBX_DIR.joinpath("resources/summary")
 
 
-def main():
-    parser = argparse.ArgumentParser(usage=__doc__)
-    parser.add_argument(
-        'version',
-        type=str,
-        help="The version of the MOTBX resources summary.")
-    args = parser.parse_args()
+parser = argparse.ArgumentParser(
+    description=__doc__,
+    formatter_class=argparse.RawDescriptionHelpFormatter)
+parser.add_argument(
+    'version',
+    type=str,
+    default='latest',
+    help="""The version of the MOTBX resources summary.
+    DEFAULT: retrieve latest version from 'resources/MOTBX_version.yaml'.
+    ALTERNATIVE: specify a new version; this will update the latest version
+    specified in 'resources/MOTBX_version.yaml'.""")
 
-    print("Received input 'version':", args.version)
+
+def main(version):
+    print("Received input 'version':", version)
     with VERSION_FILE.open(mode="r", encoding="utf-8") as f:
         motbx_versions = yaml.safe_load(f)
     # get latest version based on input parameter 'version'
-    if args.version == "latest":
+    if version == "latest":
         latest_version = motbx_versions["latest"]
         print("Updating latest version:", latest_version)
     else:
         with VERSION_FILE.open(mode="w", encoding="utf-8") as f:
             motbx_versions["previous"].insert(0, motbx_versions["latest"])
-            latest_version = motbx_versions["latest"] = args.version
+            latest_version = motbx_versions["latest"] = version
             yaml.dump(motbx_versions, f)
             print("Creating new version:", latest_version)
     # get previous version
@@ -68,4 +74,5 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    args = parser.parse_args()
+    main(args.version)
