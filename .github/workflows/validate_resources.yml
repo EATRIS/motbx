@@ -4,9 +4,7 @@ on:
   pull_request:
     branches:
       - main
-    paths:
-      - resources/curated/**
-
+   
 jobs:
   validate_resources:
     runs-on: ubuntu-latest
