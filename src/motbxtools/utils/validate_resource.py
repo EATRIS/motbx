@@ -22,7 +22,7 @@ parser.add_argument(
 
 
 def main(resource_path):
-    print("Validating resource:", resource_path)
+    print("\nValidating resource:", resource_path)
     try:
         assert resource_path.endswith(".yaml")
     except AssertionError:
@@ -43,8 +43,8 @@ def main(resource_path):
     except Exception:
         print("Validation failed - YAML file is not according to schema")
         raise
-    print("MOTBX resource passed validation.")
-    print("\n", 79*"-", "\n")
+    print("MOTBX resource passed validation")
+    print(79*"-", "\n")
 
 
 if __name__ == "__main__":
