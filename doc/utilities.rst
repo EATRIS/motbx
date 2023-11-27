@@ -14,5 +14,17 @@ Script `utils.summarise_resources`
 
 This script can be executed as GitHub Action `create_summary`_.
 
+Script `utils.validate_resource`
+--------------------------------
+
+.. argparse::
+    :module: utils.validate_resource
+    :func: parser
+    :prog: validate_resource
+
+This script can be executed as GitHub Action `validate_resources`_.
+
+
 .. _motbxtools.utils: https://github.com/EATRIS/motbx/tree/main/src/motbxtools/utils
 .. _create_summary: https://github.com/EATRIS/motbx/actions/workflows/create_summary.yml
+.. _validate_resources: https://github.com/EATRIS/motbx/actions/workflows/validate_resources.yml
