@@ -14,6 +14,25 @@ want to actively contribute to it.
 `Contact us`_ if you have any questions.
 
 
+Information for developers
+--------------------------
+
+When making changes to this repository, we follow the `GitHub flow`_. For each issue,
+a new branch is created, files are edited, and a pull request is created. When checks are passed,
+the pull request can be merged into the `main` branch.
+
+Issue templates
+~~~~~~~~~~~~~~~
+
+Issue templates can be edited in `.github/ISSUE_TEMPLATE`_.
+
+
+GitHub actions
+~~~~~~~~~~~~~~
+
+Automated GitHub actions are defined in `.github/workflows`_.
+
+
 Workflow: changing a MOTBX resource
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -22,13 +41,14 @@ Workflow: changing a MOTBX resource
 
    digraph add_resource {
         fontname="Helvetica,Arial,sans-serif"
+        tooltip="Workflow: changing a MOTBX resource"
         node [
-            fontname="Helvetica,Arial,sans-serif", fontsize=16,
+            fontname="Helvetica,Arial,sans-serif",
             shape=box, style="filled"]
         edge [fontname="Helvetica,Arial,sans-serif"]
         issue_creation [
             label=<<b>MOTBX community member:</b><br/>Create issue to request addition,<br/>removal or update of MOTBX resource​>,
-            color="#fa9632", tooltip="Create issue",
+            color="#fa9632", tooltip="Create issue", fontcolor="#ffffff",
             URL="https://github.com/EATRIS/motbx/issues/new/choose"];
         first_review [
             label=<<b>MOTBX team:</b><br/>Review request​>,
@@ -50,7 +70,7 @@ Workflow: changing a MOTBX resource
         provide_info [
             label=<<b>MOTBX community member:</b><br/>Comment on issue to provide further details​>,
             color="#fa9632", tooltip="Provide further information",
-            URL="https://github.com/EATRIS/motbx/issues"];
+            fontcolor="#ffffff", URL="https://github.com/EATRIS/motbx/issues"];
         close_reject_issue [
             label=<<b>MOTBX team:</b><br/>Close issue​>,
             color="#1d2850", fontcolor="#ffffff", tooltip="Close issue",
@@ -93,42 +113,71 @@ Workflow: changing a MOTBX resource
             color="#1d2850", fontcolor="#ffffff", tooltip="Edits required",
             URL="https://github.com/EATRIS/motbx/pulls"];
         issue_creation -> first_review -> approve_request;
-        approve_request -> request_info [label="Reject"];
-        request_info -> comment_issue [label="Yes"];
-        comment_issue -> provide_info -> first_review;
-        request_info -> close_reject_issue [label="No"];
-        approve_request -> branch_creation [label="Approve"];
+        approve_request -> request_info [label=<<i>Reject</i>>, style="dotted"];
+        request_info -> comment_issue [label=<<i>Yes</i>>, style="dotted"];
+        comment_issue -> provide_info -> first_review [style="dotted"];
+        request_info -> close_reject_issue [label=<<i>No</i>>, style="dotted"];
+        approve_request -> branch_creation [label=<<i>Approve</i>>];
         branch_creation -> branch_update -> pull_request -> action_validation;
         action_validation -> pull_request_review -> validation_passed;
-        validation_passed -> expectations_met [label="Yes"];
-        expectations_met -> pull_request_merge [label="Yes"];
-        validation_passed -> pull_request_draft [label="No"];
-        expectations_met -> pull_request_draft [label="No"];
-        pull_request_draft -> branch_update;
+        validation_passed -> expectations_met [label=<<i>Yes</i>>];
+        expectations_met -> pull_request_merge [label=<<i>Yes</i>>];
+        validation_passed -> pull_request_draft [label=<<i>No</i>>, style="dotted"];
+        expectations_met -> pull_request_draft [label=<<i>No</i>>, style="dotted"];
+        pull_request_draft -> branch_update [style="dotted"];
 
    }
 
 
+Workflow: summarise changes
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+Summarise all resources and changes compared to a previous summary.
 
-Developers
-----------
+.. graphviz::
 
-When making changes to this repository, we follow the `GitHub flow`_. For each issue,
-a new branch is created, files are edited, and a pull request is created. When checks are passed,
-the pull request can be merged into the `main` branch.
+   digraph summarise_resources {
+        fontname="Helvetica,Arial,sans-serif"
+        tooltip="Workflow: summarise MOTBX resource and changes"
+        node [
+            fontname="Helvetica,Arial,sans-serif",
+            shape=box, style="filled"]
+        edge [fontname="Helvetica,Arial,sans-serif"]
+        action_summary [
+            label=<<b>GitHub action:</b><br/>Create resource summary>,
+            fontcolor="#ffffff",
+            color="#6450a0", tooltip="Triggered or scheduled GitHub action",
+            URL="https://github.com/EATRIS/motbx/actions/workflows/create_summary.yml"];
+        send_for_approval [
+            label=<<b>MOTBX team:</b><br/>Send change summary to<br/>MOTBX content committee​>,
+            color="#1d2850", tooltip="Send summary for approval",
+            fontcolor="#ffffff",
+            URL="https://github.com/EATRIS/motbx/tree/main/resources/summary"]
+        content_review [
+            label=<<b>MOTBX content committee:</b><br/>Review changes​>,
+            color="#00b4b4", tooltip="Changes are reviwed by content committee",
+            URL="https://motbx.eatris.eu/motbx-team/", fontcolor="#ffffff"]
+        changes_approved [
+            label="Are all changes approved?",
+            color="#d2d2d2", shape="diamond",
+            tooltip="Does the content committee approve resource changes?"]
+        publish_changes [
+            label=<<b>MOTBX team:</b><br/>Publish changes on MOTBX website>,
+            color="#1d2850", tooltip="Publish changes on MOTBX website",
+            URL="https://motbx.eatris.eu/", fontcolor="#ffffff"]
+        resolve_issues [
+            label=<<b>MOTBX team:</b><br/>Follow the above workflow <i>changing a<br/>MOTBX resource </i> to resolve approval issues>,
+            tooltip="Create issue per resource and make edits",
+            color="#1d2850", fontcolor="#ffffff",
+            URL="https://github.com/EATRIS/motbx/issues"
+        ]
 
+        action_summary -> send_for_approval -> content_review -> changes_approved;
+        changes_approved -> publish_changes [label=<<i>Yes</i>>];
+        changes_approved -> resolve_issues [label=<<i>No</i>>, style="dotted"];
+        resolve_issues -> action_summary [style="dotted"];
 
-Issue templates
-~~~~~~~~~~~~~~~
-
-Issue templates can be edited in `.github/ISSUE_TEMPLATE`_.
-
-
-GitHub actions
-~~~~~~~~~~~~~~
-
-Automated GitHub actions are defined in `.github/workflows`_.
+   }
 
 
 .. _submit an issue: https://github.com/EATRIS/motbx/issues/new/choose
