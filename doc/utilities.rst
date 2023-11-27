@@ -22,9 +22,12 @@ Script `utils.validate_resource`
     :func: parser
     :prog: validate_resource
 
-This script can be executed as GitHub Action `validate_resources`_.
+This script can be executed as GitHub Action `validate_resources`_, which is
+automatically triggered on pull requests when files in the `curated resources directory`_
+are changed.
 
 
 .. _motbxtools.utils: https://github.com/EATRIS/motbx/tree/main/src/motbxtools/utils
 .. _create_summary: https://github.com/EATRIS/motbx/actions/workflows/create_summary.yml
 .. _validate_resources: https://github.com/EATRIS/motbx/actions/workflows/validate_resources.yml
+.. _curated resources directory: https://github.com/EATRIS/motbx/tree/main/resources/curated
