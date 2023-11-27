@@ -46,5 +46,5 @@ jobs:
       - name: Execute Python script to create resources summary
         run: |
           for file in ${{ steps.changed-files.outputs.resources_all_changed_files }}; do
-            python src/motbxtools/utils/validate_resource.py "$file was changed"
+            python src/motbxtools/utils/validate_resource.py "$file"
           done
