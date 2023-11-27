@@ -5,7 +5,7 @@ on:
     branches:
       - main
     paths:
-      - resources/*.yaml
+      - resources/**
 
 jobs:
   validate_resources:
