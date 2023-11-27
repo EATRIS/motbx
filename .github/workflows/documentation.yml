@@ -1,6 +1,12 @@
 name: documentation
 
-on: [workflow_dispatch]
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'doc/**'
+  workflow_dispatch:
 
 permissions:
   contents: write
