@@ -3,7 +3,7 @@ description: Report a bug, request a feature, or provide feedback
 title: "[other-issue]: "
 labels: ["other-issue"]
 assignees:
-  - niehues
+  - tgttunstall
 body:
   - type: markdown
     attributes:

@@ -3,7 +3,7 @@ description: Request addition of a new MOTBX resource
 title: "[new-resource-request]: "
 labels: ["new-resource-request"]
 assignees:
-  - niehues
+  - tgttunstall
 body:
   - type: markdown
     attributes:
@@ -48,9 +48,37 @@ body:
   - type: input
     id: category
     attributes:
-      label: Resource Category
-      description: Can you suggest a MOTBX category for this resource?
+      label: Resource Category and Subcategory
+      description: Can you suggest a MOTBX category and subcategory for this resource?
       placeholder: Category
+      options:
+        - Genomics - Guidelines and best practices
+        - Genomics - Laboratory protocols and methods
+        - Genomics - Translational research use case
+        - Epigenomics - Guidelines and best practices
+        - Epigenomics - Laboratory protocols and methods
+        - Epigenomics - Translational research use case
+        - Transcriptomics - Guidelines and best practices
+        - Transcriptomics - Laboratory protocols and methods
+        - Transcriptomics - Translational research use case
+        - Proteomics - Guidelines and best practices
+        - Proteomics - Laboratory protocols and methods
+        - Proteomics - Translational research use case
+        - Metabolomics - Guidelines and best practices
+        - Metabolomics - Laboratory protocols and methods
+        - Metabolomics - Translational research use case
+        - Quality Control and Assessment - Guidelines and best practices
+        - Quality Control and Assessment - Reference materials for quality control
+        - Quality Control and Assessment - Proficiency testing and external quality assessment
+        - Quality Control and Assessment - Quality certification
+        - Data Management and Stewardship - Guidelines and best practices
+        - Data Management and Stewardship - Data and metadata standards
+        - Data Management and Stewardship - Databases and catalogues
+        - Data Management and Stewardship - Translational research use cases
+        - Data Analysis - Guidelines and best practices
+        - Data Analysis - Computing platforms
+        - Data Analysis - Software applications and workflows
+        - Data Analysis - Translational research use cases
     validations:
       required: false
   - type: input

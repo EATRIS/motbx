@@ -3,7 +3,7 @@ description: Request an update of an exisiting MOTBX resource
 title: "[resource-update-request]: "
 labels: ["resource-update-request"]
 assignees:
-  - niehues
+  - tgttunstall
 body:
   - type: markdown
     attributes:
