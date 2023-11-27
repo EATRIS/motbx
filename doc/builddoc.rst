@@ -44,6 +44,7 @@ Deploy on GitHub pages
 
 A GitHub action has been defined to build the documention and deploy it on GitHub pages.
 The action is defined in `.github/workflows/documentation.yml`_ and can be manually triggered via `actions`_.
+it is also triggered when changes are made to files in `doc/`_ or `src/`_.
 
 
 .. _documentation: https://eatris.github.io/motbx/index.html
@@ -53,3 +54,5 @@ The action is defined in `.github/workflows/documentation.yml`_ and can be manua
 .. _YAML environment file: https://github.com/EATRIS/motbx/blob/main/envs/motbxtools_doc.yml
 .. _.github/workflows/documentation.yml: https://github.com/EATRIS/motbx/blob/main/.github/workflows/documentation.yml
 .. _actions: https://github.com/EATRIS/motbx/actions/workflows/documentation.yml
+.. _doc/: https://github.com/EATRIS/motbx/tree/main/doc
+.. _src/: https://github.com/EATRIS/motbx/tree/main/src

@@ -38,7 +38,8 @@ Workflow: changing a MOTBX resource
 
 For each suggested edit to MOTBX resources, a GitHub issue is created.
 Changes are made based on the suggestion and a review by the MOTBX development team.
-After validation, changes are accepted and added the resource collection.
+After `resource validation`_ triggered by a pull request, changes can be accepted
+and added the resource collection.
 
 .. graphviz::
 
@@ -94,7 +95,7 @@ After validation, changes are accepted and added the resource collection.
             label=<<b>Triggered automated GitHub action:</b><br/>Perform tests validating resources in repository​>,
             color="#6450a0", fontcolor="#ffffff",
             tooltip="Automated resource validation",
-            URL="https://github.com/EATRIS/motbx/actions"];
+            URL="https://github.com/EATRIS/motbx/actions/workflows/validate_resources.yml"];
         pull_request_review [
             label=<<b>MOTBX team:</b><br/>Review pull request​>,
             color="#1d2850", fontcolor="#ffffff", tooltip="Review pull request",
@@ -151,7 +152,7 @@ and changes made compared to a previous summary are made.
         action_summary [
             label=<<b>GitHub action:</b><br/>Create resource summary>,
             fontcolor="#ffffff",
-            color="#6450a0", tooltip="Triggered or scheduled GitHub action",
+            color="#6450a0", tooltip="Manually triggered GitHub action",
             URL="https://github.com/EATRIS/motbx/actions/workflows/create_summary.yml"];
         send_for_approval [
             label=<<b>MOTBX team:</b><br/>Send change summary to<br/>MOTBX content committee​>,
@@ -190,3 +191,4 @@ and changes made compared to a previous summary are made.
 .. _GitHub flow: https://docs.github.com/en/get-started/quickstart/github-flow
 .. _.github/ISSUE_TEMPLATE: https://github.com/EATRIS/motbx/tree/main/.github/ISSUE_TEMPLATE
 .. _.github/workflows: https://github.com/EATRIS/motbx/tree/main/.github/workflows
+.. _resource validation: https://github.com/EATRIS/motbx/actions/workflows/validate_resources.yml
