@@ -22,20 +22,29 @@ parser.add_argument(
 
 
 def main(resource_path):
-    print("Validating resource:", resource_path)
-    assert resource_path.endswith(".yaml")
+    print("\nValidating resource:", resource_path)
+    try:
+        assert resource_path.endswith(".yaml")
+    except AssertionError:
+        print("Validation failed - MOTBX resources must be YAML files (.yaml)")
+        raise
     # load MOTBX schema used for validation
     schema = motbxschema.MotbxSchema(SCHEMA_JSON)
     try:
         resource = motbxschema.MotbxResource(resource_path)
-        print("Title:", resource.resource["resourceTitle"])
-        print("URL:", resource.resource["resourceUrl"])
-        # validate MOTBX resource
+    except Exception:
+        print("Validation failed - resource could not be loaded")
+        raise
+    print("Title:", resource.resource["resourceTitle"])
+    print("URL:", resource.resource["resourceUrl"])
+    # validate MOTBX resource
+    try:
         resource.validate(schema)
-        print("MOTBX resource passed validation.")
-    except Exception as error:
-        print("MOTBX resource is not valid.")
-        print(error)
+    except Exception:
+        print("Validation failed - YAML file is not according to schema")
+        raise
+    print("MOTBX resource passed validation")
+    print(79*"-", "\n")
 
 
 if __name__ == "__main__":
