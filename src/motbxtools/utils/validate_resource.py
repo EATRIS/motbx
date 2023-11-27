@@ -8,14 +8,8 @@ from motbxtools import motbxschema
 
 
 MOTBX_DIR = Path.cwd()
-# file defining MOTBX resource summary version
-VERSION_FILE = MOTBX_DIR.joinpath("resources/MOTBX_version.yaml")
 # path to JSON SCHEMA file defining structure of MOTBX resources
 SCHEMA_JSON = MOTBX_DIR.joinpath("schema/motbxschema.json")
-# path to directory where resources YAML file are saved
-RESOURCES_DIR = MOTBX_DIR.joinpath("resources/curated")
-# path to directory where summary files are saved
-SUMMARY_DIR = MOTBX_DIR.joinpath("resources/summary")
 
 
 parser = argparse.ArgumentParser(
