@@ -36,6 +36,9 @@ Automated GitHub actions are defined in `.github/workflows`_.
 Workflow: changing a MOTBX resource
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+For each suggested edit to MOTBX resources, a GitHub issue is created.
+Changes are made based on the suggestion and a review by the MOTBX development team.
+After validation, changes are accepted and added the resource collection.
 
 .. graphviz::
 
@@ -132,7 +135,9 @@ Workflow: changing a MOTBX resource
 Workflow: summarise changes
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Summarise all resources and changes compared to a previous summary.
+While individual resources can be continuously edited, updates to the MOTBX website
+are made in regular time intervals. For this purpose, summaries of all resources
+and changes made compared to a previous summary are made.
 
 .. graphviz::
 
