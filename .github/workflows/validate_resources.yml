@@ -5,7 +5,7 @@ on:
     branches:
       - main
     paths:
-      - 'resources/**'
+      - 'resources/curated/**'
 
 jobs:
   validate_resources:
@@ -41,10 +41,10 @@ jobs:
         with:
             files_yaml: |
               resources:
-                - curated/**
+                - resources/curated/**
 
       - name: Execute Python script to create resources summary
         run: |
-          for file in ${{ steps.changed-files.outputs.all_changed_files }}; do
+          for file in ${{ steps.changed-files.outputs.resources_all_changed_files }}; do
             python src/motbxtools/utils/validate_resource.py "$file was changed"
           done
