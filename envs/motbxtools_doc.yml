@@ -1,9 +1,11 @@
 name: motbxtools_doc
 channels:
   - conda-forge
+  - anaconda
   - defaults
 dependencies:
   - furo=2023.9.10
+  - graphviz=2.50.0
   - jsonschema=4.17.3
   - pip=23.2.1
   - python=3.11.4

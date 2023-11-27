@@ -32,8 +32,11 @@ release = '0.1'
 # ones.
 extensions = [
     'sphinx.ext.autodoc',
-    'sphinxarg.ext'
+    'sphinxarg.ext',
+    'sphinx.ext.graphviz'
 ]
+# graphviz options
+graphviz_output_format = "svg"
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']

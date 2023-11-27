@@ -30,6 +30,7 @@ The following commands can be used to create a `Conda`_ environment that contain
          conda install -c conda-forge pyyaml
          conda install -c conda-forge sphinx
          conda install -c conda-forge sphinx-argparse
+         conda install -c anaconda graphviz
          pip install -e .
 
 
