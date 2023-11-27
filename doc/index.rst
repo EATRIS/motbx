@@ -10,6 +10,8 @@ Welcome to motbxtools' documentation!
   :width: 300
   :alt: MOTBX logo
 
+This is the technical documentation for https://github.com/EATRIS/motbx.
+
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
