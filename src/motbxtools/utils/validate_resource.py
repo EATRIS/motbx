@@ -44,6 +44,7 @@ def main(resource_path):
         print("Validation failed - YAML file is not according to schema")
         raise
     print("MOTBX resource passed validation.")
+    print("\n", 79*"-", "\n")
 
 
 if __name__ == "__main__":
