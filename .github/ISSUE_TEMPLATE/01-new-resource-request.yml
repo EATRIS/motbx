@@ -45,12 +45,12 @@ body:
       placeholder: Description
     validations:
       required: true
-  - type: input
+  - type: dropdown
     id: category
     attributes:
       label: Resource Category and Subcategory
       description: Can you suggest a MOTBX category and subcategory for this resource?
-      placeholder: Category
+      multiple: false
       options:
         - Genomics - Guidelines and best practices
         - Genomics - Laboratory protocols and methods
