@@ -1,6 +1,13 @@
 name: motbxtools_tests
 
 on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'src/**'
+      - 'schema/**'
+      - 'test/**'
   workflow_dispatch:
 
 jobs:
