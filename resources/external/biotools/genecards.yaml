@@ -1,0 +1,17 @@
+resourceCategory: Data Management and Stewardship
+resourceDescription: Database of human genes, their products, and involvement in diseases.
+  It automatically integrates gene-centric data from ~150 web sources, including genomic,
+  transcriptomic, proteomic, genetic, clinical and functional information. Metadata
+  for this resource was programmatically retrieved from elixir's bio.tools registry.
+resourceID: biotools:genecards
+resourceKeywords:
+- RD-connect
+- Rare Disease
+- Service discovery
+- Data retrieval
+- Aggregation
+resourceSubcategory: Databases and catalogues
+resourceTags:
+- database
+resourceTitle: 'External resource registered at bio.tools: GeneCards'
+resourceUrl: https://www.genecards.org/

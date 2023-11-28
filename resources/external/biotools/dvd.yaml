@@ -1,0 +1,21 @@
+resourceCategory: Data Management and Stewardship
+resourceDescription: Diagnostic Variant Database (DVD) is a nation-wide human genomic
+  variant database launched by Dutch University Medical Centers. Its purpose is to
+  share all genetic variants detected in the course of next-generation sequencing
+  (NGS) applications between collaborators. It helps medical researchers to distinguish
+  between functionally relevant and benign genetic variants. DVD also allows users
+  to contact the researcher who originally identified a particular genetic mutation.
+  Metadata for this resource was programmatically retrieved from elixir's bio.tools
+  registry.
+resourceID: biotools:dvd
+resourceKeywords:
+- Rare Disease
+- Deposition
+- Query and retrieval
+- Aggregation
+- Genetic variation analysis
+resourceSubcategory: Databases and catalogues
+resourceTags:
+- database
+resourceTitle: 'External resource registered at bio.tools: DVD'
+resourceUrl: https://trac.nbic.nl/dvd/

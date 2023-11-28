@@ -1,0 +1,19 @@
+resourceCategory: Data Management and Stewardship
+resourceDescription: WikiPathways is a database of biological pathways maintained
+  by and for the scientific community. Metadata for this resource was programmatically
+  retrieved from elixir's bio.tools registry.
+resourceID: biotools:wikipathways
+resourceKeywords:
+- RD-connect
+- Rare Disease
+- WikiPathways
+- BIGCAT-UM
+- Data retrieval
+- Pathway or network analysis
+- Identifier
+- Data
+resourceSubcategory: Databases and catalogues
+resourceTags:
+- database
+resourceTitle: 'External resource registered at bio.tools: WikiPathways'
+resourceUrl: https://www.wikipathways.org

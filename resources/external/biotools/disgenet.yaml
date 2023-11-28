@@ -1,0 +1,38 @@
+resourceCategory: Data Management and Stewardship
+resourceDescription: "DisGeNET is a discovery platform containing one of the largest\
+  \ publicly available collections of genes and variants associated to human diseases.\
+  \ DisGeNET integrates data from expert curated repositories, GWAS catalogues, animal\
+  \ models and the scientific literature. DisGeNET data are homogeneously annotated\
+  \ with controlled vocabularies and community-driven ontologies. Additionally, several\
+  \ original metrics are provided to assist the prioritization of genotype\u2013phenotype\
+  \ relationships.\n\nThe current version of DisGeNET (v7.0) contains 1,134,942 gene-disease\
+  \ associations (GDAs), between 21,671 genes and 30,170 diseases, disorders, traits,\
+  \ and clinical or abnormal human phenotypes, and 369,554 variant-disease associations\
+  \ (VDAs), between 194,515 variants and 14,155 diseases, traits, and phenotypes.\
+  \ Metadata for this resource was programmatically retrieved from elixir's bio.tools\
+  \ registry."
+resourceID: biotools:disgenet
+resourceKeywords:
+- Drug Research and Development
+- Rare Disease
+- COVID-19
+- Complex Disease
+- Mendelian Disease
+- ELIXIR-ES
+- RIS3CAT VEIS
+- TransQST
+- IMPaCT-Data
+- Database search
+- Variant prioritisation
+- Pathway or network visualisation
+- Aggregation
+- Data retrieval
+- Gene ID (NCBI)
+- UniProt accession
+- dbSNP ID
+- Database search results
+resourceSubcategory: Databases and catalogues
+resourceTags:
+- database
+resourceTitle: 'External resource registered at bio.tools: DisGeNET'
+resourceUrl: https://www.disgenet.org/

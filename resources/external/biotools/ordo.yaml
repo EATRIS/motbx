@@ -1,0 +1,21 @@
+resourceCategory: Data Management and Stewardship
+resourceDescription: The Orphanet Rare Disease Ontology (ORDO) - structured vocabulary
+  for rare diseases, capturing relationships between diseases, genes and other relevant
+  features. It integrates a classification of rare diseases, relationships (gene-disease
+  relations, epiemological data) and connections with other terminologies (MeSH, UMLS,
+  MedDRA), databases (OMIM, UniProtKB, HGNC, ensembl, Reactome, IUPHAR, Geantlas)
+  and classifications (ICD10). Metadata for this resource was programmatically retrieved
+  from elixir's bio.tools registry.
+resourceID: biotools:ordo
+resourceKeywords:
+- RD-connect
+- Rare Disease
+- Data retrieval
+- Formatting
+- Orpha number
+- Ontology concept data
+resourceSubcategory: Databases and catalogues
+resourceTags:
+- database
+resourceTitle: 'External resource registered at bio.tools: ORDO'
+resourceUrl: https://www.ebi.ac.uk/ols/ontologies/ordo

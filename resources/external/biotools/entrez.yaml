@@ -1,0 +1,19 @@
+resourceCategory: Data Management and Stewardship
+resourceDescription: NCBI information retrieval system, including GenBank, MMDB (structures),
+  genomes, population sets, OMIM, taxonomy and PubMed. Metadata for this resource
+  was programmatically retrieved from elixir's bio.tools registry.
+resourceID: biotools:entrez
+resourceKeywords:
+- RD-connect
+- Rare Disease
+- Sequence similarity search
+- Service invocation
+- Query and retrieval
+- Mapping
+- Deposition
+- Sequence analysis
+resourceSubcategory: Databases and catalogues
+resourceTags:
+- database
+resourceTitle: 'External resource registered at bio.tools: Entrez'
+resourceUrl: https://www.ncbi.nlm.nih.gov/Entrez/

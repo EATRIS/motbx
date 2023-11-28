@@ -34,21 +34,28 @@ class MotbxSchema():
 class MotbxResource():
     """This class stores a MOTBX resource as a dictionary.
     """
-    def __init__(self, yaml_path):
+    def __init__(self, yaml_path, resource=None):
         """Initialise MOTBX resource object.
 
         :param yaml_path: Path to YAML file containing a MOTBX resource
         :type yaml_path: str
+        :param resource: A MOTBX resource
+        :type resource: dict
         """
         assert str(yaml_path).endswith((".yml", ".yaml"))
         self._yaml_path = yaml_path
-        self.load()
+        self.resource = resource
+        try:
+            self.load()
+        except FileNotFoundError:
+            assert self.resource is not None
         return
 
     def load(self):
         """Load a MOTBX resource from a YAML file.
         """
         with open(self._yaml_path, "r") as fp:
+            assert self.resource is None
             self.resource = yaml.safe_load(fp)
         return
 

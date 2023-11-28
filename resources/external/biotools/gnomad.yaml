@@ -1,0 +1,19 @@
+resourceCategory: Data Management and Stewardship
+resourceDescription: Genome Aggregation Database (gnomAD) - browser that aggregates
+  exome and whole-genome sequencing data from a wide variety of large-scale sequencing
+  projects. It enables search of genetic variation information by gene, variant or
+  region. Metadata for this resource was programmatically retrieved from elixir's
+  bio.tools registry.
+resourceID: biotools:gnomad
+resourceKeywords:
+- RD-connect
+- Rare Disease
+- Database search
+- Data retrieval
+- Aggregation
+- Genetic variation analysis
+resourceSubcategory: Databases and catalogues
+resourceTags:
+- database
+resourceTitle: 'External resource registered at bio.tools: gnomAD'
+resourceUrl: https://gnomad.broadinstitute.org/

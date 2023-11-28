@@ -1,0 +1,22 @@
+resourceCategory: Data Management and Stewardship
+resourceDescription: Molecular interaction Database (MINT) - public repository for
+  protein-protein interactions (PPI) reported in peer-reviewed journals. The web interface
+  allows the users to search, visualize and download interactions data. Metadata for
+  this resource was programmatically retrieved from elixir's bio.tools registry.
+resourceID: biotools:mint
+resourceKeywords:
+- Core Data Resources
+- RD-connect
+- Rare Disease
+- COVID-19
+- Deposition
+- Data retrieval
+- Pathway or network analysis
+- Deposition
+- Text data
+- Protein interaction data
+resourceSubcategory: Databases and catalogues
+resourceTags:
+- database
+resourceTitle: 'External resource registered at bio.tools: MINT'
+resourceUrl: https://mint.bio.uniroma2.it/

@@ -1,0 +1,18 @@
+resourceCategory: Data Management and Stewardship
+resourceDescription: The Leiden Open Variation Database (LOVD) provides a flexible,
+  freely available tool for gene-centered collection and display of DNA variations.
+  LOVD 3.0 extends this idea to also provide patient-centered data storage and storage
+  of NGS data, even of variants outside of genes. Metadata for this resource was programmatically
+  retrieved from elixir's bio.tools registry.
+resourceID: biotools:lovd
+resourceKeywords:
+- NBIC
+- Rare Disease
+- ELIXIR-NL
+- Data retrieval
+- Genetic variation analysis
+resourceSubcategory: Databases and catalogues
+resourceTags:
+- database
+resourceTitle: 'External resource registered at bio.tools: LOVD'
+resourceUrl: https://www.lovd.nl/3.0/home

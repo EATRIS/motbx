@@ -1,0 +1,19 @@
+resourceCategory: Data Management and Stewardship
+resourceDescription: Online Mendelian inheritance in Man (OMIM) - catalog of human
+  genes and genetic disorders with descriptive text, references, and links to many
+  NCBI resources including GenBank and PubMed. Metadata for this resource was programmatically
+  retrieved from elixir's bio.tools registry.
+resourceID: biotools:omim
+resourceKeywords:
+- RD-connect
+- Rare Disease
+- Service invocation
+- Query and retrieval
+- Genetic mapping
+- Aggregation
+- Genetic variation analysis
+resourceSubcategory: Databases and catalogues
+resourceTags:
+- database
+resourceTitle: 'External resource registered at bio.tools: OMIM'
+resourceUrl: https://www.ncbi.nlm.nih.gov/entrez/query.fcgi?db=OMIM

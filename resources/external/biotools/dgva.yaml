@@ -1,0 +1,17 @@
+resourceCategory: Data Management and Stewardship
+resourceDescription: The Database of Genomic Variants archive ((DGVa) is a repository
+  that provides archiving, accessioning and distribution of publicly available genomic
+  structural variants, in all species. Metadata for this resource was programmatically
+  retrieved from elixir's bio.tools registry.
+resourceID: biotools:dgva
+resourceKeywords:
+- RD-connect
+- Rare Disease
+- Deposition
+- Data retrieval
+- Structural variation detection
+resourceSubcategory: Databases and catalogues
+resourceTags:
+- database
+resourceTitle: 'External resource registered at bio.tools: DGVa'
+resourceUrl: https://www.ebi.ac.uk/dgva

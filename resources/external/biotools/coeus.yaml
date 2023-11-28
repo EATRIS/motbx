@@ -1,0 +1,19 @@
+resourceCategory: Data Management and Stewardship
+resourceDescription: Semantic web application network that combines a set of algorithms
+  to streamline the creation of new semantic web-based knowledge management systems.
+  In a single package, it provides the tools to create new applications, including
+  advanced integration connectors for different data sources along with ontology mapping
+  techniques. Metadata for this resource was programmatically retrieved from elixir's
+  bio.tools registry.
+resourceID: biotools:coeus
+resourceKeywords:
+- Developed_RD-Connect
+- Rare Disease
+- Data retrieval
+- Aggregation
+- Formatting
+resourceSubcategory: Databases and catalogues
+resourceTags:
+- database
+resourceTitle: 'External resource registered at bio.tools: COEUS'
+resourceUrl: https://bioinformatics.ua.pt/coeus/

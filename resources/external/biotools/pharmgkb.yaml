@@ -1,0 +1,18 @@
+resourceCategory: Data Management and Stewardship
+resourceDescription: Database on the impact of human genetic variations on drug response.
+  PharmGKB curates primary genotype and phenotype data, annotate gene variants and
+  gene-drug-disease relationships via literature review, and summarize important PGx
+  genes and drug pathways. Metadata for this resource was programmatically retrieved
+  from elixir's bio.tools registry.
+resourceID: biotools:pharmgkb
+resourceKeywords:
+- Rare Disease
+- DRCAT
+- Query and retrieval
+- PharmGKB ID
+- Gene report
+resourceSubcategory: Databases and catalogues
+resourceTags:
+- database
+resourceTitle: 'External resource registered at bio.tools: PharmGKB'
+resourceUrl: https://www.pharmgkb.org

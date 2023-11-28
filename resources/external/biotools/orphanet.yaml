@@ -1,0 +1,15 @@
+resourceCategory: Data Management and Stewardship
+resourceDescription: Information on rare diseases and orphan drugs. Metadata for this
+  resource was programmatically retrieved from elixir's bio.tools registry.
+resourceID: biotools:orphanet
+resourceKeywords:
+- DRCAT
+- Rare Disease
+- Query and retrieval
+- Orpha number
+- Disease report
+resourceSubcategory: Databases and catalogues
+resourceTags:
+- database
+resourceTitle: 'External resource registered at bio.tools: Orphanet'
+resourceUrl: https://www.orpha.net/consor/cgi-bin/index.php

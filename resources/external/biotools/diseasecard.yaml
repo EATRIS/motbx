@@ -1,0 +1,19 @@
+resourceCategory: Data Management and Stewardship
+resourceDescription: Information retrieval tool for accessing and integrating genetic
+  and medical information for health applications. Resorting to this integrated environment,
+  clinicians are able to access and relate diseases data already available in the
+  Internet, scattered along multiple databases. Metadata for this resource was programmatically
+  retrieved from elixir's bio.tools registry.
+resourceID: biotools:diseasecard
+resourceKeywords:
+- Developed_RD-Connect
+- Rare Disease
+- Database search
+- Data retrieval
+- Pathway or network analysis
+- Aggregation
+resourceSubcategory: Databases and catalogues
+resourceTags:
+- database
+resourceTitle: 'External resource registered at bio.tools: Diseasecard'
+resourceUrl: https://bioinformatics.ua.pt/diseasecard/

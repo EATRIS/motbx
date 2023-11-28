@@ -1,0 +1,17 @@
+resourceCategory: Data Management and Stewardship
+resourceDescription: The National Center for Biotechnology Information (NCBI) provides
+  analysis and retrieval resources for the data in GenBank and other biological data
+  made available through the NCBI web site. Metadata for this resource was programmatically
+  retrieved from elixir's bio.tools registry.
+resourceID: biotools:ncbi_resources
+resourceKeywords:
+- Rare Disease
+- Deposition
+- Service discovery
+- Query and retrieval
+- PCR primer design
+resourceSubcategory: Databases and catalogues
+resourceTags:
+- database
+resourceTitle: 'External resource registered at bio.tools: NCBI Resources'
+resourceUrl: https://www.ncbi.nlm.nih.gov

@@ -1,0 +1,17 @@
+resourceCategory: Data Management and Stewardship
+resourceDescription: Catalogue Of Somatic Mutations In Cancer (COSMIC) - resource
+  for exploring the impact of somatic mutations in human cancer. Metadata for this
+  resource was programmatically retrieved from elixir's bio.tools registry.
+resourceID: biotools:cosmic
+resourceKeywords:
+- RD-connect
+- Rare Disease
+- Polymorphism detection
+- Data retrieval
+- Protein modelling
+- Text mining
+resourceSubcategory: Databases and catalogues
+resourceTags:
+- database
+resourceTitle: 'External resource registered at bio.tools: COSMIC'
+resourceUrl: https://www.sanger.ac.uk/genetics/CGP/cosmic/

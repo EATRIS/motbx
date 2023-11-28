@@ -1,0 +1,21 @@
+resourceCategory: Data Management and Stewardship
+resourceDescription: A freely accessible, public archive of reports of relationships
+  among medically important variants and phenotypes hosted by the NCBI. It integrates
+  and cross-references data from multiple databases at NCBI. In addition to dbSNP
+  and dbVar, it depends on MedGen to represent phenotype, Gene to represent genes,
+  and on human RefSeqs to represent the location of sequence variation. Each record
+  represents the submitter, the variation and the phenotype. Metadata for this resource
+  was programmatically retrieved from elixir's bio.tools registry.
+resourceID: biotools:clinvar
+resourceKeywords:
+- RD-connect
+- Rare Disease
+- Deposition
+- Query and retrieval
+- Aggregation
+- Genetic variation analysis
+resourceSubcategory: Databases and catalogues
+resourceTags:
+- database
+resourceTitle: 'External resource registered at bio.tools: ClinVar'
+resourceUrl: https://www.ncbi.nlm.nih.gov/clinvar/
