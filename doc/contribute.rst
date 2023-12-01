@@ -17,9 +17,15 @@ want to actively contribute to it.
 Information for developers
 --------------------------
 
-When making changes to this repository, we follow the `GitHub flow`_. For each issue,
-a new branch is created, files are edited, and a pull request is created. When checks are passed,
-the pull request can be merged into the `main` branch.
+When making changes to this repository, we follow the `GitHub flow`_. For each issue:
+* Create a new branch
+* Edit the file(s)
+* Create a pull request (PR)
+  * automatically triggers validation checks
+* Merge PR into `main` branch after review
+* Delete the branch after merging PR
+* Review issue and mention PR in a comment
+* Close issue
 
 Issue templates
 ~~~~~~~~~~~~~~~
