@@ -21,8 +21,7 @@ When making changes to this repository, we follow the `GitHub flow`_. For each i
 
 * Create a new branch
 * Edit the file(s)
-* Create a pull request (PR)
- automatically triggers validation checks
+* Create a pull request (PR) - *automatically triggers validation checks*
 * Merge PR into `main` branch after review
 * Delete the branch after merging PR
 * Review issue and mention PR in a comment
