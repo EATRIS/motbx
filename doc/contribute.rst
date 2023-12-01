@@ -18,10 +18,11 @@ Information for developers
 --------------------------
 
 When making changes to this repository, we follow the `GitHub flow`_. For each issue:
+
 * Create a new branch
 * Edit the file(s)
 * Create a pull request (PR)
-  * automatically triggers validation checks
+ automatically triggers validation checks
 * Merge PR into `main` branch after review
 * Delete the branch after merging PR
 * Review issue and mention PR in a comment
