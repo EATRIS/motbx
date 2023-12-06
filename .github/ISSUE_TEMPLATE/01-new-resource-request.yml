@@ -88,6 +88,8 @@ body:
       description: Can you suggest tags for this resource?
       multiple: true
       options:
+        - guideline
+        - protocol
     validations:
       required: true
   - type: input
