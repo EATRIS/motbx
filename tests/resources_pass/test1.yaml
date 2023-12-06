@@ -10,7 +10,25 @@ resourceDescription: ISO Guide 80:2014 guidance for the in-house preparation of 
   usage guidance. The guide offers general information on preparation and includes
   case studies for different sectors. Users should have material knowledge and be
   aware of matrix effects and contamination risks.
-resourceID: 'test1'
+resourceID: test1
+resourceKeywords:
+- experimental data
+- guideline
+- internal quality control (IQC)
+- omics
+- omics type
+- quality
+- quality control
+- quality standard
+- reference
+- reference material
+- specification
+- standard
+- standardisation process
+- standards
+- translational research data
+- type of omics
+- type of resource
 resourceSubcategory: Guidelines and best practices
 resourceTags:
 - ISO standard
