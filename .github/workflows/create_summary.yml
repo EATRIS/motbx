@@ -45,6 +45,22 @@ jobs:
         run: |
           python src/motbxtools/utils/summarise_resources.py ${{github.event.inputs.version}}
 
+      - name: Read resourceTags yaml file
+        id: resourcetags
+        uses: jbutcher5/read-yaml@1.6
+        with:
+          file: './resources/summary/resourceTags.yaml'
+          key-path: '["resourceTags"]'
+
+      - name: Update tags option in issue template
+        uses: ShaMan123/gha-form-dropdown-options@v2.0.3
+        with:
+          form: .github/ISSUE_TEMPLATE/01-new-resource-request.yml
+          dropdown: existingtags
+          options: "${{ steps.resourcetags.outputs.data }}"
+          dry_run: no-push
+
+
       - name: Commit changes and create pull request
         uses: peter-evans/create-pull-request@v5
         with:

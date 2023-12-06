@@ -81,11 +81,20 @@ body:
         - Data Analysis - Translational research use cases
     validations:
       required: false
-  - type: input
-    id: tags
+  - type: dropdown
+    id: existingtags
     attributes:
-      label: Resource Tags
+      label: Resource Tags (select from exisiting one)
       description: Can you suggest tags for this resource?
-      placeholder: Tags
+      multiple: true
+      options:
+    validations:
+      required: true
+  - type: input
+    id: newtags
+    attributes:
+      label: New resource Tags
+      description: Would you like to suggest new tags for this resource?
+      placeholder: New tag(s)
     validations:
       required: false
