@@ -14,6 +14,19 @@ Script `utils.summarise_resources`
 
 This script can be executed as GitHub Action `create_summary`_.
 
+The following scripts can be executed as GitHub Action `validate_resources`_, which is
+automatically triggered on pull requests when files in the `curated resources directory`_
+are changed.
+
+Script `utils.populate_resource_keywords`
+--------------------------------
+
+.. argparse::
+    :module: utils.populate_resource_keywords
+    :func: parser
+    :prog: populate_resource_keywords
+
+
 Script `utils.validate_resource`
 --------------------------------
 
@@ -21,10 +34,6 @@ Script `utils.validate_resource`
     :module: utils.validate_resource
     :func: parser
     :prog: validate_resource
-
-This script can be executed as GitHub Action `validate_resources`_, which is
-automatically triggered on pull requests when files in the `curated resources directory`_
-are changed.
 
 
 .. _motbxtools.utils: https://github.com/EATRIS/motbx/tree/main/src/motbxtools/utils
