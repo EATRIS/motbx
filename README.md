@@ -34,3 +34,5 @@ Find more information about this repository in our [documentation](https://eatri
 ## Acknowledgements
 
 The first version of MOTBX was developed by the flagship project [EATRIS-Plus](https://eatris.eu/projects/eatris-plus/) and EATRIS. We thank [everyone](https://motbx.eatris.eu/motbx-team/) for their valuable contributions!
+
+![EATRIS-Plus-funding-statement](https://github.com/EATRIS/motbx/assets/1405356/11374b64-4856-443a-8aa4-5eff4d2eccff)
