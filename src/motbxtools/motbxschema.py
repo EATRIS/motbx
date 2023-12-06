@@ -11,6 +11,7 @@ import sys
 import validators
 import yaml
 from contextlib import contextmanager
+from pathlib import Path
 
 
 class MotbxSchema():
@@ -75,6 +76,7 @@ class MotbxResource():
         :raises Exception: Validation of URL fails
         """
         assert isinstance(motbx_schema, MotbxSchema)
+        # schema validation
         try:
             # validate against JSON schema
             # this includes checking URL for pattern https://* or *.pdf
@@ -83,6 +85,13 @@ class MotbxResource():
                 format_checker=jsonschema.FormatChecker())
         except jsonschema.exceptions.ValidationError:
             raise
+        # ID validation
+        p = Path(self._yaml_path)
+        try:
+            assert self.resource["resourceID"] == p.stem
+        except AssertionError:
+            assert self.resource["resourceID"] == f'{p.parent.name}:{p.stem}'
+        # URL validation
         url = self.resource["resourceUrl"]
         try:
             # validate URL

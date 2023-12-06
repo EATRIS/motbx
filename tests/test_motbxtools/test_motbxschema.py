@@ -80,6 +80,12 @@ class TestMotbxResourceMethods(unittest.TestCase):
                 os.path.join(self.resources_fail, "testfailUrl3.yaml"))
             resource.validate(self.schema)
 
+    def test_validate_failID(self):
+        with self.assertRaises(AssertionError):
+            resource = motbxschema.MotbxResource(
+                os.path.join(self.resources_fail, "testfailID.yaml"))
+            resource.validate(self.schema)
+
 
 if __name__ == '__main__':
     unittest.main()

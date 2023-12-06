@@ -10,7 +10,7 @@ resourceDescription: ISO Guide 80:2014 guidance for the in-house preparation of 
   usage guidance. The guide offers general information on preparation and includes
   case studies for different sectors. Users should have material knowledge and be
   aware of matrix effects and contamination risks.
-resourceID: '1'
+resourceID: 'test1'
 resourceSubcategory: Guidelines and best practices
 resourceTags:
 - ISO standard
