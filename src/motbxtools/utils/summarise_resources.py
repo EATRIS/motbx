@@ -17,6 +17,8 @@ SCHEMA_JSON = MOTBX_DIR.joinpath("schema/motbxschema.json")
 RESOURCES_DIR = MOTBX_DIR.joinpath("resources/curated")
 # path to directory where summary files are saved
 SUMMARY_DIR = MOTBX_DIR.joinpath("resources/summary")
+# path to file storing all tags
+RESOURCES_TAGS = MOTBX_DIR.joinpath("resources/summary/resourceTags.yaml")
 
 
 parser = argparse.ArgumentParser(
@@ -71,6 +73,12 @@ def main(version):
         old_summary_csv_path=summary_csv_previous_fp,
         changelog_path=changelog_csv_fp,
         validationlog_path=validation_report_fp)
+
+    # write all existing tags to a file
+    info = motbx_collection.get_info(fields=["resourceTags"])
+    info["resourceTags"] = sorted(list(info["resourceTags"]))
+    with open(RESOURCES_TAGS, "w") as fp:
+        yaml.dump(info, fp)
 
 
 if __name__ == "__main__":
