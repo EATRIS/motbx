@@ -12,6 +12,10 @@ URL: SampleAnalysisProtocols/FIMM_miRNAseq/MOTBX_InternalProtcol_miRNASeq_202306
 Resource: ID0062.yaml
 URL: SampleAnalysisProtocols/RUMC_metabolomics_targeted/MOTBX_InternalProtocol_NextGeneration_MetabolomicsScreening.pdf
 -------------------------------------------------------------------------------
+HTTPSConnectionPool(host='genome.cshlp.org', port=443): Read timed out. (read timeout=10)
+Resource: ID0023.yaml
+URL: https://genome.cshlp.org/content/early/2021/06/17/gr.266551.120
+-------------------------------------------------------------------------------
 
 Resource: ID0053.yaml
 URL: SampleAnalysisProtocols/IMTM_Proteomics/MOTBX_InternalProtocol_LCMS_HCD_OT_PlasmaAnalysis_20230627.pdf
