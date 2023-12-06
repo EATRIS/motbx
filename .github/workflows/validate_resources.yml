@@ -43,8 +43,9 @@ jobs:
               resources:
                 - resources/curated/**
 
-      - name: Execute Python script to create resources summary
+      - name: Execute Python script to populate keywords and validate resource
         run: |
           for file in ${{ steps.changed-files.outputs.resources_all_changed_files }}; do
+            python src/motbxtools/utils/populate_resource_keywords.py "$file"
             python src/motbxtools/utils/validate_resource.py "$file"
           done
