@@ -1,7 +1,8 @@
 name: New Resource Request
 description: Request addition of a new MOTBX resource
-title: "[new-resource-request]: "
-labels: ["new-resource-request"]
+title: '[new-resource-request]: '
+labels:
+  - new-resource-request
 assignees:
   - tgttunstall
 body:
@@ -68,8 +69,12 @@ body:
         - Metabolomics - Laboratory protocols and methods
         - Metabolomics - Translational research use case
         - Quality Control and Assessment - Guidelines and best practices
-        - Quality Control and Assessment - Reference materials for quality control
-        - Quality Control and Assessment - Proficiency testing and external quality assessment
+        - >-
+          Quality Control and Assessment - Reference materials for quality
+          control
+        - >-
+          Quality Control and Assessment - Proficiency testing and external
+          quality assessment
         - Quality Control and Assessment - Quality certification
         - Data Management and Stewardship - Guidelines and best practices
         - Data Management and Stewardship - Data and metadata standards
@@ -88,8 +93,49 @@ body:
       description: Can you suggest tags for this resource?
       multiple: true
       options:
+        - DNA
+        - EATRIS-Plus project
+        - ISO standard
+        - PCR
+        - array
+        - biological fluid
+        - biomarker
+        - data governance
+        - data integration
+        - data models
+        - data standard
+        - database
+        - datasets
+        - epigenomics
+        - external quality assessment (EQA)
+        - genomics
         - guideline
+        - internal quality control (IQC)
+        - mRNA
+        - mass spectrometry
+        - metabolomics
+        - metadata standard
+        - miRNA
+        - minimum information standard
+        - multi-omics
+        - multi-omics studies
+        - ontologies
+        - phenotypic data
+        - preclinical study
+        - proficiency testing
+        - proteomics
         - protocol
+        - reference data set
+        - reference material
+        - registry
+        - scientific publication
+        - sequencing
+        - sequencing guidelines
+        - software application
+        - systems biology
+        - technical infrastructure
+        - transcriptomics
+        - web server
     validations:
       required: true
   - type: input
