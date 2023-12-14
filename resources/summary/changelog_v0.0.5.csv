@@ -1,2 +1,0 @@
-resourceID,Resource status [added/updated/removed],Passed validation [yes/no],Updated field(s)
-ID0086,added,yes,"resourceCategory, resourceDescription, resourceID, resourceKeywords, resourceSubcategory, resourceTags, resourceTitle, resourceUrl"
