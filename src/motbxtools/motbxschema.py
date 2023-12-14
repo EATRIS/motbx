@@ -289,11 +289,14 @@ class MotbxCollection():
         if old_summary_csv_path:  # load summary CSV from previous version
             summary_old = self._load_summary(old_summary_csv_path)
 
-        with (self._summary_file(summary_csv_path) as summary,
+        with (open(summary_csv_path, "w") as file_path,
               self._changelog_file(changelog_path) as changelog,
               self._validation_file(validationlog_path) as errorlog):
             if not errorlog:
                 errorlog = sys.stdout
+            sf = open(file_path, "w", newline="", encoding="utf-8")
+            summary = csv.DictWriter(sf, fieldnames=self.fieldnames)
+            summary.writeheader()
 
             resource_ids = set()
             # iterate through resources
