@@ -1,0 +1,184 @@
+VALIDATION REPORT - MOTBX resources that failed validation
+===============================================================================
+
+Resource: ID0033.yaml
+URL: SampleAnalysisProtocolsIRYCIS_qRT_PCR/MOTBX_InternalProtocol_SerumPreparation_20230630.pdf
+-------------------------------------------------------------------------------
+
+Resource: ID0037.yaml
+URL: SampleAnalysisProtcols/IRYCIS_qRT_PCR/MOTBX_InternalProtocol_Serum_Plasma_miRNA_extraction_20230630.pdf
+-------------------------------------------------------------------------------
+
+Resource: ID0035.yaml
+URL: SampleAnalysisProtocols/FIMM_RNAseq/MOTBX_InternalProtocol_mRNASeq_20230626.pdf
+-------------------------------------------------------------------------------
+
+Resource: ID0062.yaml
+URL: SampleAnalysisProtocols/RUMC_metabolomics_targeted/MOTBX_InternalProtocol_NextGeneration_MetabolomicsScreening.pdf
+-------------------------------------------------------------------------------
+
+Resource: ID0054.yaml
+URL: SampleAnalysisProtocols/IMTM_Proteomics/MOTBX_InternalProtocol_ProteinPeptideSearch_PlasmaAnalysis_20230627.pdf
+-------------------------------------------------------------------------------
+
+Resource: ID0052.yaml
+URL: SampleAnalysisProtocols/IMTM_Proteomics/MOTBX_InternalProtocol_SamplePreparation_Plasma Analysis_20230627.pdf
+-------------------------------------------------------------------------------
+
+Resource: ID0039.yaml
+URL: SampleAnalysisProtocols/IRYCIS_qRT_PCR/MOTBX_InternalProtocol_Panels_qPCR_20230630.pdf
+-------------------------------------------------------------------------------
+
+Resource: ID0053.yaml
+URL: SampleAnalysisProtocols/IMTM_Proteomics/MOTBX_InternalProtocol_LCMS_HCD_OT_PlasmaAnalysis_20230627.pdf
+-------------------------------------------------------------------------------
+HTTPSConnectionPool(host='chinese-quartet.org', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1002)')))
+Resource: ID0010.yaml
+URL: https://chinese-quartet.org/#/dashboard
+-------------------------------------------------------------------------------
+{'resourceCategory': 'Data Analysis', 'resourceDescription': 'A web server for multidimensional data integration', 'resourceID': 'ID0084', 'resourceKeywords': ['Bioinformatics', 'Systems Biology'], 'resourceSubcategory': 'Software Applications and Workflows', 'resourceTags': ['genomics', 'systems biology', 'web server', 'data integration'], 'resourceTitle': 'Mergeomics', 'resourceUrl': 'http://mergeomics.research.idre.ucla.edu/'} is not valid under any of the given schemas
+
+Failed validating 'anyOf' in schema:
+    {'$schema': 'https://json-schema.org/draft/2020-12/schema',
+     'anyOf': [{'properties': {'resourceCategory': {'enum': ['Genomics',
+                                                             'Epigenomics',
+                                                             'Transcriptomics',
+                                                             'Proteomics',
+                                                             'Metabolomics']},
+                               'resourceSubcategory': {'enum': ['Guidelines '
+                                                                'and best '
+                                                                'practices',
+                                                                'Laboratory '
+                                                                'protocols '
+                                                                'and '
+                                                                'methods',
+                                                                'Translational '
+                                                                'research '
+                                                                'use '
+                                                                'case']}}},
+               {'properties': {'resourceCategory': {'enum': ['Quality '
+                                                             'Control and '
+                                                             'Assessment']},
+                               'resourceSubcategory': {'enum': ['Guidelines '
+                                                                'and best '
+                                                                'practices',
+                                                                'Reference '
+                                                                'materials '
+                                                                'for '
+                                                                'quality '
+                                                                'control',
+                                                                'Proficiency '
+                                                                'testing '
+                                                                'and '
+                                                                'external '
+                                                                'quality '
+                                                                'assessment',
+                                                                'Quality '
+                                                                'certification']}}},
+               {'properties': {'resourceCategory': {'enum': ['Data '
+                                                             'Management '
+                                                             'and '
+                                                             'Stewardship']},
+                               'resourceSubcategory': {'enum': ['Guidelines '
+                                                                'and best '
+                                                                'practices',
+                                                                'Data and '
+                                                                'metadata '
+                                                                'standards',
+                                                                'Databases '
+                                                                'and '
+                                                                'catalogues',
+                                                                'Translational '
+                                                                'research '
+                                                                'use '
+                                                                'cases']}}},
+               {'properties': {'resourceCategory': {'enum': ['Data '
+                                                             'Analysis']},
+                               'resourceSubcategory': {'enum': ['Guidelines '
+                                                                'and best '
+                                                                'practices',
+                                                                'Software '
+                                                                'applications '
+                                                                'and '
+                                                                'workflows',
+                                                                'Computing '
+                                                                'platforms',
+                                                                'Translational '
+                                                                'research '
+                                                                'use '
+                                                                'cases']}}}],
+     'description': 'Schema for resources of the EATRIS Multi-omics '
+                    'Toolbox (MOTBX)',
+     'properties': {'resourceCategory': {'enum': ['Genomics',
+                                                  'Epigenomics',
+                                                  'Transcriptomics',
+                                                  'Proteomics',
+                                                  'Metabolomics',
+                                                  'Quality Control and '
+                                                  'Assessment',
+                                                  'Data Management and '
+                                                  'Stewardship',
+                                                  'Data Analysis'],
+                                         'type': 'string'},
+                    'resourceDescription': {'maxLength': 2500,
+                                            'minLength': 50,
+                                            'type': 'string'},
+                    'resourceID': {'type': 'string'},
+                    'resourceKeywords': {'items': {'type': 'string'},
+                                         'type': 'array'},
+                    'resourceSubcategory': {'type': 'string'},
+                    'resourceTags': {'items': {'type': 'string'},
+                                     'minItems': 1,
+                                     'type': 'array'},
+                    'resourceTitle': {'maxLength': 160,
+                                      'minLength': 15,
+                                      'type': 'string'},
+                    'resourceUrl': {'format': 'uri',
+                                    'pattern': '^https://|.pdf$',
+                                    'type': 'string'}},
+     'required': ['resourceID',
+                  'resourceCategory',
+                  'resourceSubcategory',
+                  'resourceTitle',
+                  'resourceDescription',
+                  'resourceUrl',
+                  'resourceTags'],
+     'title': 'MOTBX resource',
+     'type': 'object'}
+
+On instance:
+    {'resourceCategory': 'Data Analysis',
+     'resourceDescription': 'A web server for multidimensional data '
+                            'integration',
+     'resourceID': 'ID0084',
+     'resourceKeywords': ['Bioinformatics', 'Systems Biology'],
+     'resourceSubcategory': 'Software Applications and Workflows',
+     'resourceTags': ['genomics',
+                      'systems biology',
+                      'web server',
+                      'data integration'],
+     'resourceTitle': 'Mergeomics',
+     'resourceUrl': 'http://mergeomics.research.idre.ucla.edu/'}
+Resource: ID0084.yaml
+URL: http://mergeomics.research.idre.ucla.edu/
+-------------------------------------------------------------------------------
+
+Resource: ID0061.yaml
+URL: SampleAnalysisProtocols/RUMC_metabolomics_targeted/MOTBX_InternalProtocol_Appendix4_TargetedMetabolomics.pdf
+-------------------------------------------------------------------------------
+
+Resource: ID0036.yaml
+URL: SampleAnalysisProtocols/FIMM_miRNAseq/MOTBX_InternalProtcol_miRNASeq_20230626.pdf
+-------------------------------------------------------------------------------
+
+Resource: ID0024.yaml
+URL: SampleAnalysisProtocol/UU_MethSeq/MOTBX_InternalProtocol_MethylSeq_20230706/pdf
+-------------------------------------------------------------------------------
+
+Resource: ID0038.yaml
+URL: SampleAnalysisProtocols/IRYCIS_qRT_PCR/MOTBX_InternalProtocol_Panels_RT_20230630.pdf
+-------------------------------------------------------------------------------
+
+Resource: ID0032.yaml
+URL: SampleAnalysisProtocols/IRYCIS_qRT_PCR/MOTBX_InternalProtocol_PlasmaPreparation_20230630.pdf
+-------------------------------------------------------------------------------
