@@ -294,63 +294,66 @@ class MotbxCollection():
               self._validation_file(validationlog_path) as errorlog):
             if not errorlog:
                 errorlog = sys.stdout
-
+    
             resource_ids = set()
             # iterate through resources
+            yaml_resources = []
             for root, dirs, files in os.walk(self._collection_dir):
                 for name in files:
-                    if not name.endswith(".yaml"):
-                        continue
-                    if verbose:
-                        print("Loading MOTBX resources |", name, end="\r")
-
-                    # load one MOTBX resource
-                    resource = MotbxResource(os.path.join(root, name))
-                    invalid = False
-                    if validate:  # validate against JSON schema
-                        try:
-                            resource.validate(self.schema)
-                        except Exception as error:
-                            invalid = True
-                            # print validation errors to validation report file
-                            print(error, file=errorlog)
-                            print("Resource:", name, file=errorlog)
-                            print("URL:", resource.resource["resourceUrl"],
-                                  file=errorlog)
-                            print(79*"-", file=errorlog)
-
-                    if exclude_invalid and invalid:
-                        continue
-                    # write resource to summary CSV file
-                    row = resource.flatten(self.fieldnames)
-                    summary.writerow(row)
-                    resource_ids.add(row["resourceID"])
-
-                    # compare to older version
-                    if old_summary_csv_path:
-                        new_resource = False
-                        try:  # get resource from previous version using ID
-                            row_old = summary_old[row["resourceID"]]
-                        except KeyError:  # resource is new
-                            row_old = {}
-                            new_resource = True
-                        if changelog_path:  # write changes to changelog
-                            # determine which MOTBX resource fields differ
-                            # between previous and latest version
-                            changed_fields = sorted(dict(
-                                set(row.items()) ^ set(row_old.items())
-                                ).keys())
-                            if len(changed_fields) > 0:  # else no changes
-                                change_row = {
-                                    "resourceID": row["resourceID"],
-                                    "Resource status [added/updated/removed]":
-                                    "added" if new_resource else "updated",
-                                    "Updated field(s)":
-                                    ", ".join(changed_fields)}
-                                if validate:
-                                    change_row["Passed validation [yes/no]"
-                                               ] = "no" if invalid else "yes"
-                                changelog.writerow(change_row)
+                    if name.endswith(".yaml"):
+                        yaml_resources.append(os.path.join(root, name))
+            # os.walk doesn't guarantee order - sorting needed
+            for file_path in sorted(yaml_resources):  
+                if verbose:
+                    print("Loading MOTBX resources |", name, end="\r")
+    
+                # load one MOTBX resource
+                resource = MotbxResource(file_path)
+                invalid = False
+                if validate:  # validate against JSON schema
+                    try:
+                        resource.validate(self.schema)
+                    except Exception as error:
+                        invalid = True
+                        # print validation errors to validation report file
+                        print(error, file=errorlog)
+                        print("Resource:", name, file=errorlog)
+                        print("URL:", resource.resource["resourceUrl"],
+                              file=errorlog)
+                        print(79*"-", file=errorlog)
+    
+                if exclude_invalid and invalid:
+                    continue
+                # write resource to summary CSV file
+                row = resource.flatten(self.fieldnames)
+                summary.writerow(row)
+                resource_ids.add(row["resourceID"])
+    
+                # compare to older version
+                if old_summary_csv_path:
+                    new_resource = False
+                    try:  # get resource from previous version using ID
+                        row_old = summary_old[row["resourceID"]]
+                    except KeyError:  # resource is new
+                        row_old = {}
+                        new_resource = True
+                    if changelog_path:  # write changes to changelog
+                        # determine which MOTBX resource fields differ
+                        # between previous and latest version
+                        changed_fields = sorted(dict(
+                            set(row.items()) ^ set(row_old.items())
+                            ).keys())
+                        if len(changed_fields) > 0:  # else no changes
+                            change_row = {
+                                "resourceID": row["resourceID"],
+                                "Resource status [added/updated/removed]":
+                                "added" if new_resource else "updated",
+                                "Updated field(s)":
+                                ", ".join(changed_fields)}
+                            if validate:
+                                change_row["Passed validation [yes/no]"
+                                           ] = "no" if invalid else "yes"
+                            changelog.writerow(change_row)
 
             # check which resources have been removed
             if old_summary_csv_path and changelog_path:
