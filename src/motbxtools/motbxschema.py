@@ -259,7 +259,7 @@ class MotbxCollection():
             for name in files:
                 if name.endswith(".yaml"):
                     yaml_resources.append(os.path.join(root, name))
-        for file_path in sorted(os.path.join(root, name)):
+        for file_path in sorted(yaml_resources):
             if verbose:
                 print("Loading MOTBX resources |", name, end="\r")
 
