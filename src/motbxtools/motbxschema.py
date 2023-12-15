@@ -191,7 +191,65 @@ class MotbxCollection():
                     else:
                         info[k] |= set(v)
         return info
-  
+
+    @contextmanager
+    def _validation_file(self, file_path=None):
+        """Create text file for collecting information on failed resource
+        validations.
+
+        :param file_path: Path to a validation log CSV file
+        :type file_path: str
+        """
+        if not file_path:
+            yield None
+        else:
+            assert str(file_path).endswith(".txt")
+            vf = open(file_path, "w", newline="", encoding="utf-8")
+            print("VALIDATION REPORT - MOTBX resources that failed validation",
+                  file=vf)
+            print(79*"=", file=vf)
+            try:
+                yield vf
+            finally:
+                vf.close()
+
+    @contextmanager
+    def _summary_file(self, file_path):
+        """Create CSV file summarising MOTBX resources.
+
+        :param file_path: Path to a MOTBX summary CSV file
+        :type file_path: str
+        """
+        assert str(file_path).endswith(".csv")
+        sf = open(file_path, "w", newline="", encoding="utf-8")
+        summary = csv.DictWriter(sf, fieldnames=self.fieldnames)
+        summary.writeheader()
+        try:
+            yield summary
+        finally:
+            sf.close()
+
+    @contextmanager
+    def _changelog_file(self, file_path=None):
+        """Create CSV file summarising changes in MOTBX resources comparing two
+        versions of MOTBX
+
+        :param file_path: Path to a MOTBX summary CSV file
+        :type file_path: str
+        """
+        if not file_path:
+            yield None
+        else:
+            assert str(file_path).endswith(".csv")
+            cf = open(file_path, "w", newline="", encoding="utf-8")
+            changelog = csv.DictWriter(cf, fieldnames=[
+                "resourceID", "Resource status [added/updated/removed]",
+                "Passed validation [yes/no]", "Updated field(s)"])
+            changelog.writeheader()
+            try:
+                yield changelog
+            finally:
+                cf.close()
 
     def _load_summary(self, file_path):
         """Load a MOTBX summary CSV file.
@@ -231,85 +289,71 @@ class MotbxCollection():
         if old_summary_csv_path:  # load summary CSV from previous version
             summary_old = self._load_summary(old_summary_csv_path)
 
-        summary, changelog, errorlog = None, None, sys.stdout
-        if summary_csv_path != None:
-            assert str(summary_csv_path).endswith(".csv")
-            summary = csv.DictWriter(
-                open(summary_csv_path, "w", newline="", encoding="utf-8"), 
-                fieldnames=self.fieldnames)
-            summary.writeheader()
-        if changelog_path != None:
-            assert str(changelog_path).endswith(".csv")
-            changelog = csv.DictWriter(
-                open(changelog_path, "w", newline="", encoding="utf-8"), 
-                fieldnames=["resourceID", "Resource status [added/updated/removed]",
-                            "Passed validation [yes/no]", "Updated field(s)"])
-            changelog.writeheader()
-        if validationlog_path != None:
-            assert str(validationlog_path).endswith(".txt")
-            errorlog = open(validationlog_path, "w", newline="", encoding="utf-8")
-            print("VALIDATION REPORT - MOTBX resources that failed validation",
-                  file=errorlog)
-            print(79*"=", file=errorlog)
+        with (self._summary_file(summary_csv_path) as summary,
+              self._changelog_file(changelog_path) as changelog,
+              self._validation_file(validationlog_path) as errorlog):
+            if not errorlog:
+                errorlog = sys.stdout
     
-        resource_ids = set()
-        # iterate through resources
-        yaml_resources = []
-        for root, dirs, files in os.walk(self._collection_dir):
-            for name in files:
-                if name.endswith(".yaml"):
-                    yaml_resources.append(os.path.join(root, name))
-        for file_path in sorted(yaml_resources):
-            if verbose:
-                print("Loading MOTBX resources |", name, end="\r")
-
-            # load one MOTBX resource
-            resource = MotbxResource(file_path)
-            invalid = False
-            if validate:  # validate against JSON schema
-                try:
-                    resource.validate(self.schema)
-                except Exception as error:
-                    invalid = True
-                    # print validation errors to validation report file
-                    print(error, file=errorlog)
-                    print("Resource:", name, file=errorlog)
-                    print("URL:", resource.resource["resourceUrl"],
-                          file=errorlog)
-                    print(79*"-", file=errorlog)
-
-            if exclude_invalid and invalid:
-                continue
-            # write resource to summary CSV file
-            row = resource.flatten(self.fieldnames)
-            summary.writerow(row)
-            resource_ids.add(row["resourceID"])
-
-            # compare to older version
-            if old_summary_csv_path:
-                new_resource = False
-                try:  # get resource from previous version using ID
-                    row_old = summary_old[row["resourceID"]]
-                except KeyError:  # resource is new
-                    row_old = {}
-                    new_resource = True
-                if changelog_path:  # write changes to changelog
-                    # determine which MOTBX resource fields differ
-                    # between previous and latest version
-                    changed_fields = sorted(dict(
-                        set(row.items()) ^ set(row_old.items())
-                        ).keys())
-                    if len(changed_fields) > 0:  # else no changes
-                        change_row = {
-                            "resourceID": row["resourceID"],
-                            "Resource status [added/updated/removed]":
-                            "added" if new_resource else "updated",
-                            "Updated field(s)":
-                            ", ".join(changed_fields)}
-                        if validate:
-                            change_row["Passed validation [yes/no]"
-                                       ] = "no" if invalid else "yes"
-                        changelog.writerow(change_row)
+            resource_ids = set()
+            # iterate through resources
+            yaml_resources = []
+            for root, dirs, files in os.walk(self._collection_dir):
+                for name in files:
+                    if name.endswith(".yaml"):
+                        yaml_resources.append(os.path.join(root, name))
+            # os.walk doesn't guarantee order - sorting needed
+            for file_path in sorted(yaml_resources):  
+                if verbose:
+                    print("Loading MOTBX resources |", name, end="\r")
+    
+                # load one MOTBX resource
+                resource = MotbxResource(file_path)
+                invalid = False
+                if validate:  # validate against JSON schema
+                    try:
+                        resource.validate(self.schema)
+                    except Exception as error:
+                        invalid = True
+                        # print validation errors to validation report file
+                        print(error, file=errorlog)
+                        print("Resource:", name, file=errorlog)
+                        print("URL:", resource.resource["resourceUrl"],
+                              file=errorlog)
+                        print(79*"-", file=errorlog)
+    
+                if exclude_invalid and invalid:
+                    continue
+                # write resource to summary CSV file
+                row = resource.flatten(self.fieldnames)
+                summary.writerow(row)
+                resource_ids.add(row["resourceID"])
+    
+                # compare to older version
+                if old_summary_csv_path:
+                    new_resource = False
+                    try:  # get resource from previous version using ID
+                        row_old = summary_old[row["resourceID"]]
+                    except KeyError:  # resource is new
+                        row_old = {}
+                        new_resource = True
+                    if changelog_path:  # write changes to changelog
+                        # determine which MOTBX resource fields differ
+                        # between previous and latest version
+                        changed_fields = sorted(dict(
+                            set(row.items()) ^ set(row_old.items())
+                            ).keys())
+                        if len(changed_fields) > 0:  # else no changes
+                            change_row = {
+                                "resourceID": row["resourceID"],
+                                "Resource status [added/updated/removed]":
+                                "added" if new_resource else "updated",
+                                "Updated field(s)":
+                                ", ".join(changed_fields)}
+                            if validate:
+                                change_row["Passed validation [yes/no]"
+                                           ] = "no" if invalid else "yes"
+                            changelog.writerow(change_row)
 
             # check which resources have been removed
             if old_summary_csv_path and changelog_path:
