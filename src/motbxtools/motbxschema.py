@@ -292,15 +292,16 @@ class MotbxCollection():
         summary, changelog, errorlog = None, None, sys.stdout
         if summary_csv_path != None:
             assert str(summary_csv_path).endswith(".csv")
-            with open(summary_csv_path, "w", newline="", encoding="utf-8") as sf:
-                summary = csv.DictWriter(sf, fieldnames=self.fieldnames)
+            summary = csv.DictWriter(
+                open(summary_csv_path, "w", newline="", encoding="utf-8"), 
+                fieldnames=self.fieldnames)
             summary.writeheader()
         if changelog_path != None:
             assert str(changelog_path).endswith(".csv")
-            with open(changelog_path, "w", newline="", encoding="utf-8") as cf:
-                changelog = csv.DictWriter(cf, fieldnames=[
-                    "resourceID", "Resource status [added/updated/removed]",
-                    "Passed validation [yes/no]", "Updated field(s)"])
+            changelog = csv.DictWriter(
+                open(changelog_path, "w", newline="", encoding="utf-8"), 
+                fieldnames=["resourceID", "Resource status [added/updated/removed]",
+                            "Passed validation [yes/no]", "Updated field(s)"])
             changelog.writeheader()
         if validationlog_path != None:
             assert str(validationlog_path).endswith(".txt")
