@@ -191,65 +191,7 @@ class MotbxCollection():
                     else:
                         info[k] |= set(v)
         return info
-
-    @contextmanager
-    def _validation_file(self, file_path=None):
-        """Create text file for collecting information on failed resource
-        validations.
-
-        :param file_path: Path to a validation log CSV file
-        :type file_path: str
-        """
-        if not file_path:
-            yield None
-        else:
-            assert str(file_path).endswith(".txt")
-            vf = open(file_path, "w", newline="", encoding="utf-8")
-            print("VALIDATION REPORT - MOTBX resources that failed validation",
-                  file=vf)
-            print(79*"=", file=vf)
-            try:
-                yield vf
-            finally:
-                vf.close()
-
-    @contextmanager
-    def _summary_file(self, file_path):
-        """Create CSV file summarising MOTBX resources.
-
-        :param file_path: Path to a MOTBX summary CSV file
-        :type file_path: str
-        """
-        assert str(file_path).endswith(".csv")
-        sf = open(file_path, "w", newline="", encoding="utf-8")
-        summary = csv.DictWriter(sf, fieldnames=self.fieldnames)
-        summary.writeheader()
-        try:
-            yield summary
-        finally:
-            sf.close()
-
-    @contextmanager
-    def _changelog_file(self, file_path=None):
-        """Create CSV file summarising changes in MOTBX resources comparing two
-        versions of MOTBX
-
-        :param file_path: Path to a MOTBX summary CSV file
-        :type file_path: str
-        """
-        if not file_path:
-            yield None
-        else:
-            assert str(file_path).endswith(".csv")
-            cf = open(file_path, "w", newline="", encoding="utf-8")
-            changelog = csv.DictWriter(cf, fieldnames=[
-                "resourceID", "Resource status [added/updated/removed]",
-                "Passed validation [yes/no]", "Updated field(s)"])
-            changelog.writeheader()
-            try:
-                yield changelog
-            finally:
-                cf.close()
+  
 
     def _load_summary(self, file_path):
         """Load a MOTBX summary CSV file.
@@ -308,7 +250,7 @@ class MotbxCollection():
             errorlog = open(validationlog_path, "w", newline="", encoding="utf-8")
             print("VALIDATION REPORT - MOTBX resources that failed validation",
                   file=errorlog)
-            print(79*"=", file=vf)
+            print(79*"=", file=errorlog)
     
         resource_ids = set()
         # iterate through resources
