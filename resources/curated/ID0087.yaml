@@ -1,0 +1,21 @@
+resourceCategory: Quality Control and Assessment 
+resourceDescription: This tools have been developed by Hartwig. They are open source but are also part of a clinically accredited diagnostic service for cancer care. This means that the individual tools and the pipeline as a whole are part of a rigorous quality control system and is subjected to external quality assessment rounds.
+resourceID: ID0087
+resourceKeywords: 
+- DNA
+- genomics
+- guideline
+- multi-omics
+- sequencing
+- clinical genetics
+- cancer
+- infectious diseases
+resourceSubcategory: Guidelines and best practices
+resourceTags:
+- DNA
+- genomics
+- guideline
+- multi-omics
+- sequencing
+resourceTitle: Cancer Genomics Workflow
+resourceUrl: https://github.com/hartwigmedical/hmftools
