@@ -1,0 +1,18 @@
+resourceCategory: Data Analysis
+resourceDescription: Along with the packaged multi-omics data analysis workflow, the paper shares an experiences adopting various FAIR practices and creating a FAIR Digital Object. These experiences can help other researchers who develop omics data analysis workflows to turn FAIR principles into practice.
+resourceID: ID0088
+resourceKeywords: 
+- data standard
+- multi-omics
+- multi-omics studies
+- scientific publication
+- software application
+resourceSubcategory: Software applications and workflows
+resourceTags:
+- data standard
+- multi-omics
+- multi-omics studies
+- scientific publication
+- software application
+resourceTitle: FAIR multi-omics analysis workflow
+resourceUrl: https://doi.org/10.1093/gigascience/giad115
