@@ -4,11 +4,9 @@ resourceID: ID0092
 resourceKeywords: 
 - database
 - datasets
-- metadata standards
 resourceSubcategory: Translational research use cases
 resourceTags:
 - database
 - datasets
-- metadata standards
-resourceTitle: Data Management Plan (DMP) EATRIS-Plus Project
+resourceTitle: Data Management Plan EATRIS-Plus Project
 resourceUrl: https://doi.org/10.5281/zenodo.10246048
