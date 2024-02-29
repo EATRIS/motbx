@@ -1,3 +1,6 @@
 resourceID,Resource status [added/updated/removed],Passed validation [yes/no],Updated field(s)
-ID0087,removed,,
-ID0088,removed,,
+ID0087,updated,yes,"resourceCategory, resourceDescription, resourceKeywords, resourceTags, resourceTitle, resourceUrl"
+ID0088,updated,yes,"resourceCategory, resourceDescription, resourceKeywords, resourceSubcategory, resourceTags, resourceTitle, resourceUrl"
+ID0089,added,yes,"resourceCategory, resourceDescription, resourceID, resourceKeywords, resourceSubcategory, resourceTags, resourceTitle, resourceUrl"
+ID0090,added,yes,"resourceCategory, resourceDescription, resourceID, resourceKeywords, resourceSubcategory, resourceTags, resourceTitle, resourceUrl"
+ID0091,added,no,"resourceCategory, resourceDescription, resourceID, resourceKeywords, resourceSubcategory, resourceTags, resourceTitle, resourceUrl"
