@@ -305,7 +305,7 @@ class MotbxCollection():
             # os.walk doesn't guarantee order - sorting needed
             for file_path in sorted(yaml_resources):  
                 if verbose:
-                    print("Loading MOTBX resources |", name, end="\r")
+                    print("Loading MOTBX resources |", file_path, end="\r")
     
                 # load one MOTBX resource
                 resource = MotbxResource(file_path)
@@ -317,7 +317,7 @@ class MotbxCollection():
                         invalid = True
                         # print validation errors to validation report file
                         print(error, file=errorlog)
-                        print("Resource:", name, file=errorlog)
+                        print("Resource:", file_path, file=errorlog)
                         print("URL:", resource.resource["resourceUrl"],
                               file=errorlog)
                         print(79*"-", file=errorlog)
