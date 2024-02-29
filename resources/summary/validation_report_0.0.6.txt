@@ -1,59 +1,63 @@
 VALIDATION REPORT - MOTBX resources that failed validation
 ===============================================================================
 HTTPSConnectionPool(host='chinese-quartet.org', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1002)')))
-Resource: ID0084.yaml
+Resource: /home/runner/work/motbx/motbx/resources/curated/ID0010.yaml
 URL: https://chinese-quartet.org/#/dashboard
 -------------------------------------------------------------------------------
+HTTPSConnectionPool(host='genome.cshlp.org', port=443): Read timed out. (read timeout=10)
+Resource: /home/runner/work/motbx/motbx/resources/curated/ID0023.yaml
+URL: https://genome.cshlp.org/content/early/2021/06/17/gr.266551.120
+-------------------------------------------------------------------------------
 
-Resource: ID0084.yaml
+Resource: /home/runner/work/motbx/motbx/resources/curated/ID0024.yaml
 URL: SampleAnalysisProtocol/UU_MethSeq/MOTBX_InternalProtocol_MethylSeq_20230706/pdf
 -------------------------------------------------------------------------------
 
-Resource: ID0084.yaml
+Resource: /home/runner/work/motbx/motbx/resources/curated/ID0032.yaml
 URL: SampleAnalysisProtocols/IRYCIS_qRT_PCR/MOTBX_InternalProtocol_PlasmaPreparation_20230630.pdf
 -------------------------------------------------------------------------------
 
-Resource: ID0084.yaml
+Resource: /home/runner/work/motbx/motbx/resources/curated/ID0033.yaml
 URL: SampleAnalysisProtocolsIRYCIS_qRT_PCR/MOTBX_InternalProtocol_SerumPreparation_20230630.pdf
 -------------------------------------------------------------------------------
 
-Resource: ID0084.yaml
+Resource: /home/runner/work/motbx/motbx/resources/curated/ID0035.yaml
 URL: SampleAnalysisProtocols/FIMM_RNAseq/MOTBX_InternalProtocol_mRNASeq_20230626.pdf
 -------------------------------------------------------------------------------
 
-Resource: ID0084.yaml
+Resource: /home/runner/work/motbx/motbx/resources/curated/ID0036.yaml
 URL: SampleAnalysisProtocols/FIMM_miRNAseq/MOTBX_InternalProtcol_miRNASeq_20230626.pdf
 -------------------------------------------------------------------------------
 
-Resource: ID0084.yaml
+Resource: /home/runner/work/motbx/motbx/resources/curated/ID0037.yaml
 URL: SampleAnalysisProtcols/IRYCIS_qRT_PCR/MOTBX_InternalProtocol_Serum_Plasma_miRNA_extraction_20230630.pdf
 -------------------------------------------------------------------------------
 
-Resource: ID0084.yaml
+Resource: /home/runner/work/motbx/motbx/resources/curated/ID0038.yaml
 URL: SampleAnalysisProtocols/IRYCIS_qRT_PCR/MOTBX_InternalProtocol_Panels_RT_20230630.pdf
 -------------------------------------------------------------------------------
 
-Resource: ID0084.yaml
+Resource: /home/runner/work/motbx/motbx/resources/curated/ID0039.yaml
 URL: SampleAnalysisProtocols/IRYCIS_qRT_PCR/MOTBX_InternalProtocol_Panels_qPCR_20230630.pdf
 -------------------------------------------------------------------------------
 
-Resource: ID0084.yaml
+Resource: /home/runner/work/motbx/motbx/resources/curated/ID0052.yaml
 URL: SampleAnalysisProtocols/IMTM_Proteomics/MOTBX_InternalProtocol_SamplePreparation_Plasma Analysis_20230627.pdf
 -------------------------------------------------------------------------------
 
-Resource: ID0084.yaml
+Resource: /home/runner/work/motbx/motbx/resources/curated/ID0053.yaml
 URL: SampleAnalysisProtocols/IMTM_Proteomics/MOTBX_InternalProtocol_LCMS_HCD_OT_PlasmaAnalysis_20230627.pdf
 -------------------------------------------------------------------------------
 
-Resource: ID0084.yaml
+Resource: /home/runner/work/motbx/motbx/resources/curated/ID0054.yaml
 URL: SampleAnalysisProtocols/IMTM_Proteomics/MOTBX_InternalProtocol_ProteinPeptideSearch_PlasmaAnalysis_20230627.pdf
 -------------------------------------------------------------------------------
 
-Resource: ID0084.yaml
+Resource: /home/runner/work/motbx/motbx/resources/curated/ID0061.yaml
 URL: SampleAnalysisProtocols/RUMC_metabolomics_targeted/MOTBX_InternalProtocol_Appendix4_TargetedMetabolomics.pdf
 -------------------------------------------------------------------------------
 
-Resource: ID0084.yaml
+Resource: /home/runner/work/motbx/motbx/resources/curated/ID0062.yaml
 URL: SampleAnalysisProtocols/RUMC_metabolomics_targeted/MOTBX_InternalProtocol_NextGeneration_MetabolomicsScreening.pdf
 -------------------------------------------------------------------------------
 'Mergeomics' is too short
@@ -63,6 +67,6 @@ Failed validating 'minLength' in schema['properties']['resourceTitle']:
 
 On instance['resourceTitle']:
     'Mergeomics'
-Resource: ID0084.yaml
+Resource: /home/runner/work/motbx/motbx/resources/curated/ID0084.yaml
 URL: http://mergeomics.research.idre.ucla.edu/
 -------------------------------------------------------------------------------
