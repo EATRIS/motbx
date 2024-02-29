@@ -44,8 +44,10 @@ jobs:
                 - resources/curated/**
 
       - name: Execute Python script to populate keywords and validate resource
+        env: 
+          ALL_CHANGED_FILES: ${{ steps.changed-files.outputs.resources_all_changed_files }}
         run: |
-          for file in ${{ steps.changed-files.outputs.resources_all_changed_files }}; do
+          for file in ALL_CHANGED_FILES; do
             python src/motbxtools/utils/populate_resource_keywords.py "$file"
             python src/motbxtools/utils/validate_resource.py "$file"
           done
