@@ -27,6 +27,7 @@ def main(resource_path):
         assert resource_path.endswith(".yaml")
     except AssertionError:
         print("Validation failed - MOTBX resources must be YAML files (.yaml)")
+        print("resource_path:", resource_path)
         raise
     # load MOTBX schema used for validation
     schema = motbxschema.MotbxSchema(SCHEMA_JSON)
