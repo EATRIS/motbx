@@ -24,6 +24,7 @@ parser.add_argument(
 def main(resource_path):
     print("\nValidating resource:", resource_path)
     try:
+        print(resource_path)
         assert resource_path.endswith(".yaml")
     except AssertionError:
         print("Validation failed - MOTBX resources must be YAML files (.yaml)")
