@@ -3,7 +3,7 @@ description: Request removal of an existing MOTBX resource
 title: "[resource-removal-request]: "
 labels: ["resource-removal-request"]
 assignees:
-  - tgttunstall
+  - emanuelaoldoni
 body:
   - type: markdown
     attributes:
