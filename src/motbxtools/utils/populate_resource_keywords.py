@@ -84,7 +84,11 @@ def get_tag_mapping(tag_mapping_yaml):
 
 
 def main(resource_path):
-    assert resource_path.endswith(".yaml")
+    try:
+        assert resource_path.endswith(".yaml")
+    except AssertionError:
+        print("AssertionError - MOTBX resources must be YAML files (.yaml)")
+        print("resource_path:", resource_path)
     # load MOTBX schema used for validation
     resource = motbxschema.MotbxResource(resource_path)
     with open(TAGS_KEYWORDS, "r") as file:
