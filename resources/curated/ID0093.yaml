@@ -1,0 +1,27 @@
+resourceCategory: Data Management and Stewardship
+resourceDescription: In this reference study, blood samples of 127 healthy individuals were analyzed with a wide range of -omics technologies, resulting in the most comprehensive -omics profiling data set that is publicly available. The molecular measurements that are available here, can be used as reference values for any future (multi-)omics studyies. Along with phenotypic information (Sex, Age, BMI etc. and measured cell types levels) on the healthy subjects, the following data types are included:Targeted metabolomics (acylcarnitines, amino acids and very long chain fatty acids), Lipidomics (negative and positive ionization modes), Proteomics, mRNA-seq, miRNA-seq, miRNA qRT-PCR, Enzymation Methylation sequencing
+resourceID: ID0093
+resourceKeywords: 
+- datasets
+- epigenomics
+- genomics
+- metabolomics
+- miRNA
+- multi-omics
+- multi-omics studies
+- phenotypic data
+- proteomics
+resourceSubcategory: Databases and catalogues
+resourceTags:
+- EATRIS-Plus project
+- datasets
+- epigenomics
+- genomics
+- metabolomics
+- miRNA
+- multi-omics
+- multi-omics studies
+- phenotypic data
+- proteomics
+resourceTitle: EATRIS-Plus multi-omics data of a human reference cohort
+resourceUrl: https://doi.org/10.5281/zenodo.10782800
