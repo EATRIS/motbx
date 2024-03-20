@@ -1,0 +1,18 @@
+resourceCategory: Data Management and Stewardship
+resourceDescription: In this reference study, blood samples of 127 healthy individuals were analyzed with a wide range of -omics technologies, resulting in the most comprehensive -omics profiling data set that is publicly available. The molecular measurements that are available here, can be used as reference values for any future (multi-)omics studyies. Along with phenotypic information (Sex, Age, BMI etc. and measured cell types levels) on the healthy subjects, omics data types are included
+resourceID: ID0093
+resourceKeywords: 
+- database
+- datasets
+- multi-omics
+- multi-omics studies
+- EATRIS-Plus project
+resourceSubcategory: Databases and catalogues
+resourceTags:
+- database
+- datasets
+- multi-omics
+- multi-omics studies
+- EATRIS-Plus project
+resourceTitle: EATRIS-Plus multi-omics data of a human reference cohort
+resourceUrl: https://doi.org/10.5281/zenodo.10782800
